@@ -19,7 +19,7 @@ We post a few different types of content here:
 - [[extrusions | Extrusions]] -- Brief, densely-linked reflections synthesizing last month's conceptual work
 - [[releases | Release Notes]] -- Weekly changelogs & details on new product features  
 - [[research | Research]] -- Formal published, preprint, or blog-style company research we've made public
-  
+
 *Extrusions and Release Notes are also available as email newsletters:*
 - [Subscribe to Extrusions](https://plasticlabs.typeform.com/extrusions)  
 - [Subscribe to Release Notes](https://plasticlabs.typeform.com/honchoupdates)  
