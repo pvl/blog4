@@ -20,7 +20,7 @@ A key feature of our minds is the feeling of a persistent, unitary identity. Ent
 
 As they all point out, identity is *way* more complicated than you think.
 
-While we perceive psychological continuity across contexts and time, closer inspection reveals a network of branching and diachronic identities. We adopt varied personas and play different characters in diverse settings, and we refine, optimize, and evolve that quiver of selves throughout our lives.
+While we perceive psychological continuity across contexts and time, closer inspection reveals a network of branching and diachronic identities. We adopt varied personas and play different characters in diverse settings, and we refine, optimize, and evolve that quiver of selves throughout our lives. ^5bc20b
 
 In short, it's messy. Or, rather, elegant emergent complexity. 
 
