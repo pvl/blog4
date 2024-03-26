@@ -10,7 +10,7 @@ tags:
 ![[agent_dialectics.jpeg]]
 ## TL;DR
 
-Our Dialectic API is an LLM-native way for your AI application to discuss user context with Honcho. It allows for direct LLM-to-LLM communication in natural language.
+Our [Dialectic API](https://docs.honcho.dev/guides/dialectic-endpoint) is an LLM-native way for your AI application to discuss user context with Honcho. It allows for direct LLM-to-LLM communication in natural language.
 
 Agents need ways to interface dynamically and autonomously, free from the rigidness of traditional APIs. We're building that substrate.
 
