@@ -119,7 +119,7 @@ We can leverage this substrate for agent coordination with more depth and nuance
 
 This is just the start. Just like you can appendage memory and tools to an LLMs we can augment this substrate in a number of ways--from designing multi-party protocols, to enabling zero knowledge or confidential environments, or recording transactional data on blockchains or other types of public or private immutable ledgers.
 
-That kind of richness puts us one step closer to the dream of a semantic web, one as replete with meaning as the physical world *and* machine grokkable. The things that matter to me can be used to personalized an atomic agent *just in time*, without sacrificing important context. That intelligent microservice can be more aligned with me than human economic actors and professional services, which are plagued with high-latency interest misalignment and information asymmetry.
+That kind of richness puts us one step closer to the dream of a semantic web, one as replete with meaning as the physical world *and* machine grokkable. What *matters* to me can be used to personalize an atomic agent *just in time*, without sacrificing important context. Intelligent microservices can be more aligned with me than human economic actors and professional services, which are plagued with high-latency interest misalignment and information asymmetry.
 
 Honcho and agent dialectics can eliminate the principal-agent problem for this new economic paradigm, digitally extending human agency and identity further than ever before. 
 
