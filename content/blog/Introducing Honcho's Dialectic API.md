@@ -1,6 +1,6 @@
 ---
 title: Introducing Honcho's Dialectic API
-date: 04.19.24
+date: 03.26.24
 tags:
   - dev
   - ml
@@ -80,15 +80,9 @@ Way richer than running RAG over a vector store of session logs. Or stateless CR
 
 Honcho's Dialectic API also allows you to build training examples with rich theory of mind context. Those datasets can help you outperform foundation models in your specific vertical and its set of tasks.
 
-By adding additional context to inputs, the distribution of responses your model samples from can be improved. E.g. learn ways of responding that foundation models won't.
+By adding additional context to inputs, the distribution of responses your model samples from can be improved. Any sort of "reasoning" the language model exhibits in a single inference is due to learned patterns in the dataset. So if you can create examples that can help it learn better patterns, you can improve the "reasoning" steps it exhibits. 
 
-Most datasets are system prompt, input, and output, so if you have more context around the input, you begin to create stronger statistical associations between what type of context and input combo yields what type of output.
-
-At any given point, your output is conditioned on the input. By creating training examples with rich theory of mind context, you're improving the conditioning for your output.
-
-Any sort of "reasoning" the language model exhibits in a single inference is due to learned patterns in the dataset. So if you can create examples that can help it learn better patterns, you can improve the "reasoning" steps it exhibits. Thus the distribution your model samples responses from is enriched through this context compared to foundation models.
-
-Using theory of mind context yields more specific examples, which allowing more robust domain-specific training.
+Ultimately, we're learning ways of responding that foundation models won't. Using theory of mind context yields more specific examples, which allows more robust domain-specific training.
 
 ### Why "Dialectic"?
 
