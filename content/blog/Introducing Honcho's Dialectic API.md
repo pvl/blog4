@@ -68,7 +68,7 @@ Extra context improves user response generation, the more specific, the better. 
 
 ##### Leverage Natural Language Plasticity
 
-Each user has a rich and complex personal identity.  Access to higher-fidelity representations of that identity can be combined with the task completion context of you app in each moment to generate the most optimal tokens for each user-agent interaction. I.e. ones that are felt by the user to be [[Humans like personalization|more personalized and satisfactory]]--enhancing the real and perceived time to value ratio of your app.
+Each user has a [[User State is State of the Art#^5bc20b|rich and complex personal identity]].  Access to higher-fidelity representations of that identity can be combined with the task completion context of you app in each moment to generate the most optimal tokens for each user-agent interaction. I.e. ones that are felt by the user to be [[Humans like personalization|more personalized and satisfactory]]--enhancing the real and perceived time to value ratio of your app.
 
 But that complexity is hard to capture and needlessly constrained with typical API design. In order to express the nuance of personal context, we need the high variance, dynamic nature of natural language.
 
@@ -133,4 +133,4 @@ If you're excited build with a hosted version of Honcho and explore the ideas co
 
 And in the meantime, [join our Discord](https://discord.gg/plasticlabs) and tell us what you're working on!
 
-[^1]: Our friend [Neel Baronia](https://twitter.com/nbaronia1) calls this a "[Squishy API](https://nbaronia.notion.site/AI-Agents-Squishy-APIs-56f1f845d3bd44cda306967652de08ca)" and has thought a lot about the business model implications.
+[^1]: Our friend [Neel Baronia](https://twitter.com/nbaronia1) calls this a "[Squishy API](https://nbaronia.notion.site/AI-Agents-Squishy-APIs-56f1f845d3bd44cda306967652de08ca)" & has thought a lot about the business model implications
