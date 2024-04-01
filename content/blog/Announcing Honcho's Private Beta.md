@@ -1,4 +1,13 @@
-![[honcho_logo_white.png]]
+---
+title: Announcing Honcho's Private Beta
+date: 04.01.24
+tags:
+  - announcements
+  - dev
+  - ml
+  - blog
+---
+![[Honcho_Final-34.png]]
 ## TL;DR
 
 Today we're announcing the launch of [Honcho's](https://honcho.dev) private beta. [Sign-up for the waitlist here](https://plasticlabs.typeform.com/honchobeta).
