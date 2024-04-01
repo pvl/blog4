@@ -1,6 +1,6 @@
 ---
 title: Release Notes 04.01.24
-date: 03.01.24
+date: 04.01.24
 tags:
   - releases
   - announcements
