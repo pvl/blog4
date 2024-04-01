@@ -7,7 +7,7 @@ tags:
   - ml
   - blog
 ---
-![[Honcho_Final-26.png]]
+![[honcho_thumb_blog_white.png]]
 ## TL;DR
 
 Today we're announcing the launch of [Honcho's](https://honcho.dev) private beta. [Sign-up for the waitlist here](https://plasticlabs.typeform.com/honchobeta).
