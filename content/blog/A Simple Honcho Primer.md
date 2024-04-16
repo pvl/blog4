@@ -9,18 +9,18 @@ tags:
 
 Welcome to our quick, ELI5[^1] guide to [Honcho](https://honcho.dev).
 
-We'll cover [[A Simple Honcho Primer#^2f795f|what Honcho is]], [[A Simple Honcho Primer#^5125da|why we built it]], [[A Simple Honcho Primer#^1d2d3c|how to use it]], and [[A Simple Honcho Primer#^5a46d7|where the product is going]].
+We'll cover [[A Simple Honcho Primer#^ef795f|what Honcho is]], [[A Simple Honcho Primer#^x125da|why we built it]], [[A Simple Honcho Primer#^1d2d3c|how to use it]], and [[A Simple Honcho Primer#^ca46d7|where the product is going]].
 
 And throughout, we'll link to places you can dive deeper[^2].
 
 ## What is Honcho?
-^2f795f
+^ef795f
 
 Honcho is a personalization platform for large language model (LLM) applications built by [Plastic Labs](https://plasticlabs.ai).  
 
 It's software infrastructure that lets AI apps to "get to know" their users, resulting in delightful experiences and optimized time to value.
 
-We'll have direct consumer experiences in the future, but today, the product is for application developers. It allows them to [[Introducing Honcho's Dialectic API#^a14c2f|reduce overhead]] and [[Introducing Honcho's Dialectic API#^07f7f8|enhance their machine learning pipeline]].
+We'll have direct consumer experiences in the future, but today, the product is for application developers. It allows them to [[Introducing Honcho's Dialectic API#^a14c2f|reduce overhead]] and [[Introducing Honcho's Dialectic API#^x7f7f8|enhance their machine learning pipeline]].
 
 Right now, Honcho is in private beta, that means integrating our hosted version requires permission and onboarding[^3]. [You can sign-up here](https://plasticlabs.typeform.com/honchobeta).
 
@@ -37,7 +37,7 @@ Behind the scenes, Honcho learns about users as people--[[User State is State of
 It then acts as [[Introducing Honcho's Dialectic API|an oracle to each user]], allowing apps ask for any personal context they need to improve UX and giving them access to a social cognition layer.
 
 ## Why We Built Honcho
-^5125da
+^x125da
 
 We believe Honcho will be a key part of the AI application development stack.
 
@@ -55,7 +55,7 @@ Still, when interacting with an AI app, there's a sense that it *should* be gett
 There's [[Announcing Honcho's Private Beta#^5b6ef1|enormous potenial]] for more positive-sum use of user data and for aligning AI applications more closely with user needs and preferences.
 
 ## How to Use Honcho
-^1d2d3c
+^cd2d3c
 
 
 ## What's Next for Honcho
