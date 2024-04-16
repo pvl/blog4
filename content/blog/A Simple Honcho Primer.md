@@ -7,13 +7,11 @@ tags:
 ---
 ![[bot reading primer.png]]
 
-Welcome to our quick, ELI5[^1] guide to [Honcho](https://honcho.dev).
+*Welcome to our quick, ELI5[^1] guide to [Honcho](https://honcho.dev).*
 
-We'll cover [[A Simple Honcho Primer#^ef795f|what Honcho is]], [[A Simple Honcho Primer#^x125da|why we built it]], [[A Simple Honcho Primer#^cd2d3c|how to use it]], and [[A Simple Honcho Primer#^ca46d7|where the product is going]].
+*We'll cover [[A Simple Honcho Primer#^ef795f|what Honcho is]], [[A Simple Honcho Primer#^x125da|why we built it]], [[A Simple Honcho Primer#^cd2d3c|how to use it]], and [[A Simple Honcho Primer#^ca46d7|where the product is going]]. And throughout, we'll link to places you can dive deeper[^2].*
 
-And throughout, we'll link to places you can dive deeper[^2].
-
-## What is Honcho?
+## What Is Honcho?
 ^ef795f
 
 Honcho is a personalization platform for large language model (LLM) applications built by [Plastic Labs](https://plasticlabs.ai).  
@@ -47,7 +45,7 @@ So we believe Honcho will be a critical, table-stakes part of the AI app develop
 
 Why? Because [[Humans like personalization|users will want]] their AI experiences to be personalized and app developers shouldn't be redundantly solving that problem.
 
-But it's not intuitive to many for a few reasons:
+But it's not intuitive for a few reasons:
 
 - AI app builders are [[Machine learning is fixated on task performance|still focused on]] just getting general tasks to work
 - LLMs' [[LLMs excel at theory of mind because they read|potential to personalize]] is still under-appreciated  
@@ -62,7 +60,7 @@ There's [[Announcing Honcho's Private Beta#^xb6ef1|enormous potenial]] for more 
 ^cd2d3c
 
 
-## What's Next for Honcho
+## What's Next for Honcho?
 ^ca46d7
 
 Beyond improving our internal AI models so they can get to know users as richly as possible, we see three natural extensions in [[Announcing Honcho's Private Beta#^eb15f3|Honcho's future]]:
