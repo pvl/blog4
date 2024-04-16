@@ -9,7 +9,7 @@ tags:
 
 Welcome to our quick, ELI5[^1] guide to [Honcho](https://honcho.dev).
 
-We'll cover [[A Simple Honcho Primer#^ef795f|what Honcho is]], [[A Simple Honcho Primer#^x125da|why we built it]], [[A Simple Honcho Primer#^1d2d3c|how to use it]], and [[A Simple Honcho Primer#^ca46d7|where the product is going]].
+We'll cover [[A Simple Honcho Primer#^ef795f|what Honcho is]], [[A Simple Honcho Primer#^x125da|why we built it]], [[A Simple Honcho Primer#^cd2d3c|how to use it]], and [[A Simple Honcho Primer#^ca46d7|where the product is going]].
 
 And throughout, we'll link to places you can dive deeper[^2].
 
@@ -26,8 +26,8 @@ Right now, Honcho is in private beta, that means integrating our hosted version 
 
 In its current form, Honcho has three core components:
 
-1. [[Announcing Honcho's Private Beta#^415f37|Storage]] - managing each user's data
-2. [[Announcing Honcho's Private Beta#^453717|Inference]] - processing user data with our proprietary AI models
+1. [[Announcing Honcho's Private Beta#^x15f37|Storage]] - managing each user's data
+2. [[Announcing Honcho's Private Beta#^x53717|Inference]] - processing user data with our proprietary AI models
 3. [[Announcing Honcho's Private Beta#^ee4516|Retrieval]] - surfacing user data to personalize user experience (UX)
 
 If you've heard of [Retrieval Augmented Generation](https://en.wikipedia.org/wiki/Prompt_engineering#Retrieval-augmented_generation) (RAG), this might sound familiar. But Honcho is doing *much* more than simple RAG.
@@ -52,18 +52,18 @@ But this might not be intuitive for a few reasons:
 
 Still, when interacting with an AI app, there's a sense that it *should* be getting to know us. In fact, we're often surprised when we realize it's not learning about us over time. And probably annoyed at having to start over.
 
-There's [[Announcing Honcho's Private Beta#^5b6ef1|enormous potenial]] for more positive-sum use of user data and for aligning AI applications more closely with user needs and preferences.
+There's [[Announcing Honcho's Private Beta#^xb6ef1|enormous potenial]] for more positive-sum use of user data and for aligning AI applications more closely with user needs and preferences.
 
 ## How to Use Honcho
 ^cd2d3c
 
 
 ## What's Next for Honcho
-^5a46d7
+^ca46d7
 
-Beyond improving our internal AI models so they can get to know users as richly as possible, we see three natural extensions in [[Announcing Honcho's Private Beta|Honcho's future]]:
+Beyond improving our internal AI models so they can get to know users as richly as possible, we see three natural extensions in [[Announcing Honcho's Private Beta#^eb15f3|Honcho's future]]:
 
-1. [[Announcing Honcho's Private Beta#^82dd3b|Monitoring & Evaluation]] - developer tools to understand & assess the impact of personalization + machine learning tools to build personalized datasets
+1. [[Announcing Honcho's Private Beta#^x2dd3b|Monitoring & Evaluation]] - developer tools to understand & assess the impact of personalization + machine learning tools to build personalized datasets
 2. [[Announcing Honcho's Private Beta#^a84f44|User-Facing Controls]] - chat with *your* Honcho to direct how it manages & shares data + authenticate with Honcho to sign-in to AI apps
 3. [[Announcing Honcho's Private Beta#^ebf071|A Honcho Application Ecosystem]] - a network of apps contributing to & sharing Honcho data, user-owned & stored in confidential environments  
 
