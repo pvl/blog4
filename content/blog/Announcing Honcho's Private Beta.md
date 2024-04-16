@@ -46,11 +46,15 @@ Here's what the private beta currently includes, and what's on the way:
 
 #### User-Centric Storage
 
+^415f37
+
 Honcho allows you to [store](https://docs.honcho.dev/getting-started/architecture) `users`, `messages`, `sessions`, & `metamessages`. That is, you can effortlessly record each user interaction with you application, organized on a per-user basis, and the product of any intermediate steps in between user message and application response.
 
 It also supports `documents` and `collections`. The former to store discrete user embeddings and the latter to organize them globally across sessions. These primitives are used by Honcho's personalization engine to begin modeling user identity based on each interaction. They can also be used to "bring you own" user data or context to be computed over and utilized by Honcho.
 
 #### Personalization Engine
+
+^453717
 
 Here's where the magic happens. Honcho leverages everything in storage to run theory of mind inference and automatically learn about each user.
 
@@ -60,6 +64,8 @@ Honcho is always updating user identity, so it's ready when you need it.
 
 ##### Dialectic API
 
+^ee4516
+
 Our [[Introducing Honcho's Dialectic API|Dialectic API]] is how your app-side LLM interfaces with the Honcho-side agent sitting on top of each user identity. This is done in natural language. It's an AI-native endpoint for direct LLM-to-LLM communication.
 
 It allows you to inject personal context and social cognition directly into your app's cognitive architecture wherever you need it, sync or async. Agent-to-agent chat over each user.
@@ -68,11 +74,13 @@ It allows you to inject personal context and social cognition directly into your
 
 #### User-Specific Monitoring (coming soon...)
 
+^82dd3b
+
 Soon, Honcho will support a suite of tools to get the most out of our personalization platform. 
 
 - **Visualization tools** - it's hard to grok and track everything going on within a session, we're building clean ways to visualize this an its relationship to all the background inference  
   
-- **Dialectic Playground** - take past sessions and run simulations predicting user behavior to see how things could have gone better or worse and how to optimize  
+- **Dialectic Playground** - take past sessions and run simulations predicting user behavior to see how things could have gone better or worse and how to optimize 
   
 - **Evaluation & Benchmarking** - the state of theory of mind research is highly compelling, but [[Achieving SOTA on OpenToM with DSPy#^0b4f2e|we need practical, app & user specific evals]]  
   
@@ -93,12 +101,14 @@ All that guides a roadmap including, but not limited to:
 - **Per-user models** - understanding, representing, & updating the full breadth of user identity  
   
 - **A *network* of Honcho-powered apps** - agents can share user data, reducing overhead & onboarding, just-in-time personalization  
-  
+   ^ebf071
 - **User owned data & confidential computing environments** - re-centralizing personal data around the person, then allowing approved applications to *compute-to* that data in a privacy preserving way  
   
-- **User-facing controls** - empower users to curate their Honcho identities, authenticate with Honcho, and define sensitive data sharing policies in natural language
+- **User-facing controls** - empower users to curate their Honcho identities, authenticate with Honcho, and define sensitive data sharing policies in natural language ^a84f44
 
 ### Who Is This For?
+
+^5b6ef1
 
 We want to build with diverse projects at all stages of development--from ideation to production.
 

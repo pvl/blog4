@@ -52,6 +52,8 @@ Not only is it ideal from a development and design perspective, it's optimal for
 
 #### The DevEx Case
 
+^a14c2f
+
 Our Dialectic API is single endpoint for everything personalization.
 
 It reduces development overhead and allows you to get a personalized application running quickly and efficiently--speedrunning to production. 
@@ -63,6 +65,8 @@ Further, when agents can communicate directly using natural language, there's no
 However, this doesn't mean the developer now needs to be a prompting expert, fluent in all its esoterica. Honcho is an expert in personal context and theory of mind reasoning, so your prompts can be adaptive and ad hoc, and Honcho will figure out the rest. When you're ready, you can even offload the queries to your app-side LLM.
 
 #### The ML Case
+
+^07f7f8
 
 Extra context improves user response generation, the more specific, the better. Focus on ML to crush your vertical, let Honcho personalize it by default.
 
