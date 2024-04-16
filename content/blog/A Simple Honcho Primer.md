@@ -5,7 +5,7 @@ tags:
   - blog
   - honcho
 ---
-![[Honcho_Final-23.png]]
+![[bot reading primer.png]]
 
 Welcome to our quick, ELI5[^1] guide to [Honcho](https://honcho.dev).
 
@@ -39,16 +39,20 @@ It then acts as [[Introducing Honcho's Dialectic API|an oracle to each user]], a
 ## Why We Built Honcho
 ^x125da
 
-We believe Honcho will be a key part of the AI application development stack.
+Plastic Labs was founded as an edtech company. The original mission was to build an AI tutor that [[Open Sourcing Tutor-GPT#^x527dc|could reason like]] the best human instructors. We quickly found the key limitation was data not on the subject matter, but on the student. To overcome it, he tutor needed [[Theory of Mind Is All You Need|a way to]] get to know *each* of its students deeply.
+
+Honcho was born by running up against this challenge, building technology to solve it, and realizing all AI applications are going to need the same solutions. The promise of *generative* AI isn't one-size-fits-all products, but bespoke experiences in each moment for each user. The same limitation emerges--how well do you know your user?
+
+So we believe Honcho will be a critical, table-stakes part of the AI app development stack.
 
 Why? Because [[Humans like personalization|users will want]] their AI experiences to be personalized and app developers shouldn't be redundantly solving that problem.
 
-But this might not be intuitive for a few reasons:
+But it's not intuitive to many for a few reasons:
 
 - AI app builders are [[Machine learning is fixated on task performance|still focused on]] just getting general tasks to work
 - LLMs' [[LLMs excel at theory of mind because they read|potential to personalize]] is still under-appreciated  
-- Historic examples of personalized apps just leverage our activity and engagement data
-- Those examples tend target only base user needs and have poor privacy records
+- Historic examples of personalized apps usually just leverage our activity & engagement data
+- Those examples tend target only base user desire, lead to addictive behavior, & have poor privacy records
 
 Still, when interacting with an AI app, there's a sense that it *should* be getting to know us. In fact, we're often surprised when we realize it's not learning about us over time. And probably annoyed at having to start over.
 
