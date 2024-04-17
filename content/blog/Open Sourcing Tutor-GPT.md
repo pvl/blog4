@@ -37,6 +37,7 @@ It's clear generative AI stands a good chance of democratizing this kind of acce
 So how do we create successful learning agents that students will eagerly use without coercion? We think this ability lies latent in foundation models, but the key is eliciting it.
 
 ## Eliciting Pedagogical Reasoning
+^x527dc
 
 The machine learning community has long sought to uncover the full range of tasks that large language models can be prompted to accomplish on general pre-training alone (the capability overhang). We believe we have discovered one such task: pedagogical reasoning. ^05bfd8
 
