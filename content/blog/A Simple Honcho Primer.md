@@ -53,12 +53,12 @@ But it's not intuitive for a few reasons:
 
 Still, when interacting with an AI app, there's a sense that it *should* be getting to know us. In fact, we're often surprised when we realize it's not learning about us over time. And probably annoyed at having to start over.
 
-Think about personalization here as more like the experience of close human companionship or white glove services than the attention hacking mechanisms of TikTok[^2]. There's [[Announcing Honcho's Private Beta#^xb6ef1|enormous potenial]] for more positive-sum use of user data and for aligning AI applications more closely with user needs and preferences. 
+Think about personalization here as more like the experience of close human companionship or white glove services than the attention hacking mechanisms of TikTok. There's [[Announcing Honcho's Private Beta#^xb6ef1|enormous potenial]] for more positive-sum use of user data and for aligning AI applications more closely with user needs and preferences[^2]. 
 
 ## How to Use Honcho
 ^cd2d3c
 
-Honcho is first and foremost a **storage** framework. Think of it like an open source version of the OpenAI Assistants API. User `sessions` store both user and AI generated `messages` as well as any intermediate inferences you might want to store as `metamessages`. 
+Honcho is first and foremost a **storage** framework. Think of it like an open source version of the OpenAI Assistants API. User `sessions` store both user and AI generated `messages` as well as any intermediate inferences you might want to store as `metamessages`: 
 
 ```python
 user_input = "Here's a message!"
@@ -68,21 +68,21 @@ session.create_message(is_user=True, content=user_input)
 session.create_message(is_user=False, content=ai_response)
 ```
 
-But what about vectorDBs? Don't worry, Honcho has you covered there too. You can embed data and store them as `documents` in per-user vector DBs called `collections`. 
+But what about vectorDBs? Don't worry, Honcho has you covered there too. You can embed data and store them as `documents` in per-user vector DBs called `collections`: 
 
 ```python
 collection.create_document(content="The user is interested in AI")
 ```
 
-Using Honcho as a storage mechanism allows you to **retrieve** rich insights via the user profiles it's building and managing on the backend. Your application's LLM can access them via the *[[Introducing Honcho's Dialectic API|dialectic]]* API. 
+Using Honcho as a storage mechanism allows you to **retrieve** rich insights via the user profiles it's building and managing on the backend. Your application's LLM can access [[Loose theory of mind imputations are superior to verbatim response predictions|theory-of-mind]] inference over those profiles via the *[[Introducing Honcho's Dialectic API|dialectic]]* API. 
 
-It's simple: just query in natural language using the `session.chat()` method.
+It's simple: just query in natural language using the `session.chat()` method:
 
 ```python
 session.chat("What are the user's interests?")
 ```
 
-There are a [[Introducing Honcho's Dialectic API#How It Works|ton of ways]] to use this, and the current product only scratches the surface[^3]. 
+There are a [[Introducing Honcho's Dialectic API#How It Works|ton of ways]] to use Honcho, this primer only scratches the surface[^3]. 
 
 ## What's Next for Honcho?
 ^ca46d7
@@ -91,7 +91,7 @@ Beyond improving our internal AI models so they can get to know users as richly 
 
 1. [[Announcing Honcho's Private Beta#^x2dd3b|Monitoring & Evaluation]] - developer tools to understand & assess the impact of personalization + machine learning tools to build personalized datasets
 2. [[Announcing Honcho's Private Beta#^a84f44|User-Facing Controls]] - chat with *your* Honcho to direct how it manages & shares data + authenticate with Honcho to sign-in to AI apps
-3. [[Announcing Honcho's Private Beta#^ebf071|A Honcho Application Ecosystem]] - a network of apps contributing to & sharing Honcho data, user-owned & stored in confidential environments  
+3. [[Announcing Honcho's Private Beta#^ebf071|Honcho Application Ecosystem]] - a network of apps contributing to & sharing Honcho data, user-owned & stored in confidential environments  
 
 And in just a few weeks, we'll be launching a demo platform where anyone can interact with (& eventually build) Honcho powered apps.
 
