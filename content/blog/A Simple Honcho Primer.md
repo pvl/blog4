@@ -53,7 +53,7 @@ But it's not intuitive for a few reasons:
 
 Still, when interacting with an AI app, there's a sense that it *should* be getting to know us. In fact, we're often surprised when we realize it's not learning about us over time. And probably annoyed at having to start over.
 
-There's [[Announcing Honcho's Private Beta#^xb6ef1|enormous potenial]] for more positive-sum use of user data and for aligning AI applications more closely with user needs and preferences. Think about personalization here as more like the experience of close human companionship or white glove services than the attention hacking mechanisms of TikTok[^2].
+Think about personalization here as more like the experience of close human companionship or white glove services than the attention hacking mechanisms of TikTok[^2]. There's [[Announcing Honcho's Private Beta#^xb6ef1|enormous potenial]] for more positive-sum use of user data and for aligning AI applications more closely with user needs and preferences. 
 
 ## How to Use Honcho
 ^cd2d3c
@@ -74,9 +74,9 @@ But what about vectorDBs? Don't worry, Honcho has you covered there too. You can
 collection.create_document(content="The user is interested in AI")
 ```
 
-Using Honcho as a storage mechanism allows you to **retrieve** rich insights via the user profiles it's building and managing on the backend. You can access them via the *[[Introducing Honcho's Dialectic API|dialectic API]]*. 
+Using Honcho as a storage mechanism allows you to **retrieve** rich insights via the user profiles it's building and managing on the backend. Your application's LLM can access them via the *[[Introducing Honcho's Dialectic API|dialectic]]* API. 
 
-It's simple: just query in natural language using the `session.chat()` method!
+It's simple: just query in natural language using the `session.chat()` method.
 
 ```python
 session.chat("What are the user's interests?")
