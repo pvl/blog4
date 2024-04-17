@@ -7,9 +7,8 @@ tags:
 ---
 ![[bot reading primer.png]]
 
-*Welcome to our quick, ELI5[^1] guide to [Honcho](https://honcho.dev).*
-
-*We'll cover [[A Simple Honcho Primer#^ef795f|what Honcho is]], [[A Simple Honcho Primer#^x125da|why we built it]], [[A Simple Honcho Primer#^cd2d3c|how to use it]], and [[A Simple Honcho Primer#^ca46d7|where the product is going]]. And throughout, we'll link to places you can dive deeper[^2].*
+> [!NOTE] Welcome to our quick, "explain it like I'm 5" guide to [Honcho](https://honcho.dev)!
+> We'll keep it simple, covering [[A Simple Honcho Primer#^ef795f|what Honcho is]], [[A Simple Honcho Primer#^x125da|why we built it]], [[A Simple Honcho Primer#^cd2d3c|how to use it]], and [[A Simple Honcho Primer#^ca46d7|where the product is going]]. But throughout, we'll link to places you can dive deeper.
 
 ## What Is Honcho?
 ^ef795f
@@ -20,7 +19,7 @@ It's software infrastructure that lets AI apps to "get to know" their users, res
 
 We'll have direct consumer experiences in the future, but today, the product is for application developers. It allows them to [[Introducing Honcho's Dialectic API#^a14c2f|reduce overhead]] and [[Introducing Honcho's Dialectic API#^x7f7f8|enhance their machine learning pipeline]].
 
-Right now, Honcho is in private beta, that means integrating our hosted version requires permission and onboarding[^3]. [You can sign-up here](https://plasticlabs.typeform.com/honchobeta).
+Right now, Honcho is in private beta, that means integrating our hosted version requires permission and onboarding[^1]. [You can sign-up here](https://plasticlabs.typeform.com/honchobeta).
 
 In its current form, Honcho has three core components:
 
@@ -54,34 +53,36 @@ But it's not intuitive for a few reasons:
 
 Still, when interacting with an AI app, there's a sense that it *should* be getting to know us. In fact, we're often surprised when we realize it's not learning about us over time. And probably annoyed at having to start over.
 
-There's [[Announcing Honcho's Private Beta#^xb6ef1|enormous potenial]] for more positive-sum use of user data and for aligning AI applications more closely with user needs and preferences.
+There's [[Announcing Honcho's Private Beta#^xb6ef1|enormous potenial]] for more positive-sum use of user data and for aligning AI applications more closely with user needs and preferences. Think about personalization here as more like the experience of close human companionship or white glove services than the attention hacking mechanisms of TikTok[^2].
 
 ## How to Use Honcho
 ^cd2d3c
 
-Honcho is first and foremost a **storage** framework. Think of it like an open source version of the OpenAI Assistants API. User *sessions* store both user and AI generated *messages* as well as any intermediate inferences you might want to store as *metamessages*. 
+Honcho is first and foremost a **storage** framework. Think of it like an open source version of the OpenAI Assistants API. User `sessions` store both user and AI generated `messages` as well as any intermediate inferences you might want to store as `metamessages`. 
 
 ```python
 user_input = "Here's a message!"
-ai_response = "I'm a helpful assistant!"
+ai_response = "I'm a helpful AI assistant!"
 
 session.create_message(is_user=True, content=user_input)
 session.create_message(is_user=False, content=ai_response)
 ```
 
-But what about vector DBs? Don't worry, Honcho has you covered there too. You can embed data and store them as *documents* in per-user vector DBs called *collections*. 
+But what about vectorDBs? Don't worry, Honcho has you covered there too. You can embed data and store them as `documents` in per-user vector DBs called `collections`. 
 
 ```python
 collection.create_document(content="The user is interested in AI")
 ```
 
-Using Honcho as a storage mechanism allows you to **retrieve** rich insights via the user profiles it's building and managing on the backend. You can access them via the *dialectic API*. It's simple: just query in natural language using the `session.chat()` method!
+Using Honcho as a storage mechanism allows you to **retrieve** rich insights via the user profiles it's building and managing on the backend. You can access them via the *[[Introducing Honcho's Dialectic API|dialectic API]]*. 
+
+It's simple: just query in natural language using the `session.chat()` method!
 
 ```python
 session.chat("What are the user's interests?")
 ```
 
-There are a [[Introducing Honcho's Dialectic API#How It Works|ton of ways]] to use this, and we're just scratching the surface on the possibilities. 
+There are a [[Introducing Honcho's Dialectic API#How It Works|ton of ways]] to use this, and the current product only scratches the surface[^3]. 
 
 ## What's Next for Honcho?
 ^ca46d7
@@ -104,8 +105,8 @@ And in just a few weeks, we'll be launching a demo platform where anyone can int
 
 🫡
 
-[^1]: "Explain it like I'm 5"
+[^1]: There's also [an open source repo for Honcho](https://github.com/plastic-labs/honcho), so you can self-host a basic version--[join our Discord](https://discord.gg/plasticlabs) for support.
 
-[^2]: And if you want to get further into the weeds technically, head over to [our docs](https://docs.honcho.dev). If you want to go deeper on the philosophical or machine learning side, take some time to explore the [rest of the blog](https://blog.plasticlabs.ai). To sign up for the private beta waitlist, [click here]().
+[^2]: If you want to go deeper on the philosophical or machine learning side, take some time to explore the [rest of the blog](https://blog.plasticlabs.ai).
 
-[^3]: There's also [an open source repo for Honcho](https://github.com/plastic-labs/honcho), so you can self-host a basic version--[join our Discord](https://discord.gg/plasticlabs) for support.
+[^3]: To get further into the technical weeds, head over to [our docs](https://docs.honcho.dev). 
