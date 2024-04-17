@@ -59,6 +59,29 @@ There's [[Announcing Honcho's Private Beta#^xb6ef1|enormous potenial]] for more 
 ## How to Use Honcho
 ^cd2d3c
 
+Honcho is first and foremost a **storage** framework. Think of it like an open source version of the OpenAI Assistants API. User *sessions* store both user and AI generated *messages* as well as any intermediate inferences you might want to store as *metamessages*. 
+
+```python
+user_input = "Here's a message!"
+ai_response = "I'm a helpful assistant!"
+
+session.create_message(is_user=True, content=user_input)
+session.create_message(is_user=False, content=ai_response)
+```
+
+But what about vector DBs? Don't worry, Honcho has you covered there too. You can embed data and store them as *documents* in per-user vector DBs called *collections*. 
+
+```python
+collection.create_document(content="The user is interested in AI")
+```
+
+Using Honcho as a storage mechanism allows you to **retrieve** rich insights via the user profiles it's building and managing on the backend. You can access them via the *dialectic API*. It's simple: just query in natural language using the `session.chat()` method!
+
+```python
+session.chat("What are the user's interests?")
+```
+
+There are a [[Introducing Honcho's Dialectic API#How It Works|ton of ways]] to use this, and we're just scratching the surface on the possibilities. 
 
 ## What's Next for Honcho?
 ^ca46d7
