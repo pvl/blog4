@@ -36,7 +36,7 @@ It then acts as [[Introducing Honcho's Dialectic API|an oracle to each user]], a
 ## Why We Built Honcho
 ^x125da
 
-Plastic Labs was founded as an edtech company. The original mission was to build an AI tutor that [[Open Sourcing Tutor-GPT#^x527dc|could reason like]] the best human instructors. We quickly found the key limitation was data not on the subject matter, but on the student. To overcome it, he tutor needed [[Theory of Mind Is All You Need|a way to]] get to know *each* of its students deeply.
+Plastic Labs was founded as an edtech company. The original mission was to build an AI tutor that [[Open Sourcing Tutor-GPT#^x527dc|could reason like]] the best human instructors. We quickly found the key limitation was data not on the subject matter, but on the student. To overcome it, the tutor needed [[Theory of Mind Is All You Need|a way to]] get to know *each* of its students deeply.
 
 Honcho was born by running up against this challenge, building technology to solve it, and realizing all AI applications are going to need the same solutions. The promise of *generative* AI isn't one-size-fits-all products, but bespoke experiences in each moment for each user. The same limitation emerges--how well do you know your user?
 
