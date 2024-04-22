@@ -31,7 +31,7 @@ If you've heard of [Retrieval Augmented Generation](https://en.wikipedia.org/wik
 
 Behind the scenes, Honcho learns about users as people--[[User State is State of the Art|richly modeling identity]]. It seeks to understand their beliefs, hopes, dreams, history, interests, and preferences. 
 
-It then acts as [[Introducing Honcho's Dialectic API|an oracle to each user]], allowing apps ask for any personal context they need to improve UX and giving them access to a social cognition layer.
+It then acts as [[Introducing Honcho's Dialectic API|an oracle to each user]], allowing apps to ask for any personal context they need to improve UX and giving them access to a social cognition layer.
 
 ## Why We Built Honcho
 ^x125da
@@ -49,7 +49,7 @@ But it's not intuitive for a few reasons:
 - AI app builders are [[Machine learning is fixated on task performance|still focused on]] just getting general tasks to work
 - LLMs' [[LLMs excel at theory of mind because they read|potential to personalize]] is still under-appreciated  
 - Historic examples of personalized apps usually just leverage our activity & engagement data
-- Those examples tend target only base user desire, lead to addictive behavior, & have poor privacy records
+- Those examples tend to target only base user desire, lead to addictive behavior, & have poor privacy records
 
 Still, when interacting with an AI app, there's a sense that it *should* be getting to know us. In fact, we're often surprised when we realize it's not learning about us over time. And probably annoyed at having to start over.
 
