@@ -23,8 +23,8 @@ Right now, Honcho is in private beta, that means integrating our hosted version 
 
 In its current form, Honcho has three core components:
 
-1. [[Announcing Honcho's Private Beta#^x15f37|Storage]] - managing each user's data
-2. [[Announcing Honcho's Private Beta#^x53717|Inference]] - processing user data with our proprietary AI models
+1. [[Announcing Honcho's Private Beta#^x15f37|Storage]] - managing each user's data & inference about each user
+2. [[Announcing Honcho's Private Beta#^x53717|Insights]] - processing user data with our proprietary AI models
 3. [[Announcing Honcho's Private Beta#^ee4516|Retrieval]] - surfacing user data to personalize user experience (UX)
 
 If you've heard of [Retrieval Augmented Generation](https://en.wikipedia.org/wiki/Prompt_engineering#Retrieval-augmented_generation) (RAG), this might sound familiar. But Honcho is doing *much* more than simple RAG.
