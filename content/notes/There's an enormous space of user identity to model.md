@@ -1,6 +1,6 @@
 ---
-title: "{{title}}"
-date: 09.11.24
+title: There's an enormous space of user identity to model
+date: 05.11.24
 tags:
   - notes
   - ml

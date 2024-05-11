@@ -1,5 +1,5 @@
 ---
-title: "{{title}}"
+title: Context window size doesn't solve personalization
 date: 05.11.24
 tags:
   - notes
