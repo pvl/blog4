@@ -16,7 +16,7 @@ Some content & code for ya today:
 
 - [[A Simple Honcho Primer|A Simple Honcho Primer]]
 
-- [NodeJS SDK]([https://github.com/plastic-labs/honcho-node](https://github.com/plastic-labs/honcho-node "https://github.com/plastic-labs/honcho-node"))
+- [NodeJS SDK](https://github.com/plastic-labs/honcho-node)
   
 - [Honcho v0.0.8](https://github.com/plastic-labs/honcho)  
   
