@@ -12,7 +12,7 @@ tags:
 
 Some content & code for ya today:
 
-- [[SDK-Design|Blog post in SDK design]]
+- [[SDK-Design|Blog post on SDK design]]
 
 - [[A Simple Honcho Primer|A Simple Honcho Primer]]
 
@@ -35,7 +35,7 @@ ADDED
 - Get by ID routes for users and collections
 
 CHANGED
-- Authentication Middleware now implemented using built-in FastAPI Security  
+- Authentication middleware now implemented using built-in FastAPI Security  
     module
 - Get by name routes for users and collections now include "name" in slug
 
