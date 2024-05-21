@@ -15,7 +15,7 @@ tags:
 
 Honcho is a personalization platform for large language model (LLM) applications built by [Plastic Labs](https://plasticlabs.ai).  
 
-It's software infrastructure that lets AI apps to "get to know" their users, resulting in delightful experiences and optimized time to value.
+It's software infrastructure that lets AI apps "get to know" their users, resulting in delightful experiences and optimized time to value.
 
 We'll have direct consumer experiences in the future, but today, the product is for application developers. It allows them to [[Introducing Honcho's Dialectic API#^a14c2f|reduce overhead]] and [[Introducing Honcho's Dialectic API#^x7f7f8|enhance their machine learning pipeline]].
 
