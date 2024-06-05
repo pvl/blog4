@@ -1,12 +1,14 @@
 ---
-title: Cope Is the Canary, but Context Is Key (for The End of Software)
+title: Extrusion 06.24
 date: 06.01.24
 tags:
-  - philosophy
-  - honcho
-  - blog
+  - extrusions
   - macro
+  - honcho
+  - philosophy
 ---
+# Cope Is the Canary, but Context Is Key (for The End of Software)
+
 ![[Copium Meme.jpg]]
 
 Many reactions to Chris Paik’s prescient [The End of Software](https://x.com/cpaik/status/1796633683908005988) carry a distinct signature that readers of the [Pessimist's Archive](https://pessimistsarchive.org/) will recognize instantly–cope.
