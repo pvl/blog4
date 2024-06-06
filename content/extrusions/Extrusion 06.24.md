@@ -11,6 +11,8 @@ tags:
 
 # Cope Is the Canary, but Context Is Key (for The End of Software)
 
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">The End of Software<a href="https://t.co/JWg6QYqLzO">https://t.co/JWg6QYqLzO</a></p>&mdash; Chris Paik (@cpaik) <a href="https://twitter.com/cpaik/status/1796633683908005988?ref_src=twsrc%5Etfw">May 31, 2024</a></blockquote> 
+
 ![[Copium Meme.jpg]]
 
 Many reactions to Chris Paik’s prescient [The End of Software](https://x.com/cpaik/status/1796633683908005988) carry a distinct signature that readers of the [Pessimist's Archive](https://pessimistsarchive.org/) will recognize instantly--cope.
@@ -33,4 +35,6 @@ To know this--to bridge the gap--LLMs need access to a model of your identity. H
 
 And to realize a future replete with trusted autonomous agents working across diverse domains on your behalf reliably--as true extensions of your agency--we’ll need Honcho too.
 
-[^1]: There’s a distinction to be made re: the piece's comparison between computer science & journalism degrees. Journalism is actually more like software engineering here, & computer science like language. Lang & cs will remain useful to study, but the journalism & engineering trade degrees built on top of those primitives need a serious refresh to be worthwhile. I.e. it’s a good idea to have aptitude with symbolic systems & abstract technical knowledge, but application & execution will change as technology evolves.
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">the latent space contains all possible identities <a href="https://t.co/cWO6ovRJnN">pic.twitter.com/cWO6ovRJnN</a></p>&mdash; Courtland Leer (@courtlandleer) <a href="https://twitter.com/courtlandleer/status/1798380865837466028?ref_src=twsrc%5Etfw">June 5, 2024</a></blockquote> 
+
+[^1]: There is a distinction to be made re: the piece's comparison between computer science & journalism degrees. Journalism is actually more like software engineering here, & computer science like language. Lang & cs will remain useful to study, but the journalism & engineering trade degrees built on top of those primitives need a serious refresh to be worthwhile. I.e. it’s a good idea to have aptitude with symbolic systems & abstract technical knowledge, but application & execution will change as technology evolves.
