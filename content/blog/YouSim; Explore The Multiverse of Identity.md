@@ -1,3 +1,14 @@
+---
+title: "YouSim: Explore The Multiverse of Identity"
+date: 06.17.24
+tags:
+  - demos
+  - honcho
+  - philosophy
+  - ml
+  - research
+  - releases
+---
 ![[yousim_banner.png]]
 ## TL;DR
 
