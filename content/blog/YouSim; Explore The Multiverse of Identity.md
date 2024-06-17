@@ -48,7 +48,7 @@ YouSim's interface is a command line simulation. You control it by entering comm
 
 Those commands act as prompts for the simulator: "Simulator Claude." Telling it how to find, alter, direct, etc the person you're simulating. If you don't know what to do, just hit `return`, and "Searcher Claude" will step in to guide the current sim. Or use the `/help` command for some generative inspiration.
 
-To begin, enter any name, the `/locate` command will run automatically, then you're ready to steer. Hard refresh if you hit a bug.
+To begin, enter any name (e.g. Socrates, Karen, Zaphod Beeblebrox). Then the `/locate` command will run automatically, and after that you're ready to steer. Hard refresh if you hit a bug.
 
 Join us [in Discord](https://plasticlabs.ai) to swap sims, screenshots, & ASCII art.
 
@@ -62,3 +62,7 @@ If LLMs can simulate infinite identities, then they're uniquely suited to simula
 If you're building an AI app, that's the level of personalization now possible. But you've got your vertical specific tasks to focus on, going down this clearly wacky identity rabbit hole to would be redundant and inefficient.
 
 Join >100 projects already on the [private beta waitlist](https://plasticlabs.typeform.com/honchobeta) for [[Announcing Honcho's Private Beta|Honcho's self-improving user memory]].
+
+---
+
+![[yousim_void.png]]
