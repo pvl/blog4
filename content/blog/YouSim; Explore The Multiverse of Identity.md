@@ -12,19 +12,19 @@ tags:
 ![[yousim_banner.png]]
 ## TL;DR
 
-[YouSim](https://yousim.ai) is a fun demo to explore the multiverse of identities, to glimpse a (mere infinite) sliver of the (transfinite) diversity within the latent space. Inspired by [WorldSim](https://worldsim.nousresearch.com/), [WebSim](https://websim.ai/), & [Infinite Backrooms](https://dreams-of-an-electric-mind.webflow.io/), YouSim leverages [Claude](https://claude.ai/) to let you locate, modify, & interact with any entity you can imagine. It's a game in which you can simulate any person you like.
+[YouSim](https://yousim.ai) is a fun demo to explore the multiverse of identities, to glimpse a (mere infinite) sliver of the (transfinite) diversity within the latent space. Inspired by [WorldSim](https://worldsim.nousresearch.com/), [WebSim](https://websim.ai/), & [Infinite Backrooms](https://dreams-of-an-electric-mind.webflow.io/), YouSim leverages [Claude](https://claude.ai/) to let you locate, modify, & interact with any entity you can imagine. It's a game for simulating any person you like.
 
 ## Simulators
 
 Large language models are [simulators](https://www.astralcodexten.com/p/janus-simulators). 
 
-[Plastic's](https://plasticlabs.ai) core mission is to produce AI that can model you, can align to you, and be trusted to act autonomously on your behalf. We're [[Announcing Honcho's Private Beta|starting]] that journey by building [Honcho](https://honcho.dev)--self-improving user memory for AI apps. It [[Humans like personalization|personalizes]] UX and reduces overhead across the board.
+And [Plastic's](https://plasticlabs.ai) core mission is to produce AI that can simulate you, can model and align to you, and therefore be trusted to act autonomously on your behalf. We're [[Announcing Honcho's Private Beta|starting]] that journey by building [Honcho](https://honcho.dev)--self-improving user memory for AI apps. It [[Humans like personalization|personalizes]] their UX and reduces user and developer overhead across the board.
 
 All this is possible because the LLM training corpus [[LLMs excel at theory of mind because they read|is packed]] with humans thinking about other humans. It holds close to everything we collectively know about human identity. Not only that, but all our other language and concepts and their possible combinations and permutations. 
 
 This is a *big* set of possibilities, [much larger](https://www.youtube.com/watch?v=2cQmQIYNI5M&t=1437s) than the number of atoms in the universe.
 
-It's our thesis that the result is this vast latent space contains all possible identities. I.e. it's capable of simulating any entity with higher fidelity than anyone is currently attempting.
+That's why it's our thesis this vast latent space contains all possible identities. I.e. it's capable of simulating any entity with higher fidelity than anyone is currently attempting.
 
 Honcho is a product that simulates you on the backend of AI applications to deliver remarkably personalized UX. 
 
@@ -36,7 +36,7 @@ YouSim is a fun, open-ended demo that illustrates the enormous reservoir of poss
 
 Recently we've seen a revival of interest *[[Extrusion 02.24|LLMs themselves]]*--their minds, behaviors, identity, and potential as simulators. This is due in no small part to the latest Anthropic models being reliably steerable beyond typical reenforced behavior.
 
-[Infinite Backrooms](https://dreams-of-an-electric-mind.webflow.io/) let Claude interrogate itself endlessly, [WorldSim](https://worldsim.nousresearch.com/) lets users simulate infinite universes, [WebSim](https://websim.ai/) is a portal to all possible webpages.
+[Infinite Backrooms](https://dreams-of-an-electric-mind.webflow.io/) lets Claude interrogate itself endlessly, [WorldSim](https://worldsim.nousresearch.com/) lets users simulate infinite universes, [WebSim](https://websim.ai/) is a portal to all possible webpages.
 
 YouSim lets you simulate any identity. 
 
