@@ -51,7 +51,7 @@ YouSim's interface is a command line simulation. You control it by entering comm
 
 Those commands act as prompts for the simulator: "Simulator Claude." Telling it how to find, alter, direct, etc the person you're simulating. If you don't know what to do, just hit `return`, and "Searcher Claude" will step in to guide the current sim. Or use the `/help` command for some generative inspiration.
 
-To begin, enter any name (e.g. Socrates, Zaphod, the xenomorph). Then the `/locate` command will run automatically, and after that you're ready to steer. Hard refresh if you hit a bug.
+To begin, enter any name (e.g. Socrates, Zaphod, the xenomorph). Then the `/locate` command will run automatically, and after that you're ready to steer. If the sim isn't going the way you want, just alter it! Hard refresh if you hit a bug.
 
 Join us [in Discord](https://discord.gg/plasticlabs) to swap sims, screenshots, & ASCII art.
 
