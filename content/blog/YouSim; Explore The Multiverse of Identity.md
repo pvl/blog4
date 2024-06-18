@@ -51,7 +51,7 @@ Those commands act as prompts for the simulator: "Simulator Claude." Telling it 
 
 To begin, enter any name (e.g. Socrates, Zaphod, the xenomorph). Then the `/locate` command will run automatically, and after that you're ready to steer. Hard refresh if you hit a bug.
 
-Join us [in Discord](https://plasticlabs.ai) to swap sims, screenshots, & ASCII art.
+Join us [in Discord](https://discord.gg/plasticlabs) to swap sims, screenshots, & ASCII art.
 
 Enjoy surfing the multiverse of identities...
 
