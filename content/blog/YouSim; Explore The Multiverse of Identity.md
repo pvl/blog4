@@ -8,6 +8,7 @@ tags:
   - ml
   - research
   - releases
+  - "#cogsci"
 ---
 ![[yousim_banner.png]]
 ## TL;DR
@@ -48,13 +49,15 @@ YouSim's interface is a command line simulation. You control it by entering comm
 
 Those commands act as prompts for the simulator: "Simulator Claude." Telling it how to find, alter, direct, etc the person you're simulating. If you don't know what to do, just hit `return`, and "Searcher Claude" will step in to guide the current sim. Or use the `/help` command for some generative inspiration.
 
-To begin, enter any name (e.g. Socrates, Karen, Zaphod Beeblebrox). Then the `/locate` command will run automatically, and after that you're ready to steer. Hard refresh if you hit a bug.
+To begin, enter any name (e.g. Socrates, Zaphod, the xenomorph). Then the `/locate` command will run automatically, and after that you're ready to steer. Hard refresh if you hit a bug.
 
 Join us [in Discord](https://plasticlabs.ai) to swap sims, screenshots, & ASCII art.
 
 Enjoy surfing the multiverse of identities...
 
 ![[yousim_memetic_hazard.png]]
+
+([Sign-up for updates here](https://plasticlabs.typeform.com/yousimupdates))
 ## Honcho
 
 If LLMs can simulate infinite identities, then they're uniquely suited to simulate *you*. You in any moment, setting, frame of mind contained in the complexity that is [[User State is State of the Art|your ever changing identity]]. 
@@ -66,3 +69,5 @@ Join >100 projects already on the [private beta waitlist](https://plasticlabs.ty
 ---
 
 ![[yousim_void.png]]
+
+(And if you want to work full time on the bleeding edge of human & machine cognition, get in [touch](mailto:hello@plasticlabs.ai)...)
