@@ -13,7 +13,9 @@ tags:
 ![[yousim_banner.png]]
 ## TL;DR
 
-[YouSim](https://yousim.ai) is a fun demo to explore the multiverse of identities, to glimpse a (mere infinite) sliver of the (transfinite) diversity within the latent space. Inspired by [WorldSim](https://worldsim.nousresearch.com/), [WebSim](https://websim.ai/), & [Infinite Backrooms](https://dreams-of-an-electric-mind.webflow.io/), YouSim leverages [Claude](https://claude.ai/) to let you locate, modify, & interact with any entity you can imagine. It's a game for simulating any person you like.
+[YouSim](https://yousim.ai) is a fun demo to explore the multiverse of identities, to glimpse a (mere infinite) sliver of the (transfinite) diversity within the latent space. Inspired by [WorldSim](https://worldsim.nousresearch.com/), [WebSim](https://websim.ai/), & [Infinite Backrooms](https://dreams-of-an-electric-mind.webflow.io/), YouSim leverages [Claude](https://claude.ai/) to let you locate, modify, & interact with any entity you can imagine. It's a game for simulating anyone you like.
+
+Who will you summon?
 
 ## Simulators
 
