@@ -29,4 +29,5 @@ We post a few different types of content here:
 If you find the content here compelling, explore our active projects:
 
 - [Honcho](https://honcho.dev) — A personalization platform for AI-powered applications, currently in [private beta](https://plasticlabs.typeform.com/honchobeta)  
+- [Yousim](https://yousim.ai) -- An open-ended, CLI game that allows you to simulate any identity
 - [Bloom](https://bloombot.ai) — A theory of mind-powered AI learning companion, open sourced as [Tutor-GPT](https://github.com/plastic-labs/tutor-gpt) (slated for relaunch soon...)  
