@@ -28,4 +28,4 @@ Check out the loom linked below to learn more about the updates!
 - [Tips & Tricks video](https://www.loom.com/share/b2fe578b183b400b88845656d7ceb232?sid=59c562ae-00e8-483c-82a9-7218b61f93e8)
 - [Subscribe to updates](https://plasticlabs.typeform.com/yousimupdates)
 - [Join us in Discord](https://discord.gg/plasticlabs) to swap sims, screenshots, & ASCII art
-- [Read about why we made it](https://blog.plasticlabs.ai/blog/YouSim;-Explore-The-Multiverse-of-Identity)
+- [[YouSim; Explore the Multiverse of Identity|Read about why we made it]]
