@@ -2,6 +2,9 @@
 title: Home
 enableToc: false
 ---
+> [!important] PLASTIC IS HIRING!
+> Check out our [[blog/public/careers/Work at Plastic|open positions here]].
+
 Welcome to our collaborative second brain. 
 
 Here you'll find our blog, research, and public notes. You can also [engage with the ideas directly](https://github.com/plastic-labs/blog) on GitHub.
@@ -15,9 +18,10 @@ It’s our mission to realize this future.
 We post a few different types of content here:
   
 - [[blog | Blog]] -- Deep dives into the philosophy, cognitive science, & machine learning underpinning our projects
+- [[careers | Careers]] -- Open positions at Plastic Labs
 - [[notes | Evergreen Notes]] -- Short form working notes on Plastic theses
-- [[extrusions | Extrusions]] -- Brief, densely-linked reflections synthesizing last month's conceptual work
-- [[releases | Release Notes]] -- Weekly changelogs & details on new product features  
+- [[extrusions | Extrusions]] -- Brief, densely-linked reflections synthesizing recent conceptual work
+- [[releases | Release Notes]] -- Changelogs & details on new product features  
 - [[research | Research]] -- Formal published, preprint, or blog-style company research we've made public
 
 *Extrusions and Release Notes are also available as email newsletters:*
@@ -29,5 +33,5 @@ We post a few different types of content here:
 If you find the content here compelling, explore our active projects:
 
 - [Honcho](https://honcho.dev) — A personalization platform for AI-powered applications, currently in [private beta](https://plasticlabs.typeform.com/honchobeta)  
-- [Yousim](https://yousim.ai) -- An open-ended, CLI game that allows you to simulate any identity
+- [Yousim](https://yousim.ai) -- An open-ended, CLI game that allows you to simulate any identity ([now open source](https://github.com/plastic-labs/yousim))
 - [Bloom](https://bloombot.ai) — A theory of mind-powered AI learning companion, open sourced as [Tutor-GPT](https://github.com/plastic-labs/tutor-gpt) (slated for relaunch soon...)  
