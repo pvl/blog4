@@ -3,7 +3,7 @@ title: Home
 enableToc: false
 ---
 > [!important] PLASTIC IS HIRING!
-> Check out our [[blog/public/careers/Work at Plastic|open positions here]].
+> Check out our [[Work at Plastic|open positions here]].
 
 Welcome to our collaborative second brain. 
 
