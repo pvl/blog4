@@ -1,6 +1,6 @@
 ---
 title: Work at Plastic
-date: 08.23.24
+date: 08.24.24
 tags:
   - positions
   - announcements
