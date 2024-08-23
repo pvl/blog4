@@ -15,7 +15,6 @@ A good fit is someone who is full-stack; has a clearly defined process; is willi
 
 If you've explored Plastic Labs and are excited by what we're up to, let's chat.
 
-![[so-much-plastic banner.png]]
 ## About You
 - 2-5 years experience professional full time designer
 - Full-stack development ability
