@@ -24,7 +24,7 @@ If collaborating with Plastic to push the boundaries of artificial intelligence,
 - Possible research interest in anything explored on [our blog](https://blog.plasticlabs.ai)
 
 ## How to Apply
-Please send the following to jobs@plasticlabs.ai:
+Please send the following to research@plasticlabs.ai:
 - **Resume/CV** in whatever form it exists (PDF, LinkedIn, website, etc)
 - **Portfolio** of notable work (GitHub, pubs, ArXiv, blog, X, etc)
 - **Statement** of alignment specific to Plastic Labs--how do you identify with our mission, how can you contribute, etc? (points for brief, substantive, heterodox)

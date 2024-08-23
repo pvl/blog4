@@ -27,7 +27,7 @@ If you've explored Plastic Labs and are excited by what we're up to, let's chat.
 - High empathy & agency
 
 ## How to Apply
-Please send the following to jobs@plasticlabs.ai:
+Please send the following to ops@plasticlabs.ai:
 - **Resume/CV** in whatever form it exists (PDF, LinkedIn, website, etc)
 - **Portfolio** of notable & relevant work (links, docs, etc)
 - **Statement** of process--how do you work, why is this a fit, how can you help?

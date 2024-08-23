@@ -25,7 +25,7 @@ If you're bored at school and looking to learn by doing; have too much free time
 ## How to Apply
 Start by DM'ing us [on X](https://x.com/plastic_labs), joining [our Discord](https://discord.gg/plasticlabs) and engaging, or contributing to [our GitHub](https://github.com/plastic-labs). Don't overthink it.
 
-If it's a fit, we'll ask you to send the following to jobs@plasticlabs.ai:
+If it's a fit, we'll ask you to send the following to ops@plasticlabs.ai:
 - **Resume/CV** in whatever form it exists (PDF, LinkedIn, website, etc)
 - **Portfolio** of notable work (GitHub, pubs, ArXiv, blog, X, etc)
 - **Statement** of alignment specific to Plastic Labs--how do you identify with our mission, how can you contribute, etc? (points for brief, substantive, heterodox)

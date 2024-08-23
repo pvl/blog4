@@ -31,7 +31,7 @@ At Plastic, you'll have the opportunity to work with an interdisciplinary team t
 - Complementary background in cognitive sciences (cs, linguistics, neuroscience, philosophy, & psychology) or other adjacent interdisciplinary fields a plus
 
 ## How to Apply
-Please send the following to jobs@plasticlabs.ai:
+Please send the following to research@plasticlabs.ai:
 - **Resume/CV** in whatever form it exists (PDF, LinkedIn, website, etc)
 - **Portfolio** of notable work (GitHub, pubs, ArXiv, blog, X, etc)
 - **Statement** of alignment specific to Plastic Labs--how do you identify with our mission, how can you contribute, etc? (points for brief, substantive, heterodox)

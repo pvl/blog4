@@ -25,7 +25,7 @@ Each quarter, we'll select and issue 1-4 small grants. You can apply, but we'll 
 Grants will be delivered according to the preference of the researcher (USD, crypto, X tips, etc). Again, with no strings attached.
 
 ## How to Apply
-Blow our minds--send whatever you think we should see to jobs@plasticlabs.ai, DM us [on X](https://x.com/plastic_labs), join [our Discord](https://discord.gg/plasticlabs) and introduce yourself, or engage with [our GitHub](https://github.com/plastic-labs).
+Blow our minds--send whatever you think we should see to research@plasticlabs.ai, DM us [on X](https://x.com/plastic_labs), join [our Discord](https://discord.gg/plasticlabs) and introduce yourself, or engage with [our GitHub](https://github.com/plastic-labs).
 
 Or feel free to recommend a candidate for consideration. Anons, pseudo-anons, synthetic/xeno intelligences, collectives, etc all welcome. 
 
