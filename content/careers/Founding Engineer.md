@@ -18,6 +18,7 @@ It's an opportunity for high-agency problem solving at multiple layers of abstra
 ## About You
 - 3-4 years experience in similar roles or equivalent
 - High cultural alignment with Plastic Labs' ethos
+- Primary location +/- 3 hrs of EST
 - All requirements listed for our [[Full-Stack Engineer]] role, plus...
 - Adept thinking globally & locally, at multiple layers of abstraction, & high-level synthesis
 - Comfortable solving problems with high-agency, broad freedom, & significant responsibility

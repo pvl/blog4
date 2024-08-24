@@ -16,6 +16,7 @@ If you're bored at school and looking to learn by doing; have too much free time
 
 ## About You
 - High cultural alignment with Plastic Labs' ethos
+- Primary location +/- 3 hrs of EST
 - Impulse for rapid learning & trying new tech at the edge
 - Familiarity with & interest in LLMs
 - Significant experience &/ interest in a number of areas described in our [[Full-Stack Engineer]], [[ML Research Engineer]], &/ [[Founding Engineer]] "About You" sections

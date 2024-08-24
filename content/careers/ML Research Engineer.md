@@ -20,9 +20,10 @@ At Plastic, you'll have the opportunity to work with an interdisciplinary team t
 
 ## About You
 - 2-3 years NLP ML experience or equivalent
+- High cultural alignment with Plastic Labs' ethos
+- Primary location +/- 3 hrs of EST
 - Up to date on OS AI community & technologies 
 - Comfortable in Unix environment + attendant command line tools (Git, Docker, etc)
-- High cultural alignment with Plastic Labs' ethos
 - Experience training, fine-tuning, & evaluating LLM performance 
 - Experience implementing & maintaining systems based on SOTA research
 - Experience or background in alignment & interpretability methods

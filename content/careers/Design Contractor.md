@@ -17,7 +17,9 @@ If you've explored Plastic Labs and are excited by what we're up to, let's chat.
 
 ## About You
 - 2-5 years experience professional full time designer
+- Primary location +/- 3 hrs of EST
 - Full-stack development ability
+- Ability to sync 
 - Ability to design & build end-to-end
 - Ability to grok product, mission, & aesthetics quickly
 - Refined organized process for aligning to company needs

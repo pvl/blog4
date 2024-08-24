@@ -18,6 +18,7 @@ This role is a fast-paced opportunity to work alongside a seasoned interdiscipli
 ## About You
 - 1-2 years experience or equivalent (new grads OK)
 - High cultural alignment with Plastic Labs' ethos
+- Primary location +/- 3 hrs of EST
 - Impulse for rapid learning & trying new tech at the edge
 - Adept with Python &/ Node.js
 - Experience building CRUD APIs
