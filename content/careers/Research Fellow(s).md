@@ -50,6 +50,7 @@ And it can't hurt to [join Discord](https://discord.gg/plasticlabs) and introduc
 [Language Models Represent Space and Time](https://arxiv.org/pdf/2310.02207)  
 [Generative Agents: Interactive Simulacra of Human Behavior](https://arxiv.org/abs/2304.03442)  
 [Meta-Rewarding Language Models: Self-Improving Alignment with LLM-as-a-Meta-Judge](https://arxiv.org/abs/2407.19594)  
+[Cyborgism](https://www.lesswrong.com/posts/bxt7uCiHam4QXrQAA/cyborgism)  
 [Spontaneous Reward Hacking in Iterative Self-Refinement](https://arxiv.org/abs/2407.04549)  
 [... accompanying twitter thread](https://x.com/JanePan_/status/1813208688343052639)  
 
