@@ -1,5 +1,5 @@
 ---
-title: ML Research Engineer
+title: (FILLED) ML Research Engineer
 date: 08.23.24
 tags:
   - positions
@@ -7,6 +7,9 @@ tags:
   - dev
   - announcements
 ---
+> [!custom] This position has been filled. However, we're always looking to meet great candidates. If you like what's listed here, please reach out regardless -- we are growing fast and might have similar positions in the future.
+> Check out our other [[Work at Plastic|open positions here]].
+
 (NYC / Remote, Full-Time)
 
 ## About the Role
