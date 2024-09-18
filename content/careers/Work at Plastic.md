@@ -20,7 +20,7 @@ We're freshly capitalized and moving fast.
 Join us. LFG.
 
 ## Open Positions
-- [[ML Research Engineer|ML Research Engineer]]
+- [[(FILLED) ML Research Engineer|(FILLED) ML Research Engineer]]
 - [[Founding Engineer|Founding Engineer]]
 - [[Full-Stack Engineer|Full-Stack Engineer]]
 - [[Design Contractor|Design Contractor]]
