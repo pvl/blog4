@@ -6,10 +6,13 @@ tags:
   - dev
   - announcements
 ---
+> [!custom] This position has been filled. However, we're always looking to meet great candidates. If you like what's listed here, please reach out regardless -- we are growing fast and might have similar positions in the future.
+> Check out our other [[Work at Plastic|open positions here]].
+
 (NYC / Remote, Full-Time)
 
 ## About the Role
-We're searching for a full-stack engineer to help build [Honcho](https://honcho.dev), our user represenation infrastructure, and accelerate the development of a new paradigm of AI personalization.
+We're searching for a full-stack engineer to help build [Honcho](https://honcho.dev), our user representation infrastructure, and accelerate the development of a new paradigm of AI personalization.
 
 You should be comfortable working across the stack, from crafting user interfaces to designing APIs and managing deployments. It requires strong foundations both frontend and backend. 
 

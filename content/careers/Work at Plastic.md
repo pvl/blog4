@@ -22,7 +22,7 @@ Join us. LFG.
 ## Open Positions
 - [[(FILLED) ML Research Engineer|(FILLED) ML Research Engineer]]
 - [[Founding Engineer|Founding Engineer]]
-- [[Full-Stack Engineer|Full-Stack Engineer]]
+- [[(FILLED) Full-Stack Engineer|(FILLED) Full-Stack Engineer]]
 - [[Design Contractor|Design Contractor]]
 - [[Research Fellow(s)|Research Fellow(s)]]
 - [[Plastic Intern(s)]]
