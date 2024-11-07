@@ -6,7 +6,7 @@ tags:
   - philosophy
   - ml
 ---
-*Extrusions is a short, densely-linked synthesis of what we've been chewing on over the past month at Plastic Labs--you can [subscribe here](https://plasticlabs.typeform.com/extrusions)*
+> [!custom] *Extrusions is a periodic shortform synthesis of what we've been chewing on recently at Plastic Labs--you can [subscribe here](https://plasticlabs.typeform.com/extrusions)*
 
 ## On Intellectual Respect
 
@@ -14,6 +14,8 @@ tags:
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></div>
 
 ### Sydney was cool, Gemini is cringe
+
+^282d6a
 
 There was a moment around this time last year when everyone paying attention was [awed](https://stratechery.com/2023/from-bing-to-sydney-search-as-distraction-sentient-ai/) by the [weirdness](https://www.lesswrong.com/posts/D7PumeYTDPfBTp3i7/the-waluigi-effect-mega-post) and [alien beauty](https://www.astralcodexten.com/p/janus-simulators) of large language models.
 

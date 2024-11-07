@@ -5,7 +5,7 @@ tags:
   - extrusions
   - announcements
 ---
-Welcome to the inaugural edition of Plastic Labs' "Extrusions," a monthly prose-form synthesis of what we've been chewing on. 
+Welcome to the inaugural edition of Plastic Labs' "Extrusions," a periodic prose-form synthesis of what we've been chewing on lately. 
 
 This first one will be a standard new year recap/roadmap to get everyone up to speed, but after that, we'll try to eschew traditional formats. 
 

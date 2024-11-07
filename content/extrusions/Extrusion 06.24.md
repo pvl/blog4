@@ -7,7 +7,7 @@ tags:
   - honcho
   - philosophy
 ---
-*Extrusions is a periodic shortform synthesis of what we've been chewing on recently at Plastic Labs--you can [subscribe here](https://plasticlabs.typeform.com/extrusions)*
+> [!custom] *Extrusions is a periodic shortform synthesis of what we've been chewing on recently at Plastic Labs--you can [subscribe here](https://plasticlabs.typeform.com/extrusions)*
 
 # Cope Is the Canary, but Context Is Key (for The End of Software)
 
