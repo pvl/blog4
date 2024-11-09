@@ -108,4 +108,4 @@ And huge thanks for your patience while we balanced our existing roadmap with in
 
 Go use the thing. LFG.
 
-[^1]: [[Plastic Labs will never give you financial advice and other token related disclaimers|Obligatory disclaimers]]
+[^1]: [[YouSim Disclaimers|Obligatory disclaimers]]
