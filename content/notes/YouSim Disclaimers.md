@@ -1,5 +1,9 @@
 ---
 title: YouSim Disclaimers
+tags:
+  - yousim
+  - legal
+date: 11.11.24
 ---
 Plastic Labs is the creator of [YouSim.ai](https://yousim.ai), an AI product demo that has inspired the anonymous creation of the \$YOUSIM token using Pump.fun on the Solana blockchain, among many other tokens. We deeply appreciate the enthusiasm and support of the \$YOUSIM community, but in the interest of full transparency we want to clarify the nature of our engagement in the following ways:
 

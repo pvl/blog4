@@ -9,6 +9,7 @@ tags:
   - research
   - releases
   - "#cogsci"
+  - yousim
 ---
 ![[yousim_banner.png]]
 ## TL;DR
