@@ -1,6 +1,10 @@
 @use "./base.scss";
 
 // put your custom CSS here!
+@font-face {
+  font-family: "Departure Mono";
+  src: url("../static/DepartureMono-Regular.otf");
+}
 
 // captions!
 img + em {
@@ -37,8 +41,8 @@ iframe {
 
 .callout {
   &[data-callout="custom"] {
-    --color: var(--tertiary);
-    --border:var(--tertiary);
+    --color: var(--darkgray);
+    --border: var(--tertiary);
     --bg: var(--customCallout);
     --callout-icon: var(--callout-icon-tip);
   }
@@ -65,3 +69,31 @@ iframe {
 /*   } */
 /* } */
 /* } */
+
+.explorer {
+  font-size: 0.85rem;
+  
+  .folder, .file {
+    a {
+      font-size: 0.85rem;
+      font-weight: 200 !important;
+    }
+  }
+}
+
+.toc {
+  font-size: 0.85rem;
+  
+  a {
+    font-size: 0.85rem;
+    font-weight: 600 !important;
+  }
+}
+
+body {
+  font-size: 0.95rem;
+}
+
+input[type="search"] {
+  background-color: var(--searchBackground);
+}
