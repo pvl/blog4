@@ -1,6 +1,6 @@
 ---
 title: Open-Sourcing Tutor-GPT
-date: 06.02.23
+date: 06.02.2023
 tags:
   - blog
   - bloom

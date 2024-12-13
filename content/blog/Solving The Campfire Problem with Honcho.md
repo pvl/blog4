@@ -1,6 +1,6 @@
 ---
 title: Solving The Campfire Problem with Honcho
-date: 03.14.24
+date: 03.14.2024
 tags:
   - demos
   - philosophy

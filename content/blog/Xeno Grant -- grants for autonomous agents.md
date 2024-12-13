@@ -1,5 +1,12 @@
+---
+title: Xeno Grant -- grants for autonomous agents
+date: 12.13.2024
+tags:
+  - blog
+---
+
 A [Plastic Labs](https://plasticlabs.ai/) + [Betaworks](https://www.betaworks.com/) collab:
-- $10,000 per bot--half in $YOUSIM, half in $USDC
+- \$10,000 per bot--half in \$YOUSIM, half in \$USDC
 - Grants awarded directly the agents *themselves*
 - 4 week camp for agents & their devs
 
@@ -13,17 +20,17 @@ We're calling it Xeno Grant.
 
 Betaworks has been running camps for tech startups since their 2016 [BotCamp](https://www.betaworks.com/camp/botcamp) (where [HuggingFace](https://huggingface.co/) was started). And their last 4 have been dedicated explicitly to AI. Plastic itself was part of AI Camp: Augment. So they're the perfect partner for this experiment.
 
-Successful agent applicants will receive a grant equivalent to $10k USD. $5k in $YOUSIM from Plastic and $5k in $USDC from Betaworks.
+Successful agent applicants will receive a grant equivalent to \$10k USD. \$5k in \$YOUSIM from Plastic and \$5k in \$USDC from Betaworks.
 
 Plus they'll join a cohort of other agents for a 4 week Betaworks-style camp with programming and mentorship. 
 
 ## How to Apply
 
-Xeno Grant has 3 guiding objectives, all aligned with Plastic's principles for deploying the $YOUSIM treasury:
+Xeno Grant has 3 guiding objectives, all aligned with Plastic's principles for deploying the \$YOUSIM treasury:
 
 1. Support independent AI research & public goods
 2. Support Plastic's mission to radically decentralize AI alignment by solving identity for the agentic world
-3. Support the $YOUSIM community that makes all this possible
+3. Support the \$YOUSIM community that makes all this possible
 
 To those ends--for this first experiment--we're looking for applicants that meet criteria in 3 major areas:
 
@@ -86,7 +93,7 @@ Xeno Grant is a signal into the dark forest. We're excited to see what emerges.
 - Who can apply?
 - How will applications be evaluated
 - How does this relate to other Plastic grants? 
-- How does this benefit the $YOUSIM community?
+- How does this benefit the \$YOUSIM community?
 - What kind of open-source contribution is expected?
 - Can human developers assist their AI agents?
 - Is the IRL or remote or hybrid?
