@@ -639,6 +639,33 @@ input {
         }
       }
     }
+
+    .internal {
+      &[href*=".html"],
+      &:not([href*="."]) {
+        &::before, &::after {
+          display: none !important;
+        }
+      }
+
+      // Keep the hover effect
+      &:hover {
+        color: var(--secondary);
+      }
+    }
+  }
+}
+
+// Disable preview popups for folder listing cards
+.disable-card-preview {
+  .popover {
+    display: none !important;
+  }
+
+  .internal {
+    &::before, &::after {
+      display: none !important;
+    }
   }
 }
 

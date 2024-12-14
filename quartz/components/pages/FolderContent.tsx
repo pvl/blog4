@@ -43,7 +43,7 @@ export default ((opts?: Partial<FolderContentOptions>) => {
     const sortedTags = Array.from(allTags).sort()
 
     const cssClasses: string[] = fileData.frontmatter?.cssclasses ?? []
-    const classes = ["popover-hint", ...cssClasses].join(" ")
+    const classes = ["popover-hint", "disable-card-preview", ...cssClasses].join(" ")
     const listProps = {
       ...props,
       allFiles: allPagesInFolder,
