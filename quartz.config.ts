@@ -28,25 +28,25 @@ const config: QuartzConfig = {
       colors: {
         lightMode: {
           light: "#E2E2E2",
-          lightgray: "#D3D3D3", //code, graph, outline
-          gray: "#4e4e4e", // graph links
+          lightgray: "#4e4e4e", //code, graph, outline
+          gray: "#4e4e4e", // graph nodes
           darkgray: "#4e4e4e",
           dark: "#4E4E4E",
           secondary: "#4e4e4e",
           tertiary: "#C0FFE1",
           customCallout: "rgba(183, 255, 236, 0.35)",
-          highlight: "rgba(128, 128, 128, 0.35)",
+          highlight: "rgba(128, 128, 128, 0.35)", //code bg, note bg, graph bg (ONLY ON LIGHT MODE)
           searchBackground: "#D3D3D3",
         },
         darkMode: {
           light: "#191919",
-          lightgray: "#393639",
-          gray: "#646464",
+          lightgray: "#393639", //code, graph edges, outline
+          gray: "#E2E2E2", //graph nodes
           darkgray: "#E2E2E2",
           dark: "#ebebec",
           secondary: "#7C7C7C",
           tertiary: "#C0FFE1",
-          highlight: "rgba(125, 125, 125, 0.15)",
+          highlight: "rgba(125, 125, 125, 0.15)", //code bg, note bg
           customCallout: "#00b8d410",
           searchBackground: "#252525",
         },

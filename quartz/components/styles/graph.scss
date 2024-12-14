@@ -14,6 +14,11 @@
     margin: 0.5em 0;
     position: relative;
     overflow: hidden;
+    background-color: var(--highlight);
+
+    [saved-theme="dark"] & {
+      background-color: var(--light);
+    }
 
     & > #global-graph-icon {
       color: var(--dark);
@@ -52,7 +57,7 @@
 
     & > #global-graph-container {
       border: 1px solid var(--lightgray);
-      background-color: var(--light);
+      background-color: var(--highlight);
       border-radius: 5px;
       box-sizing: border-box;
       position: fixed;
@@ -61,6 +66,10 @@
       transform: translate(-50%, -50%);
       height: 60vh;
       width: 50vw;
+
+      [saved-theme="dark"] & {
+        background-color: var(--light);
+      }
 
       @media all and (max-width: $fullPageWidth) {
         width: 90%;
