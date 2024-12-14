@@ -35,7 +35,7 @@ const config: QuartzConfig = {
           secondary: "#4e4e4e",
           tertiary: "#C0FFE1",
           customCallout: "rgba(183, 255, 236, 0.35)",
-          highlight: "rgba(128, 128, 128, 0.15)",
+          highlight: "rgba(128, 128, 128, 0.35)",
           searchBackground: "#D3D3D3",
         },
         darkMode: {
