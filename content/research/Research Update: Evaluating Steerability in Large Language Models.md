@@ -1,6 +1,16 @@
-Dani Balcells and the Plastic Labs team. December 2024.
+---
+title: Evaluating Steerability in Large Language Models
+author: Dani Balcells
+date: 12.14.24
+tags:
+  - research
+  - ml
+---
 
+
+## TL;DR
 *This is a research update on our ongoing work to implement concrete benchmarks for measuring AI systems' ability to adapt to different users. We've created what we believe is the first implementation of a "trade-off steerable benchmark" - a framework proposed by Sorensen et al. for evaluating how well AI systems can be steered to reflect different perspectives. While we've made progress on the core dataset and evaluation pipeline, several key questions remain about how to make this benchmark as useful as possible to the research community. We're sharing this update to gather feedback at NeurIPS 2024 in Vancouver on the most valuable directions to take this work.*
+
 # 1. Measuring AI Systems' Ability to Adapt to Different Users
 At Plastic Labs, we're building AI systems that can adapt to and act on behalf of their users. As we continue to improve these systems, it's critical that we can reliably measure their ability to faithfully represent different people's views and behaviors.
 
@@ -176,5 +186,5 @@ We're at NeurIPS in Vancouver this week, and we're sharing this work early to ge
 
 We believe the most valuable feedback will come from discussing these questions with researchers working on pluralistic alignment, evaluation design, and personalized AI systems. Our implementation provides a concrete starting point, but we want to ensure its evolution is guided by the needs of the broader research community.
 # 6. References
-1. T. Sorensen, J. Moore, J. Fisher, M. Gordon, N. Mireshghallah, C. M. Rytting, A. Ye, L. Jiang, X. Lu, N. Dziri, T. Althoff, and Y. Choi, "A Roadmap to Pluralistic Alignment," _arXiv preprint arXiv:2402.05070_, 2024.
-2. E. Perez, S. Ringer, K. Lukošiūtė, K. Nguyen, et al., "Discovering Language Model Behaviors with Model-Written Evaluations," _arXiv preprint arXiv:2212.09251_, 2022.
+1. T. Sorensen, J. Moore, J. Fisher, M. Gordon, N. Mireshghallah, C. M. Rytting, A. Ye, L. Jiang, X. Lu, N. Dziri, T. Althoff, and Y. Choi, ["A Roadmap to Pluralistic Alignment,"](https://arxiv.org/abs/2402.05070) _arXiv preprint arXiv:2402.05070_, 2024.
+2. E. Perez, S. Ringer, K. Lukošiūtė, K. Nguyen, et al., ["Discovering Language Model Behaviors with Model-Written Evaluations,"](https://arxiv.org/abs/2212.09251) _arXiv preprint arXiv:2212.09251_, 2022.
