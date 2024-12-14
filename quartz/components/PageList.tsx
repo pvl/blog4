@@ -40,9 +40,10 @@ export const PageList: QuartzComponent = ({ cfg, fileData, allFiles, limit }: Pr
       {list.map((page) => {
         const title = page.frontmatter?.title
         const tags = page.frontmatter?.tags ?? []
+        const tagsStr = JSON.stringify(tags)
 
         return (
-          <li class="section-li" data-tags={JSON.stringify(tags)}>
+          <li class="section-li" data-tags={tagsStr}>
             <div class="section">
               {page.dates && (
                 <p class="meta">
@@ -66,10 +67,6 @@ export const PageList: QuartzComponent = ({ cfg, fileData, allFiles, limit }: Pr
 
 PageList.css = `
 .section h3 {
-  margin: 0;
-}
-
-.section > .tags {
   margin: 0;
 }
 `

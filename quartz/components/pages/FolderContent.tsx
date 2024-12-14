@@ -56,30 +56,47 @@ export default ((opts?: Partial<FolderContentOptions>) => {
 
     // Add client-side filtering script
     const filterScript = `
-      document.addEventListener('DOMContentLoaded', () => {
+      function initializeTagFiltering() {
         const selectedTags = new Set()
         const cards = document.querySelectorAll('.section-li')
         const countEl = document.querySelector('.folder-count')
-        const originalCount = ${allPagesInFolder.length}
-
+        const tagButtons = document.querySelectorAll('.tag-filter-btn')
+        
+        // Debug logging
+        console.log('Found ' + cards.length + ' cards')
+        console.log('Found ' + tagButtons.length + ' tag buttons')
+        
         function updateVisibility() {
           let visibleCount = 0
           cards.forEach(card => {
-            const tags = JSON.parse(card.dataset.tags || '[]')
-            const shouldShow = selectedTags.size === 0 || 
-              tags.some(tag => selectedTags.has(tag))
-            card.style.display = shouldShow ? '' : 'none'
-            if (shouldShow) visibleCount++
+            try {
+              const tagsAttr = card.getAttribute('data-tags')
+              console.log('Card tags:', tagsAttr)
+              const tags = JSON.parse(tagsAttr || '[]')
+              const shouldShow = selectedTags.size === 0 || 
+                tags.some(tag => selectedTags.has(tag))
+              card.style.display = shouldShow ? '' : 'none'
+              if (shouldShow) visibleCount++
+            } catch (e) {
+              console.error('Error processing card:', e)
+            }
           })
+          
           if (countEl) {
-            countEl.textContent = ${JSON.stringify(i18n(cfg.locale).pages.folderContent.itemsUnderFolder({count: 0}))}
-              .replace('0', visibleCount.toString())
+            const countText = ${JSON.stringify(i18n(cfg.locale).pages.folderContent.itemsUnderFolder({count: 0}))}
+            countEl.textContent = countText.replace('0', visibleCount.toString())
           }
+          
+          // Debug logging
+          console.log('Selected tags:', Array.from(selectedTags))
+          console.log('Visible count:', visibleCount)
         }
 
-        document.querySelectorAll('.tag-filter-btn').forEach(btn => {
+        tagButtons.forEach(btn => {
           btn.addEventListener('click', () => {
-            const tag = btn.dataset.tag
+            const tag = btn.getAttribute('data-tag')
+            console.log('Clicked tag:', tag)
+            
             if (selectedTags.has(tag)) {
               selectedTags.delete(tag)
               btn.classList.remove('selected')
@@ -90,7 +107,18 @@ export default ((opts?: Partial<FolderContentOptions>) => {
             updateVisibility()
           })
         })
-      })
+      }
+
+      // Try to initialize immediately
+      initializeTagFiltering()
+      
+      // Also try after a short delay to ensure DOM is ready
+      setTimeout(initializeTagFiltering, 100)
+      
+      // Also initialize on DOMContentLoaded if it hasn't fired yet
+      if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', initializeTagFiltering)
+      }
     `
 
     return (
@@ -104,6 +132,7 @@ export default ((opts?: Partial<FolderContentOptions>) => {
               <button
                 data-tag={tag}
                 class="tag-filter-btn"
+                type="button"
               >
                 {tag}
               </button>
