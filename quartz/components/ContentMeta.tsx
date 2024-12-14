@@ -27,10 +27,12 @@ export default ((opts?: Partial<ContentMetaOptions>) => {
 
       if (fileData.dates) {
         const createdDate = formatDate(getDate(cfg, fileData)!, cfg.locale)
-        const modifiedDate = formatDate(fileData.dates.modified, cfg.locale) // Assuming fileData contains a 'dates' object with 'modified' property
-
-        // segments.push(`Created: ${createdDate}, Modified: ${modifiedDate}`)
         segments.push(createdDate)
+      }
+
+      // Add author if it exists in frontmatter
+      if (fileData.frontmatter.author) {
+        segments.push(`by ${fileData.frontmatter.author}`)
       }
 
       // Display reading time if enabled
@@ -42,7 +44,7 @@ export default ((opts?: Partial<ContentMetaOptions>) => {
         segments.push(displayedTime)
       }
 
-      return <p class={classNames(displayClass, "content-meta")}>{segments.join(", ")}</p>
+      return <p class={classNames(displayClass, "content-meta")}>{segments.join(" · ")}</p>
     } else {
       return null
     }

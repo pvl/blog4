@@ -45,9 +45,6 @@ ul,
   fill: var(--darkgray);
   overflow-wrap: anywhere;
   hyphens: auto;
-  font-size: 0.9rem;
-  letter-spacing: -0.03em;
-  line-height: 1.5;
 }
 
 .math {
@@ -132,6 +129,18 @@ a {
       font-size: 2rem;
     }
 
+    p,
+    ul,
+    ol,
+    li,
+    td,
+    tr,
+    .math {
+      font-size: 0.9rem;
+      letter-spacing: -0.03em;
+      line-height: 1.5;
+    }
+
     & li:has(> input[type="checkbox"]) {
       list-style-type: none;
       padding-left: 0;
@@ -150,12 +159,6 @@ a {
 
     p > strong {
       color: var(--dark);
-    }
-
-    p {
-      letter-spacing: -0.03em;
-      line-height: 1.5;
-      font-size: 0.9rem;
     }
   }
 
