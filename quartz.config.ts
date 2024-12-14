@@ -21,32 +21,34 @@ const config: QuartzConfig = {
     theme: {
       cdnCaching: true,
       typography: {
-        header: "Exo 2",
-        body: "Hind Madurai",
+        header: "Departure Mono",
+        body: "Roboto Mono",
         code: "Ubuntu Mono",
       },
       colors: {
         lightMode: {
-          light: "#faf8f8",
-          lightgray: "#e5e5e5",
-          gray: "#b8b8b8",
+          light: "#E2E2E2",
+          lightgray: "#4e4e4e", //code, graph, outline
+          gray: "#4e4e4e", // graph nodes
           darkgray: "#4e4e4e",
-          dark: "#2b2b2b",
+          dark: "#4E4E4E",
           secondary: "#4e4e4e",
-          tertiary: "#FF5A7E",
-          customCallout: "#db424210",
-          highlight: "rgba(128, 128, 128, 0.15)",
+          tertiary: "#C0FFE1",
+          customCallout: "rgba(183, 255, 236, 0.35)",
+          highlight: "rgba(128, 128, 128, 0.35)", //code bg, note bg, graph bg (ONLY ON LIGHT MODE)
+          searchBackground: "#D3D3D3",
         },
         darkMode: {
-          light: "#161618",
-          lightgray: "#393639",
-          gray: "#646464",
-          darkgray: "#d4d4d4",
+          light: "#191919",
+          lightgray: "#393639", //code, graph edges, outline
+          gray: "#E2E2E2", //graph nodes
+          darkgray: "#E2E2E2",
           dark: "#ebebec",
           secondary: "#7C7C7C",
-          tertiary: "#09FEF8",
-          highlight: "rgba(125, 125, 125, 0.15)",
+          tertiary: "#C0FFE1",
+          highlight: "rgba(125, 125, 125, 0.15)", //code bg, note bg
           customCallout: "#00b8d410",
+          searchBackground: "#252525",
         },
       },
     },
