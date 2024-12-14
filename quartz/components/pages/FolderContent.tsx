@@ -56,22 +56,30 @@ export default ((opts?: Partial<FolderContentOptions>) => {
 
     // Add client-side filtering script
     const filterScript = `
+      let isInitialized = false;
+
       function initializeTagFiltering() {
+        // Prevent double initialization
+        if (isInitialized) {
+          return;
+        }
+
         const selectedTags = new Set()
         const cards = document.querySelectorAll('.section-li')
         const countEl = document.querySelector('.folder-count')
         const tagButtons = document.querySelectorAll('.tag-filter-btn')
         
-        // Debug logging
-        console.log('Found ' + cards.length + ' cards')
-        console.log('Found ' + tagButtons.length + ' tag buttons')
+        if (!cards.length || !tagButtons.length) {
+          return; // Don't initialize if elements aren't present
+        }
+
+        isInitialized = true;
         
         function updateVisibility() {
           let visibleCount = 0
           cards.forEach(card => {
             try {
               const tagsAttr = card.getAttribute('data-tags')
-              console.log('Card tags:', tagsAttr)
               const tags = JSON.parse(tagsAttr || '[]')
               const shouldShow = selectedTags.size === 0 || 
                 tags.some(tag => selectedTags.has(tag))
@@ -86,38 +94,41 @@ export default ((opts?: Partial<FolderContentOptions>) => {
             const countText = ${JSON.stringify(i18n(cfg.locale).pages.folderContent.itemsUnderFolder({count: 0}))}
             countEl.textContent = countText.replace('0', visibleCount.toString())
           }
-          
-          // Debug logging
-          console.log('Selected tags:', Array.from(selectedTags))
-          console.log('Visible count:', visibleCount)
         }
 
         tagButtons.forEach(btn => {
-          btn.addEventListener('click', () => {
-            const tag = btn.getAttribute('data-tag')
-            console.log('Clicked tag:', tag)
-            
+          // Remove any existing listeners first
+          const newBtn = btn.cloneNode(true)
+          btn.parentNode.replaceChild(newBtn, btn)
+          
+          newBtn.addEventListener('click', () => {
+            const tag = newBtn.getAttribute('data-tag')
             if (selectedTags.has(tag)) {
               selectedTags.delete(tag)
-              btn.classList.remove('selected')
+              newBtn.classList.remove('selected')
             } else {
               selectedTags.add(tag)
-              btn.classList.add('selected')
+              newBtn.classList.add('selected')
             }
             updateVisibility()
           })
         })
       }
 
-      // Try to initialize immediately
+      // Initialize on first load
       initializeTagFiltering()
       
-      // Also try after a short delay to ensure DOM is ready
-      setTimeout(initializeTagFiltering, 100)
-      
-      // Also initialize on DOMContentLoaded if it hasn't fired yet
+      // Handle client-side navigation
+      document.addEventListener('nav', () => {
+        isInitialized = false;
+        setTimeout(initializeTagFiltering, 0)
+      })
+
+      // Backup initialization for edge cases
       if (document.readyState === 'loading') {
         document.addEventListener('DOMContentLoaded', initializeTagFiltering)
+      } else {
+        setTimeout(initializeTagFiltering, 0)
       }
     `
 
