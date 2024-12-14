@@ -44,10 +44,21 @@ button#toc {
       color: var(--dark);
       opacity: 0.35;
       transition:
-        0.5s ease opacity,
-        0.3s ease color;
+        0.2s ease opacity,
+        0.2s ease color;
+
+      &:hover {
+        opacity: 1;
+        color: var(--tertiary);
+      }
+
       &.in-view {
         opacity: 0.75;
+        
+        &:hover {
+          opacity: 1;
+          color: var(--tertiary);
+        }
       }
     }
   }

@@ -8,6 +8,7 @@ export interface ColorScheme {
   tertiary: string
   highlight: string
   customCallout: string
+  searchBackground: string
 }
 
 interface Colors {
@@ -50,6 +51,7 @@ ${stylesheet.join("\n\n")}
   --tertiary: ${theme.colors.lightMode.tertiary};
   --highlight: ${theme.colors.lightMode.highlight};
   --customCallout: ${theme.colors.lightMode.customCallout};
+  --searchBackground: ${theme.colors.lightMode.searchBackground};
 
   --headerFont: "${theme.typography.header}", ${DEFAULT_SANS_SERIF};
   --bodyFont: "${theme.typography.body}", ${DEFAULT_SANS_SERIF};
@@ -66,6 +68,7 @@ ${stylesheet.join("\n\n")}
   --tertiary: ${theme.colors.darkMode.tertiary};
   --highlight: ${theme.colors.darkMode.highlight};
   --customCallout: ${theme.colors.darkMode.customCallout};
+  --searchBackground: ${theme.colors.darkMode.searchBackground};
 }
 `
 }

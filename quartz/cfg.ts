@@ -73,3 +73,16 @@ export interface FullPageLayout {
 
 export type PageLayout = Pick<FullPageLayout, "beforeBody" | "left" | "right">
 export type SharedLayout = Pick<FullPageLayout, "head" | "header" | "footer">
+
+export interface ColorScheme {
+  light: string
+  lightgray: string
+  gray: string
+  darkgray: string
+  dark: string
+  secondary: string
+  tertiary: string
+  highlight: string
+  customCallout: string
+  searchBackground: string
+}
