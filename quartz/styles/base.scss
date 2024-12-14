@@ -568,7 +568,8 @@ input {
 
       &:hover {
         border-color: var(--secondary);
-        color: var(--secondary);
+        color: var(--tertiary);
+        background-color: var(--highlight);
       }
 
       &.selected {
@@ -603,6 +604,7 @@ input {
     &:hover {
       transform: translateY(-3px);
       box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+      background-color: var(--highlight);
     }
 
     .section {
@@ -630,9 +632,10 @@ input {
             text-decoration: none;
             background: none;
             padding: 0;
+            transition: color 0.2s ease, background-color 0.2s ease;
             
             &:hover {
-              color: var(--secondary);
+              color: var(--tertiary);
               background: none;
             }
           }
