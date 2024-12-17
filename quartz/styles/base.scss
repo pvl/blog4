@@ -659,6 +659,11 @@ input {
   }
 }
 
+// Hide tags in tag page cards
+[data-slug^="tags/"] .section-li .section .tags {
+  display: none;
+}
+
 // Disable preview popups for folder listing cards
 .disable-card-preview {
   .popover {
