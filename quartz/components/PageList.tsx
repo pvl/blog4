@@ -40,35 +40,23 @@ export const PageList: QuartzComponent = ({ cfg, fileData, allFiles, limit }: Pr
       {list.map((page) => {
         const title = page.frontmatter?.title
         const tags = page.frontmatter?.tags ?? []
+        const tagsStr = JSON.stringify(tags)
+        const href = resolveRelative(fileData.slug!, page.slug!)
 
         return (
-          <li class="section-li">
-            <div class="section">
-              {page.dates && (
-                <p class="meta">
-                  <Date date={getDate(cfg, page)!} locale={cfg.locale} />
-                </p>
-              )}
-              <div class="desc">
-                <h3>
-                  <a href={resolveRelative(fileData.slug!, page.slug!)} class="internal">
-                    {title}
-                  </a>
-                </h3>
+          <li class="section-li" data-tags={tagsStr}>
+            <a href={href} class="section-link">
+              <div class="section">
+                {page.dates && (
+                  <p class="meta">
+                    <Date date={getDate(cfg, page)!} locale={cfg.locale} />
+                  </p>
+                )}
+                <div class="desc">
+                  <h3>{title}</h3>
+                </div>
               </div>
-              <ul class="tags">
-                {tags.map((tag) => (
-                  <li>
-                    <a
-                      class="internal tag-link"
-                      href={resolveRelative(fileData.slug!, `tags/${tag}` as FullSlug)}
-                    >
-                      {tag}
-                    </a>
-                  </li>
-                ))}
-              </ul>
-            </div>
+            </a>
           </li>
         )
       })}
@@ -78,10 +66,6 @@ export const PageList: QuartzComponent = ({ cfg, fileData, allFiles, limit }: Pr
 
 PageList.css = `
 .section h3 {
-  margin: 0;
-}
-
-.section > .tags {
   margin: 0;
 }
 `
