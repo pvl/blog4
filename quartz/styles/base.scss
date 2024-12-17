@@ -595,16 +595,38 @@ input {
 
   .section-li {
     margin: 0;
-    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    transition: transform 0.2s ease, box-shadow 0.2s ease, background-color 0.2s ease;
     border-radius: 12px;
     background: var(--light);
     border: 1px solid var(--lightgray);
     overflow: hidden;
+    position: relative;
+
+    .section-link {
+      text-decoration: none;
+      color: var(--darkgray);
+      background: none !important;
+      display: block;
+      height: 100%;
+
+      &:hover {
+        background: none !important;
+        color: var(--darkgray);
+      }
+    }
 
     &:hover {
       transform: translateY(-3px);
       box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
       background-color: var(--highlight);
+
+      .section {
+        .desc {
+          h3 {
+            color: var(--tertiary);
+          }
+        }
+      }
     }
 
     .section {
@@ -627,18 +649,8 @@ input {
           margin: 0;
           font-size: 1.3rem;
           line-height: 1.4;
-          
-          a {
-            text-decoration: none;
-            background: none;
-            padding: 0;
-            transition: color 0.2s ease, background-color 0.2s ease;
-            
-            &:hover {
-              color: var(--tertiary);
-              background: none;
-            }
-          }
+          transition: color 0.2s ease;
+          color: var(--secondary);
         }
       }
     }

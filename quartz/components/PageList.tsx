@@ -41,23 +41,22 @@ export const PageList: QuartzComponent = ({ cfg, fileData, allFiles, limit }: Pr
         const title = page.frontmatter?.title
         const tags = page.frontmatter?.tags ?? []
         const tagsStr = JSON.stringify(tags)
+        const href = resolveRelative(fileData.slug!, page.slug!)
 
         return (
           <li class="section-li" data-tags={tagsStr}>
-            <div class="section">
-              {page.dates && (
-                <p class="meta">
-                  <Date date={getDate(cfg, page)!} locale={cfg.locale} />
-                </p>
-              )}
-              <div class="desc">
-                <h3>
-                  <a href={resolveRelative(fileData.slug!, page.slug!)} class="internal" data-no-popover="true">
-                    {title}
-                  </a>
-                </h3>
+            <a href={href} class="section-link">
+              <div class="section">
+                {page.dates && (
+                  <p class="meta">
+                    <Date date={getDate(cfg, page)!} locale={cfg.locale} />
+                  </p>
+                )}
+                <div class="desc">
+                  <h3>{title}</h3>
+                </div>
               </div>
-            </div>
+            </a>
           </li>
         )
       })}
