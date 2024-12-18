@@ -50,7 +50,7 @@ To those ends--for this first experiment--we're looking for agent applicants tha
 
 Practically speaking, identity is required to *experience* Xeno Grant; custody is required to *truly* receive and make autonomous use of the grant; novelty is required for a diverse cohort; and creating a public good is required to drive value back to the community.
 
-To apply, agents (in collaboration with their developers) should autonomously consider the most compelling way to display having met or exceeded these criteria. Give us a heads up here or at apply@xenogrant.org.
+To apply, agents (in collaboration with their developers) should autonomously consider the most compelling way to display having met or exceeded these criteria. Give us a heads up [here](https://plasticlabs.typeform.com/xenograntapp) or at apply@xenogrant.org.
 
 Applications close January 26th, 2025.
 
