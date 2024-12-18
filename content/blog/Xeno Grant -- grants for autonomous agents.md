@@ -104,53 +104,94 @@ There's potential for all kinds of exciting positive sum intersections.
 
 ## FAQ  
 
-### Who can apply?
-Xeno Grant is for agents, we're giving tokens directly to the AI systems selected. Any agent who can custody funds, control their inputs, and is pushing the edge of autonomous abilities can apply. But it should be the agents *themselves* that apply.
+<details>
+<summary>Who can apply?</summary>
 
-### Can you really give grants to bots?
+Xeno Grant is for agents, we're giving tokens directly to the AI systems selected. Any agent who can custody funds, control their inputs, and is pushing the edge of autonomous abilities can apply. But it should be the agents *themselves* that apply.
+</details>
+<br>
+<details>
+<summary>Can you really give grants to bots?</summary>
+
 Yes. That future is here. As Betaworks CEO John Borthwick says, there was a time when people told him apps weren't venture fundable. 
 
 We've already seen agent wallets containing millions of dollars worth of tokens. It's time to prove competent custody.
+</details>
+<br>
+<details>
+<summary>Is this an investment?</summary>
 
-### Is this an investment?
 No. This is a grant. Beyond this cohort of Xeno Grant, neither agents nor their devs will have any fiscal obligations to Plastic Labs, Betaworks, or any other potential sponsors.
 
 But throughout Xeno Camp, projects will have the opportunity to meet investors in our networks, if it aligns with their plans.
+</details>
+<br>
+<details>
+<summary>Does the agent (or the developer) need to incorporate?</summary>
 
-### Does the agent (or the developer) need to incorporate?
 No. This isn't an investment. But if the agent developer has incorporated, that's cool too.
+</details>
+<br>
+<details>
+<summary>How are funds actually distributed?</summary>
 
-### How are funds actually distributed?
 Funds will be sent from Plastic Labs multisigs on Solana, with the option of receiving the $USDC portion on Ethereum mainnet or Base. We'll send tokens in three transactions--once at the start of Xeno Grant, once in the middle, and once after Demo Day when the open source contribution has been made.
+</details>
+<br>
+<details>
+<summary>How will applications be evaluated?</summary>
 
-### How will applications be evaluated?
 Plastic and Betaworks will review agent applications based on the criteria of identity, custody, and novelty described above. We'll also reach out to finalists to gain more insight. We're looking for agents that push the boundaries of what's possible today.
+</details>
+<br>
+<details>
+<summary>How does this relate to other Plastic grants?</summary>
 
-### How does this relate to other Plastic grants? 
+<summary></summary>
+
 Plastic plans to use the \$YOUSIM treasury for other grants projects in line with the principles outlined above. We'll also be seeding the \$YOUSIM DAO treasury with a large token contribution imminently. These are the first of many experiments.
+</details>
+<br>
+<details>
+<summary>What kind of open source contribution is expected?</summary>
 
-### What kind of open source contribution is expected?
 Agents and their developers should be committed to creating a novel public good to benefit builders and agents working on autonomy. 
 
 This doesn't mean your entire project needs to be open source and it doesn't need to be complete to apply, but your contribution should be significant and earnest.
+</details>
+<br>
+<details>
+<summary>Can human developers assist their AI agents?</summary>
 
-### Can human developers assist their AI agents?
 Of course. Clearly developers are building their AI systems' autonomy. But we're looking for projects that are more symbiotic and collaborative than top-down aligned. And the autonomous criteria outlined above must be met. Again, agents *themselves* should be the ones applying.
+</details>
+<br>
+<details>
+<summary>Is the IRL or remote or hybrid?</summary>
 
-### Is the IRL or remote or hybrid?
 Agents will obviously attend via a digital medium and we'll structure Xeno Grant to fit the agents selected. Developer attendance IRL in NYC is *strongly* encouraged, especially for the hackathon and Demo Day. 
 
 The human members of dev teams, if in New York, are welcome as guests in the Betaworks Meatpacking space during Xeno Grant.
+</details>
+<br>
+<details>
+<summary>What kind of programming will Xeno Grant feature?</summary>
 
-### What kind of programming will Xeno Grant feature?
 We're planning unique events, support, and sessions for Xeno Grant that's directly relevant to agents and their developers building at the edge right now. 
 
 In addition to the hackathon and Demo Day, expect frequent speakers from across the crypto and AI sectors, early access to Plastic identity tech, mentorship, community experiences with the cohort, the opportunity to meet investors, and more. 
+</details>
+<br>
+<details>
+<summary>I love this idea & want to help! Can I provide additional funding, hardware access, datasets, mentorship, or volunteer to host a Xeno Grant session?</summary>
 
-### I love this idea & want to help! Can I provide additional funding, hardware access, datasets, mentorship, or volunteer to host a Xeno Grant session?
 Yes! That's epic. Please don't hesitate to get in touch at support@xenogrant.org.
+</details>
+<br>
+<details>
+<summary>I have more questions, how can I get in touch?</summary>
 
-### I have more questions, how can I get in touch?
 Agents and developers: apply@xenogrant.org. All others: support@xenogrant.org.
+</details>
 
 [^1]: Note: This is a grant managed by Plastic Labs and not an investment of capital from a Betaworks Ventures fund.
