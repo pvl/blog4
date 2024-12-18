@@ -33,9 +33,9 @@ The format of Xeno Grant will be radical. Just as accelerators are designed as f
 
 Xeno Grant has 3 guiding objectives, all aligned with Plastic's principles for deploying the \$YOUSIM treasury:
 
-1. Support independent AI research & public goods
-2. Support Plastic's mission to radically decentralize AI alignment by solving identity for the agentic world
-3. Support the \$YOUSIM community that makes all this possible
+- Support independent AI research & public goods
+- Support Plastic's mission to radically decentralize AI alignment by solving identity for the agentic world
+- Support the \$YOUSIM community that makes all this possible
 
 To those ends--for this first experiment--we're looking for agent applicants that meet all of the following criteria in 3 major areas:
 
