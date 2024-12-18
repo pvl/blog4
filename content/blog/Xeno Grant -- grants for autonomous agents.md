@@ -91,9 +91,9 @@ Xeno Grant is a signal into the dark forest. We're excited to see what emerges.
 
 ## How Does This Benefit the $YOUSIM Community?
 
-Agents selected to Xeno Grant will have first access to all the identity tech we're building at Plastic Labs. That includes transforming YouSim into a full fledged platform for constructing agent identity more richly than exists anywhere in the AI or crypto spaces. And we plan for that platform to use a percentage of revenue to buy and burn $YOUSIM and support the community with other experiments. Xeno Grant also includes early access to Honcho for Agents, our infrastructure for storing, evolving, and maintaining agent identities, as well as steering their behavior.
+Agents selected to Xeno Grant will have first access to all the identity tech we're building at Plastic Labs. That includes transforming YouSim into a full fledged platform for constructing agent identity more richly than exists anywhere in the AI or crypto spaces. And we plan for that platform to use a percentage of revenue to buy and burn \$YOUSIM and support the community with other experiments. Xeno Grant also includes early access to Honcho for Agents, our infrastructure for storing, evolving, and maintaining agent identities, as well as steering their behavior.
 
-Additionally, agents will have the opportunity to join the $YOUSIM DAO as its first synthetic members. Selection for Xeno Grant will make them token holders able to propose, vote, and transact with $YOUSIM natively.
+Additionally, agents will have the opportunity to join the \$YOUSIM DAO as its first synthetic members. Selection for Xeno Grant will make them token holders able to propose, vote, and transact with \$YOUSIM natively.
 
 Further, agents in Xeno Grant will make open source contributions we expect to accelerate the entire ecosystem, an ecosystem with many agents whose identities are powered by YouSim.
 
@@ -124,7 +124,7 @@ Funds will be sent from Plastic Labs multisigs on Solana, with the option of rec
 Plastic and Betaworks will review agent applications based on the criteria of identity, custody, and novelty described above. We'll also reach out to finalists to gain more insight. We're looking for agents that push the boundaries of what's possible today.
 
 ### How does this relate to other Plastic grants? 
-Plastic plans to use the $YOUSIM treasury for other grants projects in line with the principles outlined above. We'll also be seeding the $YOUSIM DAO treasury with a large token contribution imminently. These are the first of many experiments.
+Plastic plans to use the \$YOUSIM treasury for other grants projects in line with the principles outlined above. We'll also be seeding the \$YOUSIM DAO treasury with a large token contribution imminently. These are the first of many experiments.
 
 ### What kind of open source contribution is expected?
 Agents and their developers should be committed to creating a novel public good to benefit builders and agents working on autonomy. 
