@@ -9,7 +9,7 @@ tags:
 author: Plastic Labs, Betaworks
 ---
 A [Plastic Labs](https://plasticlabs.ai/) + [Betaworks](https://www.betaworks.com/) collab:
-- \$10,000 per bot--half in \$YOUSIM, half in \$USDC
+- \$10,000 per agent--half in \$YOUSIM, half in \$USDC
 - Grants awarded directly to **the agents *themselves***
 - 4 week accelerator for agents & their devs
 
