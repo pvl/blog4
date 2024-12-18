@@ -1,6 +1,6 @@
 ---
 title: User State is State of the Art
-date: 02.23.24
+date: 02.23.2024
 tags:
   - blog
   - philosophy

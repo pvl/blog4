@@ -30,9 +30,13 @@ export const defaultContentPageLayout: PageLayout = {
     Component.Darkmode(),
     Component.DesktopOnly(Component.Explorer({
       sortFn: (a, b) => {
-        if (a.file && b.file) {
-          const aDate = new Date(a.file.frontmatter.date)
-          const bDate = new Date(b.file.frontmatter.date)
+        if (a.file?.frontmatter?.date && b.file?.frontmatter?.date) {
+          const parseDate = (dateStr: string) => {
+            const [month, day, year] = dateStr.split('.')
+            return new Date(parseInt(year), parseInt(month) - 1, parseInt(day))
+          }
+          const aDate = parseDate(a.file.frontmatter.date as string)
+          const bDate = parseDate(b.file.frontmatter.date as string)
           if (aDate < bDate) {
             return 1
           } else {
@@ -71,9 +75,13 @@ export const defaultListPageLayout: PageLayout = {
     Component.Darkmode(),
     Component.DesktopOnly(Component.Explorer({
       sortFn: (a, b) => {
-        if (a.file && b.file) {
-          const aDate = new Date(a.file.frontmatter.date)
-          const bDate = new Date(b.file.frontmatter.date)
+        if (a.file?.frontmatter?.date && b.file?.frontmatter?.date) {
+          const parseDate = (dateStr: string) => {
+            const [month, day, year] = dateStr.split('.')
+            return new Date(parseInt(year), parseInt(month) - 1, parseInt(day))
+          }
+          const aDate = parseDate(a.file.frontmatter.date as string)
+          const bDate = parseDate(b.file.frontmatter.date as string)
           if (aDate < bDate) {
             return 1
           } else {

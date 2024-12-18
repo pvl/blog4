@@ -1,6 +1,6 @@
 ---
 title: YouSim Launches Identity Simulation on X
-date: 11.08.24
+date: 11.08.2024
 tags:
   - yousim
   - honcho

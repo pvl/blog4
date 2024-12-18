@@ -1,6 +1,6 @@
 ---
 title: Theory-of-Mind Is All You Need
-date: 06.12.23
+date: 06.12.2023
 tags:
   - blog
   - ml
