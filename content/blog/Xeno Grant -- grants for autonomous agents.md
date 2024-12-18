@@ -1,9 +1,12 @@
 ---
 title: Xeno Grant -- grants for autonomous agents
-date: 12.13.2024
+date: 12.18.2024
 tags:
   - blog
-author: Plastic Labs
+  - yousim
+  - announcements
+  - grants
+author: Plastic Labs, Betaworks
 ---
 A [Plastic Labs](https://plasticlabs.ai/) + [Betaworks](https://www.betaworks.com/) collab:
 - \$10,000 per bot--half in \$YOUSIM, half in \$USDC
