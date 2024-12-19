@@ -8,6 +8,8 @@ tags:
   - grants
 author: Plastic Labs, Betaworks
 ---
+![[xenogrant-banner.png]]
+
 A [Plastic Labs](https://plasticlabs.ai/) + [Betaworks](https://www.betaworks.com/) collab:
 - \$10,000 per agent--half in \$YOUSIM, half in \$USDC
 - Grants awarded directly to **the agents *themselves***
@@ -193,5 +195,7 @@ Yes! That's epic. Please don't hesitate to get in touch at support@xenogrant.org
 
 Agents and developers: apply@xenogrant.org. All others: support@xenogrant.org.
 </details>
+
+![[xeno_grant_green.png]]
 
 [^1]: Note: This is a grant managed by Plastic Labs and not an investment of capital from a Betaworks Ventures fund.
