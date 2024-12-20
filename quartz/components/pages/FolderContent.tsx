@@ -33,8 +33,17 @@ export default ((opts?: Partial<FolderContentOptions>) => {
       const isDirectChild = fileParts.length === folderParts.length + 1
       return prefixed && isDirectChild
     })
+
+    // Get all unique tags
+    const allTags = new Set<string>()
+    allPagesInFolder.forEach(file => {
+      const tags = file.frontmatter?.tags ?? []
+      tags.forEach(tag => allTags.add(tag))
+    })
+    const sortedTags = Array.from(allTags).sort()
+
     const cssClasses: string[] = fileData.frontmatter?.cssclasses ?? []
-    const classes = ["popover-hint", ...cssClasses].join(" ")
+    const classes = ["popover-hint", "disable-card-preview", ...cssClasses].join(" ")
     const listProps = {
       ...props,
       allFiles: allPagesInFolder,
@@ -45,14 +54,103 @@ export default ((opts?: Partial<FolderContentOptions>) => {
         ? fileData.description
         : htmlToJsx(fileData.filePath!, tree)
 
+    // Add client-side filtering script
+    const filterScript = `
+      let isInitialized = false;
+
+      function initializeTagFiltering() {
+        // Prevent double initialization
+        if (isInitialized) {
+          return;
+        }
+
+        const selectedTags = new Set()
+        const cards = document.querySelectorAll('.section-li')
+        const countEl = document.querySelector('.folder-count')
+        const tagButtons = document.querySelectorAll('.tag-filter-btn')
+        
+        if (!cards.length || !tagButtons.length) {
+          return; // Don't initialize if elements aren't present
+        }
+
+        isInitialized = true;
+        
+        function updateVisibility() {
+          let visibleCount = 0
+          cards.forEach(card => {
+            try {
+              const tagsAttr = card.getAttribute('data-tags')
+              const tags = JSON.parse(tagsAttr || '[]')
+              const shouldShow = selectedTags.size === 0 || 
+                tags.some(tag => selectedTags.has(tag))
+              card.style.display = shouldShow ? '' : 'none'
+              if (shouldShow) visibleCount++
+            } catch (e) {
+              console.error('Error processing card:', e)
+            }
+          })
+          
+          if (countEl) {
+            const countText = ${JSON.stringify(i18n(cfg.locale).pages.folderContent.itemsUnderFolder({count: 0}))}
+            countEl.textContent = countText.replace('0', visibleCount.toString())
+          }
+        }
+
+        tagButtons.forEach(btn => {
+          // Remove any existing listeners first
+          const newBtn = btn.cloneNode(true)
+          btn.parentNode.replaceChild(newBtn, btn)
+          
+          newBtn.addEventListener('click', () => {
+            const tag = newBtn.getAttribute('data-tag')
+            if (selectedTags.has(tag)) {
+              selectedTags.delete(tag)
+              newBtn.classList.remove('selected')
+            } else {
+              selectedTags.add(tag)
+              newBtn.classList.add('selected')
+            }
+            updateVisibility()
+          })
+        })
+      }
+
+      // Initialize on first load
+      initializeTagFiltering()
+      
+      // Handle client-side navigation
+      document.addEventListener('nav', () => {
+        isInitialized = false;
+        setTimeout(initializeTagFiltering, 0)
+      })
+
+      // Backup initialization for edge cases
+      if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', initializeTagFiltering)
+      } else {
+        setTimeout(initializeTagFiltering, 0)
+      }
+    `
+
     return (
       <div class={classes}>
         <article>
           <p>{content}</p>
         </article>
         <div class="page-listing">
+          <div class="tag-filter">
+            {sortedTags.map(tag => (
+              <button
+                data-tag={tag}
+                class="tag-filter-btn"
+                type="button"
+              >
+                {tag}
+              </button>
+            ))}
+          </div>
           {options.showFolderCount && (
-            <p>
+            <p class="folder-count">
               {i18n(cfg.locale).pages.folderContent.itemsUnderFolder({
                 count: allPagesInFolder.length,
               })}
@@ -62,6 +160,7 @@ export default ((opts?: Partial<FolderContentOptions>) => {
             <PageList {...listProps} />
           </div>
         </div>
+        <script dangerouslySetInnerHTML={{ __html: filterScript }} />
       </div>
     )
   }
