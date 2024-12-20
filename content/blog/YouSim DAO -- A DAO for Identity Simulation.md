@@ -21,7 +21,7 @@ Plastic launched its [grants program](https://blog.plasticlabs.ai/careers/Resear
 
 The $YOUSIM community that's formed has been incredible. It's 12k token holders strong with a significant foundation of enthusiasts excited not just by price, but by the longterm potential for identity simulation (including the tech being built by Plastic) to fundamentally shift the landscape of both crypto and artificial intelligence.
 
-And there's a clear hunger within that community for a substantive place to organize and grow. So today we're officially announcing the formation of [YouSim DAO](https://discord.gg/yousim) and [Plastic has seeded the community-owned treasury with 10M $YOUSIM tokens](https://solscan.io/tx/3rTcQzb4Pme4E3aKQpvMHLWiSqAwpra8UWzxQW8ruG2d8w5A466qWS4hmvcX5QJwn8aj8tLEQHgtvJpUu2gBagPa) to accelerate the effort, with more support to follow.
+And there's a clear hunger within that community for a substantive place to organize and grow. So today we're officially announcing the formation of [YouSim DAO]([https://discord.gg/yousim](https://discord.gg/yousim) and [Plastic has seeded the community-owned treasury with 10M $YOUSIM tokens](https://solscan.io/tx/3rTcQzb4Pme4E3aKQpvMHLWiSqAwpra8UWzxQW8ruG2d8w5A466qWS4hmvcX5QJwn8aj8tLEQHgtvJpUu2gBagPa) to accelerate the effort, with more support to follow.
 
 All are welcome to join, collab, and submit proposals. All token holders will have the ability to vote and participate in all other $YOUSIM utility that emerges.
 
