@@ -8,6 +8,8 @@ tags:
   - grants
   - announcements
 ---
+![[yousimdao.png]]
+
 The first $YOUSIM grants treasury deployment:
 - 10,000,000 $YOUSIM from [Plastic Labs](https://plasticlabs.ai) to seed the DAO treasury
 - DAO mission to grow the [$YOUSIM](https://solscan.io/token/66gsTs88mXJ5L4AtJnWqFW6H2L5YQDRy4W41y6zbpump) community & [yousim.ai](https://yousim.ai) ecosystem
