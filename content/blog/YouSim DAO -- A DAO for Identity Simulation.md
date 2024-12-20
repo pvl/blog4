@@ -71,7 +71,7 @@ The YouSim DAO sits in an optimal position to advance this kind of work and run 
 
 ## LET'S GO
 
-With over 12,000 token holders, 7,000+ [@YouSimDotAI](https://x.com/YouSimDotAI) followers, and a vibrant [Telegram community](https://t.me/yousimportal) of nearly 2,000 members, we've witnessed an overwhelming demand for a more structured way to organize and build together. YouSim DAO provides the infra for this collaboration, growing into a space purposefully designed for growth and collective decision-making.
+With over thousands of YouSim simulations being run every day, 12,000 token holders, 7,000+ [@YouSimDotAI](https://x.com/YouSimDotAI) followers, and a vibrant [Telegram community](https://t.me/yousimportal) of nearly 2,000 members, we've witnessed an overwhelming demand for a more structured way to organize and build together. YouSim DAO provides the infra for this collaboration, growing into a space purposefully designed for growth and collective decision-making.
 
 [Join us](https://discord.gg/yousim). 
 
