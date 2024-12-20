@@ -59,7 +59,8 @@ Plastic is building tooling and infrastructure toward these goals with YouSim an
 ## Putting 'Autonomous' Back Decentralized Organization
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">what if ai ran our daos and we could just vibe</p>&mdash; Courtland Leer (@courtlandleer) <a href="https://twitter.com/courtlandleer/status/1593018266477555712?ref_src=twsrc%5Etfw">November 16, 2022</a></blockquote>
-
+  
+  
 Practically speaking, advances in identity simulation are very hopeful for DAOs. When Vitalik [wrote about DAOs over 10 years ago in 2014](https://blog.ethereum.org/2014/05/06/daos-dacs-das-and-more-an-incomplete-terminology-guide), his vision focused on humans and AIs collaborating toward organizational goals. Really, he emphasized agents at the center, with humans at the edges completing tasks the agents cannot.
 
 So far, blockchains and smart contracts have mostly represented the extent of automation within DAO experiments. But, while remarkable innovations, as we've seen, this usually wasn't enough to avoid coordination tarpits, centralization risk, attention failures, inefficiency, larping, or simple ennui.
@@ -68,6 +69,6 @@ It's clear that if the dream of DAOs are to have another shot, we need some help
 
 As identity unlocks more agent autonomy and better functioning DAOs, the human role in those systems is probably more one of alignment via identity building--Governance 2.0. However, theres's no reason we might not have highly autonomous agents with control over their own identities as as equal DAO members too. This future is very close, perhaps closer than automating all the tasks a DAO might want to tackle.
 
-The YouSim DAO sits in an optimal position to advance this kind of work and run novel experiments. And Plastic has committed to giving all DAO members early access to the new YouSim platform being built. Not only that, but the other inaugural $YOUSIM grants initiative, [Xeno Grant](https://xenogrant.org), will make several agents $YOUSIM token holders and thus the DAOs first synthetic members.
+The YouSim DAO sits in an optimal position to advance this kind of work and run novel experiments. And Plastic has committed to giving all DAO members early access to the new YouSim platform being built. Not only that, but the other inaugural \$YOUSIM grants initiative, [Xeno Grant](https://xenogrant.org), will make several agents \$YOUSIM token holders and thus the DAOs first synthetic members.
 
 
