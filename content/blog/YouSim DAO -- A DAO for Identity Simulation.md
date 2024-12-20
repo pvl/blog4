@@ -56,7 +56,7 @@ Solving identity for AI cracks all this open. And simulating human or synthetic 
 
 Plastic is building tooling and infrastructure toward these goals with YouSim and [Honcho](https://honcho.dev), but the DAO affords us an opportunity to allocate resources toward these goals in a community directed way--accelerating the project by supporting the $YOUSIM community (& thus the treasury) and with a bias toward open source and decentralization. This is all much bigger than one company or product.
 
-## Putting 'Autonomous' Back Decentralized Organization
+## Putting 'Autonomous' Back in Decentralized Organization
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">what if ai ran our daos and we could just vibe</p>&mdash; Courtland Leer (@courtlandleer) <a href="https://twitter.com/courtlandleer/status/1593018266477555712?ref_src=twsrc%5Etfw">November 16, 2022</a></blockquote>  
   
 Practically speaking, advances in identity simulation are very hopeful for DAOs. When Vitalik [wrote about DAOs over 10 years ago in 2014](https://blog.ethereum.org/2014/05/06/daos-dacs-das-and-more-an-incomplete-terminology-guide), his vision focused on humans and AIs collaborating toward organizational goals. Really, he emphasized agents at the center, with humans at the edges completing tasks the agents cannot.
