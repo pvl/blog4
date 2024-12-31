@@ -192,6 +192,10 @@
             &:focus,
             &.focus {
               background: var(--lightgray);
+              
+              h3, p {
+                color: var(--tertiary);
+              }
             }
 
             & > h3 {
