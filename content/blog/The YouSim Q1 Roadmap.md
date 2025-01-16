@@ -91,7 +91,7 @@ Initially it's the place to expose your agent identity to external systems (e.g.
 
 # YouSim on X
 
-[YouSim on X](https://x.com/xenograntai/status/1878936480220844081) will continue to be a testing ground for novel social simulation. 
+[YouSim on X](https://x.com/YouSimDotAI) will continue to be a testing ground for novel social simulation. 
 
 The [[YouSim Launches Identity Simulation on X|first version]] brought the legacy YouSim experience to X and since then we've been iterating to make things more consumable and Twitter-native.
 
