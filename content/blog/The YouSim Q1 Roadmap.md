@@ -97,7 +97,7 @@ The [[YouSim Launches Identity Simulation on X|first version]] brought the legac
 
 Going forward, we'll be running experiments around new kinds of simulation and attention mechanisms. More specifically, we're focused on interesting sim triggers and context pipelines.
 
-#### Experiments We Want to Run
+### Experiments We Want to Run
 
 - Updates to trending topic selection
 - More audience-specific topic selection (tech, AI, crypto, etc)
