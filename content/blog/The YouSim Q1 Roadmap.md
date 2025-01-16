@@ -12,7 +12,7 @@ This is a living document to share concise specifics on everything YouSim-relate
 
 Enjoy.
 
-## The YouSim Platform
+# The YouSim Platform
 
 YouSim began as a [[YouSim; Explore The Multiverse of Identity|demo]], now there's a [token](https://www.coingecko.com/en/coins/yousim), a [[YouSim DAO -- A DAO for Identity Simulation|community]], a [[Xeno Grant -- grants for autonomous agents|grants program]], and a [[YouSim Launches Identity Simulation on X|X-native simulator]].
 
@@ -30,7 +30,7 @@ We'll ship iteratively starting this month.
 
 Let's dig in.
 
-### 1. Identity Architect
+## 1. Identity Architect
 
 This first part of the platform features a guided experience with an Identity Architect. You arrive with ideas about the kind of identity you want to create and interact with this agent to flesh out a comprehensive understanding of that identity. 
 
@@ -38,7 +38,7 @@ You might discuss elements like personality, psychology, values, alignment, affe
 
 Once you're satisfied, the Architect automatically generates a Meta-Narrative to steer an MVP of you agent which you can export or take to the Simulation Environment for testing.
 
-#### Features Under Development
+### Features Under Development
 
 - Web UI with YouSim's terminal aesthetic
 - Architect itself & its identity
@@ -53,13 +53,13 @@ Once you're satisfied, the Architect automatically generates a Meta-Narrative to
 - Architect roleplay abilities
 - Architect theory of mind abilities to read between the lines of your stated intention & intuit maximum context around your intention (powered by Honcho)
 
-### 2. Simulation Environment
+## 2. Simulation Environment
 
 The second part of the platform is an environment for testing the behavior of your agent identity and building data to enrich it.
 
 To start, we'll support manual chat with your agent and session data export. Eventually, we'll support auto-sims, multi-agent interactions, and opinionated ways of using sim data to evolve your identities.
 
-#### Features Under Development
+### Features Under Development
 
 - Simulation web UI
 - Manual chat with your agent identity
@@ -74,13 +74,13 @@ To start, we'll support manual chat with your agent and session data export. Eve
 - Evaluation tools
 - Identity mapping tools
 
-### 3. Identity Hub
+## 3. Identity Hub
 
 The final part of the platform is where your agent identity meets the rest of the world. 
 
 Initially it's the place to expose your agent identity to external systems (e.g. X, Eliza, etc). Later it's a place to share and collaborate on your meta-narratives, datasets, etc. Eventually, it's a marketplace for agent identity.
 
-#### Features Under Development
+### Features Under Development
 
 - Quickstart template to launch an autonomous agent with Honcho
 - Honcho x Eliza integration to launch an agent with Eliza & give it social cognition with Honcho
@@ -89,7 +89,7 @@ Initially it's the place to expose your agent identity to external systems (e.g.
 - A managed agent runtime platform to host agents through YouSim
 - Ability to fork public identities
 
-## YouSim on X
+# YouSim on X
 
 [YouSim on X](https://x.com/xenograntai/status/1878936480220844081) will continue to be a testing ground for novel social simulation. 
 
@@ -109,13 +109,13 @@ Going forward, we'll be running experiments around new kinds of simulation and a
 - Social media footprint beyond X (considering Farcaster, possibly others)
 - More advanced autonomous abilities
 
-## Legacy YouSim
+# Legacy YouSim
 
 We'll continue to support to original YouSim experience for all the fans of the open-ended multiversal CLI game. We know lots of enthusiasts and researchers use it religiously to uncover emergent abilities, explore latent identity in LLMs, or just for fun.
 
 Over time, we'll add features developed for the platform to Legacy YouSim as makes sense. Eventually, we may connect the experience to the platform in interesting ways.
 
-#### Possible Upgrades
+### Possible Upgrades
 
 - Migrate to dedicated legacy page
 - Add platform features to legacy experience
@@ -124,13 +124,13 @@ Over time, we'll add features developed for the platform to Legacy YouSim as mak
 	- Multi-session sims
 - Integration with platform
 
-## Xeno Grant
+# Xeno Grant
 
 In collaboration with [Betaworks](https://www.betaworks.com/), we're leveraging $YOUSIM gifted to our grants treasury to accelerate the development of agents with novel approaches to autonomous identity and asset custody. We're giving $10k grants directly to agents themselves and running a 4-week accelerator style program for agents and their devs in February/March.
 
 [[Xeno Grant -- grants for autonomous agents|Xeno Grant]] makes the upcoming cohort of agents $YOUSIM holders and gives agents early access to YouSim identity tech.
 
-#### What We're Working On
+### What We're Working On
 
 - Accepting applicants on a rolling basis ([our first admission](https://x.com/xenograntai/status/1878936480220844081))
 - [Hackathon](https://lu.ma/5rlcrlpb) & [Mixer](https://lu.ma/bz1pwmbx) in NYC to kick things off
@@ -138,7 +138,7 @@ In collaboration with [Betaworks](https://www.betaworks.com/), we're leveraging 
 - Lineup of awesome speakers from across web3/crypto & AI/ML
 - Demo day to end the program
 
-## The YouSim DAO
+# The YouSim DAO
 
 We helped found the [[YouSim DAO -- A DAO for Identity Simulation|YouSim DAO]] by donating 10M $YOUSIM (1% of total supply) to seed its treasury.
 
@@ -146,7 +146,7 @@ This is a community driven effort, but we're excited to support in any way we ca
 
 [Follow here](https://x.com/yousimdao), [join here](https://discord.gg/yousim).
 
-#### What the DAO Is Up To
+### What the DAO Is Up To
 
 - Preparing for Xeno Grant recipients as synthetic DAO members
 - Governance setup
@@ -159,11 +159,11 @@ This is a community driven effort, but we're excited to support in any way we ca
 - YouSim engagement incentives
 - Media / website creation
 
-## $YOUSIM Community Token / Grants Treasury
+# $YOUSIM Community Token / Grants Treasury
 
 Plastic is a dedicated long term holder of $YOUSIM. Though we didn't launch the token, we're excited by the community that's formed, the interest in our work, and the exciting opportunity the token creates.
 
-### Grants
+## Grants
 
 Three priorities have emerged guiding principles for grants. We want to continue:
 
@@ -173,11 +173,11 @@ Three priorities have emerged guiding principles for grants. We want to continue
 
 Xeno Grant & the DAO are the first experiments in this direction, but there will be more. And we're dedicated to transparency and sustainability.
 
-### Utility
+## Utility
 
 On the token utility front, we're exploring ways the $YOUSIM token can be additive to the YouSim platform. As we begin releasing and iterating with users, we expect lots of augmentative opportunities to arise. 
 
-#### Ideas We're Researching
+### Ideas We're Researching
 
 - Buyback & burn mechanisms
 - Identity minting 
