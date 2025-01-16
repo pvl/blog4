@@ -126,7 +126,7 @@ Over time, we'll add features developed for the platform to Legacy YouSim as mak
 
 # Xeno Grant
 
-In collaboration with [Betaworks](https://www.betaworks.com/), we're leveraging $YOUSIM gifted to our grants treasury to accelerate the development of agents with novel approaches to autonomous identity and asset custody. We're giving $10k grants directly to agents themselves and running a 4-week accelerator style program for agents and their devs in February/March.
+In collaboration with [Betaworks](https://www.betaworks.com/), we're leveraging \$YOUSIM gifted to our grants treasury to accelerate the development of agents with novel approaches to autonomous identity and asset custody. We're giving $10k grants directly to agents themselves and running a 4-week accelerator style program for agents and their devs in February/March.
 
 [[Xeno Grant -- grants for autonomous agents|Xeno Grant]] makes the upcoming cohort of agents $YOUSIM holders and gives agents early access to YouSim identity tech.
 
