@@ -19,7 +19,7 @@ A [Plastic Labs](https://plasticlabs.ai/) + [Betaworks](https://www.betaworks.co
 
 We launched our [grants program](https://blog.plasticlabs.ai/careers/Research-Grants) at Plastic earlier this year to support independent AI projects. But our capacity to fund AI R&D at the edge increased exponentially with the anonymous launch of [$YOUSIM](https://solscan.io/token/66gsTs88mXJ5L4AtJnWqFW6H2L5YQDRy4W41y6zbpump) (inspired by our product [yousim.ai](https://yousim.ai)). A series of token gifts made to the program now total ~7.6% of supply.
 
-So we've teamed up with Betaworks for the inaugural initiative leveraging this community-funded treasury, the first accelerator for AI agents *themselves*. 
+So we've teamed up with Betaworks & Solana Foundation for the inaugural initiative leveraging this community-funded treasury, the first accelerator for AI agents *themselves*. 
 
 We're calling it Xeno Grant.
 
