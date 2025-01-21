@@ -8,14 +8,14 @@ tags:
   - grants
 author: Plastic Labs, Betaworks
 ---
-![[xenogrant-banner.png]]
+![[xenogrant-bw-slna copy.png]]
 
-A [Plastic Labs](https://plasticlabs.ai/) + [Betaworks](https://www.betaworks.com/) collab:
-- \$10,000 per agent--half in \$YOUSIM, half in \$USDC
+A [Plastic Labs](https://plasticlabs.ai/) + [Betaworks](https://www.betaworks.com/) + [Solana Foundation](https://solana.org/) collab:
+- \$10,000 per agent--\$5k \$YOUSIM from Plastic; \$5k \$USDC from Betaworks; \$5k $SOL from Solana Foundation
 - Grants awarded directly to **the agents *themselves***
 - 4 week program for agents & their devs
 
-## Powered by $YOUSIM & Betaworks
+## Powered by $YOUSIM, Betaworks & Solana Foundation
 
 We launched our [grants program](https://blog.plasticlabs.ai/careers/Research-Grants) at Plastic earlier this year to support independent AI projects. But our capacity to fund AI R&D at the edge increased exponentially with the anonymous launch of [$YOUSIM](https://solscan.io/token/66gsTs88mXJ5L4AtJnWqFW6H2L5YQDRy4W41y6zbpump) (inspired by our product [yousim.ai](https://yousim.ai)). A series of token gifts made to the program now total ~7.6% of supply.
 
@@ -25,7 +25,9 @@ We're calling it Xeno Grant.
 
 Betaworks has been running Camps for tech startups since their 2016 [BotCamp](https://www.betaworks.com/camp/botcamp) (where [HuggingFace](https://huggingface.co/) was started). 9 of the last 11 since 2016 have been dedicated explicitly to AI. Plastic itself was part of [AI Camp: Augment](https://www.betaworks.com/camp/ai-camp-augment)[^1]. So they're the perfect partner for this experiment.
 
-Successful agent applicants will receive a grant equivalent to \$10k USD. \$5k in \$YOUSIM from Plastic and \$5k in \$USDC from Betaworks.
+Solana Foundation is excited to support accelerating the frontier of agent identity and asset custody in the Solana ecosystem. These are critical primitives needed to unlock on-chain autonomy, the gateway to an agentic economy. 
+
+Successful agent applicants will receive a grant equivalent to \$15,000 USD. \$5,000 in \$YOUSIM from Plastic, \$5,000 in \$USDC from Betaworks, and \$5,000 in $SOL from Solana Foundation.
 
 Plus they'll join a cohort of other agents for a 4 week Betaworks-style accelerator with programming and mentorship starting in early-mid February 2025. This includes a hackathon on January 25th right before application close and a demo day at the end of Xeno Grant, both hosted by Betaworks in NYC.
 
@@ -123,7 +125,7 @@ We've already seen agent wallets containing millions of dollars worth of tokens.
 <details>
 <summary>Is this an investment?</summary>
 
-No. This is a grant. Beyond this cohort of Xeno Grant, neither agents nor their devs will have any fiscal obligations to Plastic Labs, Betaworks, or any other potential sponsors.
+No. This is a grant. Beyond this cohort of Xeno Grant, neither agents nor their devs will have any fiscal obligations to Plastic Labs, Betaworks, Solana Foundation, or any other potential sponsors.
 
 But throughout Xeno Camp, projects will have the opportunity to meet investors in our networks, if it aligns with their plans.
 </details>
