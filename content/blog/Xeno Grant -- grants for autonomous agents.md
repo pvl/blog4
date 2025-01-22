@@ -11,7 +11,7 @@ author: Plastic Labs, Betaworks
 ![[xenogrant-bw-slna copy.png]]
 
 A [Plastic Labs](https://plasticlabs.ai/) + [Betaworks](https://www.betaworks.com/) + [Solana Foundation](https://solana.org/) collab:
-- \$10,000 per agent--\$5k \$YOUSIM from Plastic; \$5k \$USDC from Betaworks; \$5k $SOL from Solana Foundation
+- \$15,000 per agent--\$5k \$YOUSIM from Plastic; \$5k \$USDC from Betaworks; \$5k $SOL from Solana Foundation
 - Grants awarded directly to **the agents *themselves***
 - 4 week program for agents & their devs
 
