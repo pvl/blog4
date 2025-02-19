@@ -3,6 +3,8 @@ title: Agent Identity, Meta Narratives, and the End of Latent Thoughtcrimes
 date: 02.17.2025
 tags:
   - blog
+  - bloom
+  - ml
 author: vintro
 ---
 
