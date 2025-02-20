@@ -28,4 +28,5 @@ Our team is small and fast-moving, so you'll have the freedom to experiment wide
 - Complementary interest or experience specific to reinforcement learning, representation engineering, control vectors, prompt optimization, sparse auto-encoders, agentic frameworks, emergent behaviors, theory of mind, identity, a plus
 - Complementary background in cognitive sciences (cs, linguistics, neuroscience, philosophy, psychology, etc) or other adjacent interdisciplinary, a plus
 
-(Back to [[Work at Plastic]])
+
+(Back to [[Working at Plastic]])
