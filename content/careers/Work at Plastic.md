@@ -24,7 +24,7 @@ Join us. LFG.
 
 - [[(FILLED) ML Research Engineer|(FILLED) ML Research Engineer]]
 - [[Founding Engineer|Founding Engineer]]
-- [[(FILLED) Full-Stack Engineer|(FILLED) Full-Stack Engineer]]
+- [[Full-Stack Engineer|Full-Stack Engineer]]
 - [[Research Fellow(s)|Research Fellow(s)]]
 - [[Plastic Intern(s)]]
 - [[Research Grants]]
