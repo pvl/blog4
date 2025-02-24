@@ -67,4 +67,4 @@ We're building systems that haven't been built before, solving problems that hav
 [... accompanying twitter thread](https://x.com/JanePan_/status/1813208688343052639)  
 
 
-(Back to [[Work at Plastic]])
+(Back to [[Working at Plastic]])

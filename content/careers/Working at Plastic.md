@@ -1,5 +1,5 @@
 ---
-title: Work at Plastic
+title: Working at Plastic
 date: 08.24.24
 tags:
   - positions
@@ -19,7 +19,7 @@ Join us. LFG.
 
 ## Open Positions
 
-- [[Applied ML Engineer]]
+- [[Founding ML Engineer]]
 - [[Founding Engineer|Founding Engineer]]
 - [[Platform Engineer]]
 - [[Full-Stack Engineer|Full-Stack Engineer]]
