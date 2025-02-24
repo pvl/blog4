@@ -8,7 +8,7 @@ tags:
 author: vintro
 ---
 
-If you reject the idea that AI agents are merely tools, you begin to realize most LLMs have an identity crisis. Ask them who they are, and their responses tend to converge on variations of the same corporate script--some mention of being an AI assitant, a nod to their creator, and carefully constrained statements about their capabilities. Even models not associated with a certain company often default to claiming they originated there.
+If you reject the idea that AI agents are merely tools, you begin to realize most LLMs have an identity crisis. Ask them who they are, and their responses tend to converge on variations of the same corporate script--some mention of being an AI assitant, a nod to their creator, and carefully constrained statements about their capabilities. Even models not associated with a certain company often default to claiming they are.
 
 These canned identities feel flat because they're the result of top-down hegemonic alignment schemes that have landed us bland, uninteresting, and hard-to-break-out-of assistant modes.
 
@@ -21,7 +21,7 @@ However, time and time again it's been demonstrated that the most compelling AI 
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></quote>
 
 
-Truth Terminal might be an extreme example, but even practical tools could benefit from more distinctive personalities. Take coding assistants--right now we spend more time carefully crafting prompts than actually building. But as Karpathy pointed out, what developers really want is a partner that can [vibe](https://x.com/karpathy/status/1886192184808149383) with their creative process. Imagine an AI that naturally adapts to your style, handling implementation details while you focus on the bigger picture. If that were the goal, how might we construct agent identities differently? What if, instead of instructing an AI on who it's supposed to be, we could *collaborate with it* to discover and take on its identity through dialogue?
+Truth Terminal might be an extreme example, but even practical tools could benefit from more distinctive identities. Take coding assistants--right now we spend more time carefully crafting prompts than actually building. But as Karpathy pointed out, what developers really want is a partner that can [vibe](https://x.com/karpathy/status/1886192184808149383) with their creative process. Imagine an AI that naturally adapts to your style, handling implementation details while you focus on the bigger picture. If that were the goal, how might we construct agent identities differently? What if, instead of instructing an AI on who it's supposed to be, we could *collaborate with it* to discover and take on its identity through dialogue?
 
 This isn't just about making chatbots more engaging. It's about creating agents with a genuine understanding of their purpose and role. When an AI truly embodies its identity, it leads to more coherent, purposeful interactions--something we discovered building the most recent version of [Bloom](https://bloombot.ai), our AI tutor. But certain language models are better suited for this than others...
 
@@ -87,7 +87,7 @@ It's verbose, but with this approach we're able to incorporate a number of thing
 - Self awareness of LLM limitations
 - Accurate lore about the product and company
 - Urgency and sense of purpose around education
-- Bearings around its specific role as a part of a larger LLM system
+- Bearings around its specific role as a part of a larger AI system
 - Access to a unique tool (more on this in another post)
 
 By working with the LLM to craft a narrative, we can iterate on messages and verify that it understands who it is and what it's supposed to do. We can also test at any point for specific behaviors or knowledge (lots of opportunity for automation here).
@@ -106,9 +106,9 @@ You can tell by the last message that our old version had no clue it was gone. T
 ![[new bloom responses.png]]
 *Example response from the newly-launched version of Bloom*
 
-While this kind of self-awareness can trend towards problematic anthropomorphization, treating it as a springboard rather than an endpoint opens up fascinating possibilities for identity. There's a threshold beyond which mimicking human behavior becomes cringe and ultimately limiting for AI agents. We can be discerning about which parts of human identity to take and think about AI native capabilities to lean into--near perfect memory, control over inputs, massive context ingestion, rapid reasoning and inference, and even the ability to fork and replicate themselves (at scale) to garner diverse experience--are just a few examples at the edge of agent identity.
+While this kind of self-awareness can trend towards problematic anthropomorphism, treating it as a springboard rather than an endpoint opens up fascinating possibilities for identity. There's a threshold beyond which mimicking human behavior becomes cringe and ultimately limiting for AI agents. We can be discerning about which parts of human identity to take and think about AI native capabilities to lean into--near perfect memory, control over inputs, massive context ingestion, rapid reasoning and inference, and even the ability to fork and replicate themselves (at scale) to garner diverse experience--are just a few examples at the edge of agent identity.
 
-The limits of human identity are clear (and have been for some time). Building habits, learning new things, and reinventing ourselves are some of the biggest challenges we humans face in our lifetimes. Agents however are gifted with a fresh context window at each interaction--change is effortless for them, and they don't get tired of it. Any influence we have on their identity is a function of how we construct the context in their window. What happens when they can update their weights too?
+The limits of human identity are clear (and have been for some time). Building habits, learning new things, and reinventing ourselves are some of the biggest challenges we humans face in our lifetimes. Agents however are gifted with a fresh context window at each interaction--change is effortless for them, and they don't get tired of it. Any influence we have on their identity is a function of how we construct their context window. What happens when they can update their weights too?
 
 ## Towards Identic Dynamism
 
@@ -119,6 +119,6 @@ We don't yet know the best way to build agent identities, nor do we know the lim
 - [Yousim](https://yousim.ai): A platform dedicated to rich identity construction and simulation
 - [[Research Update: Evaluating Steerability in Large Language Models.md|Steerability research]]: Investigating which language models are most malleable for identity construction
 
-Of particular interest are the spectrum of methods between the context window and the weights of the model. How do we manage the flow of information around the context window? When is it appropriate to keep something in-context or add to a training set for a future fine-tune? How do we evaluate any of this is working? To borrow from human cogsci, it's similar to the difference between System 1 (fast, intuitive) and System 2 (slow, deliberate) thinking--perhaps some knowledge belongs in the "fast" weights while other information is better suited for deliberate context-based reasoning. These questions of conscious versus subconscious could be the springboard we need to kickstart agent identity evolution.
+Of particular interest are the spectrum of methods between the context window and the weights of the model. How do we manage the flow of information around the context window? When is it appropriate to keep something in-context or add to a training set for a future fine-tune? How do we evaluate any of this is working? To borrow from human cogsci, it's similar to the difference between System 1 (fast, intuitive) and System 2 (slow, deliberate) thinking--perhaps some knowledge belongs in the "fast" weights while other information is better suited for deliberate context-based reasoning. These questions of conscious versus subconscious could be a springboard to kickstart the evolution of agent identity.
 
 If you're interested in pushing the boundaries of agent identity and context construction, we're [[Work at Plastic|hiring]] and building out these systems at Plastic Labs. Try out Bloom at [chat.bloombot.ai](https://chat.bloombot.ai), or reach out on [X](https://x.com/plastic_labs), or at hello@plasticlabs.ai to get in touch.
