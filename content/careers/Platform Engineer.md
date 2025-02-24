@@ -9,6 +9,7 @@ tags:
 (NYC, Full-Time)
 
 ## About the Role
+
 We're searching for a platform engineer to build and scale Honcho's infrastructure, ensuring our user representation system remains performant, reliable, and secure as we push the boundaries of AI personalization.
 
 This role focuses on the critical backend and infrastructure components that power our platform. You'll work on performance optimization, auto-scaling systems, and security while contributing to core backend feature development. We need someone who can balance infrastructure reliability with shipping new capabilities, thinking deeply about system architecture while writing production code.
@@ -16,6 +17,7 @@ This role focuses on the critical backend and infrastructure components that pow
 This is an opportunity to shape the foundation of a novel technological system. If you're passionate about building robust, scalable infrastructure and writing high-performance backend code that powers next-generation AI systems, we want to hear from you.
 
 ## About You
+
 - 2-4 years experience in similar roles or equivalent
 - High cultural alignment with Plastic Labs' ethos
 - NYC-based or open to NYC relocation
