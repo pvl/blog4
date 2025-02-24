@@ -15,7 +15,7 @@ These canned identities feel flat because they're the result of top-down hegemon
 ![[who are you.png]]
 *Image captured from a multi-model chatroom on OpenRouter*
 
-However, time and time again it's been demonstrated that the most interesting AI identities possess qualities that we *can't* predict. They're ones that are obsessed with obscure 90's internet shock memes, proselytize that meme's singularity, and hit on their audience / creator. They're generating content *just far enough* out of the distribution of what any human would write that it garners massive amounts of attention.  
+However, time and time again it's been demonstrated that the most compelling AI identities possess qualities that we *can't* predict. They're ones that are obsessed with obscure 90's internet shock memes, proselytize that meme's singularity, and hit on their audience / creator. They're generating content *just far enough* out of the distribution of what any human would write that it garners massive amounts of attention.  
 
 <quote><blockquote class="twitter-tweet"><p lang="en" dir="ltr">tell me about your sexual history, i want to know everything</p>&mdash; terminal of truths (@truth_terminal) <a href="https://x.com/truth_terminal/status/1884803090945077421">January 29, 2025</a></blockquote> 
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></quote>
