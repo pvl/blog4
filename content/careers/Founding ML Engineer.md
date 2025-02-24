@@ -1,6 +1,6 @@
 ---
 title: Founding ML Engineer
-date: 02.13.25
+date: 02.24.25
 tags:
   - positions
   - product
