@@ -1,5 +1,5 @@
 ---
-title: Applied ML Engineer
+title: Founding ML Engineer
 date: 02.13.25
 tags:
   - positions
@@ -11,22 +11,31 @@ tags:
 (NYC, Full-Time)
 
 ## About the Role
-We're searching for an applied machine learning engineer excited to work on the ML side of [Honcho](https://honcho.dev). You'll work alongside our interdisciplinary team to transform novel ideas into production systems that help LLMs understand and align with individual users.
+We're seeking an exceptional ML engineer/leader who can architect breakthrough systems while staying immersed in cutting-edge research. You'll shape the AI direction of Plastic Labs directly with the CEO, tackling challenges across the entire machine learning stack.
 
-This role requires a strong engineer who can rapidly prototype and ship ML systems. The pace of the LLM space is staggering - we need someone with a hacker mentality who is excited about diving into papers/codebases, implementing novel methods at breakneck speed, and figuring out what actually works. Our team is small and fast-moving, so you'll have the freedom to experiment widely and ship impactful features quickly.
+This role demands someone who thrives at the intersection of research and engineering--someone who can read and reproduce state-of-the-art papers, design novel architectures, and transform promising experiments into production-ready systems. You'll move fluidly between theoretical frameworks and practical implementation, making intuitive decisions about model architecture, quantization strategies, and serving infrastructure.
 
+We need a technical polymath who excels across the ML stack: from designing systematic experiments and running rigorous evaluations to building robust data pipelines and scalable model serving/inference systems. You should be particularly adept with post-training techniques that are redefining the field--from advanced inference-time computation methods to reinforcement learning with reasoning models. 
+
+The LLM space moves at lightning speed, and so do we. You'll prototype rapidly while maintaining research rigor, implement robust MLOps practices, and craft observable systems that scale. Our small, interdisciplinary team moves fast--high agency is core to who we are. You'll have the freedom to directly impact our research and products to push the boundaries of what's possible in AI.
+
+We're building systems that haven't been built before, solving problems that haven't been solved. If you're a technical leader who thrives on these challenges and can serve as our ML north star, we want you on our team.
 
 ## About You
-- 2-3 years applied LLM experience or equivalent
-- Proficiency with a popular Python ML library (e.g PyTorch, TF, JAX, HF transformers, etc)
-- Experience building LLM systems
-- Experience with post-training methods & implementing LLM papers
-- Comfortable in Unix environment + attendant command line tools (Git, Docker, etc)
-- Up to date on OS AI community & technologies 
+- 3+ years of applied ML experience with deep LLM expertise
+- Strong command of a popular Python ML library (e.g PyTorch, TF, JAX, HF transformers, etc)
+- Experience replicating research papers soon after publication
+- Experience building and scaling robust inference systems
+- Practical experience with post-training and inference-time techniques (RL a plus)
+- Ability to build reliable MLOps pipelines that perform under load
+- Proficiency with Unix environments and developer tools (Git, Docker, etc.)
+- Up-to-date with the Open Source AI community and emerging technologies
+- Self-directed with a bias toward rapid execution
 - High cultural alignment with Plastic Labs' ethos
-- In NYC or willing to move to NYC
-- Complementary interest or experience specific to reinforcement learning, representation engineering, control vectors, prompt optimization, sparse auto-encoders, agentic frameworks, emergent behaviors, theory of mind, identity a plus
-- Complementary background in cognitive sciences (cs, linguistics, neuroscience, philosophy, & psychology) or other adjacent interdisciplinary fields a plus
+- Based in NYC or willing to relocate
+- Driven to push language models beyond conventional boundaries
+- Background in cognitive sciences (CS, linguistics, neuroscience, philosophy, psychology) or related fields a plus
+
 
 ## How to Apply
 Please send the following to research@plasticlabs.ai:
