@@ -38,6 +38,8 @@ We're building systems that haven't been built before, solving problems that hav
 - Driven to push language models beyond conventional boundaries
 - Background in cognitive sciences (CS, linguistics, neuroscience, philosophy, psychology, etc...) or related fields a plus
 
+> [!custom] [APPLY HERE](https://wellfound.com/l/2B3wwZ)
+
 ## Research We're Excited About
 
 [s1: Simple test-time scaling](https://arxiv.org/abs/2501.19393)  

@@ -46,5 +46,6 @@ While distributed systems expertise is core to this role, we need a versatile te
 - Experience with cryptography, machine learning, or identity systems, a plus
 - Complementary interests in cognitive sciences (linguistics, neuroscience, philosophy, psychology, etc) or other adjacent interdisciplinary fields, a plus
 
+> [!custom] [APPLY HERE](https://wellfound.com/l/2B3D7V)
 
 (Back to [[Working at Plastic]])

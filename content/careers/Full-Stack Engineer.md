@@ -53,5 +53,7 @@ This role requires someone who can transform ideas into polished user experience
 - Interest in AI and LLM technologies
 - Complementary interest in cognitive sciences (ml, linguistics, neuroscience, philosophy, psychology, etc) or other adjacent interdisciplinary fields, a plus
 
+> [!custom] [APPLY HERE](https://wellfound.com/l/2B3CYu)
+
 
 (Back to [[Working at Plastic]])
