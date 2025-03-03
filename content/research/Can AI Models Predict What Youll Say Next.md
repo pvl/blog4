@@ -92,7 +92,7 @@ For each model and context mode combination, we ran three trials with different 
 
 ## Results and Discussion
 
-![Figure 1: Model performance across different context modes](model_performance)
+![Figure 1: Model performance across different context modes](VSR_results.png)
 
 Our evaluation produced several notable results:
 
