@@ -12,6 +12,8 @@ tags:
 
 We developed a benchmark to evaluate how well language models can predict social interactions in conversation settings. By testing various models on the task of predicting the next message in real Discord conversations, with and without different types of context, we found that Claude 3.7 Sonnet significantly outperforms other models. We discovered that generating context summaries with a smaller model (Llama 3.3 70B) and injecting these into inference yields comparable or better results than providing raw conversation history. On one hand, this validates key aspects of the thesis behind our product Honcho. On the other hand, we discovered that models highly optimized for technical reasoning often underperform on social cognition tasks.
 
+Check out the code [here](https://github.com/plastic-labs/next-message-prediction-public).
+
 ## The Challenge: Finding Verifiable Social Rewards
 
 The machine learning community has made significant progress optimizing language models for tasks with clear, verifiable answers—like math, coding, and factual reasoning. These domains offer what are called "verifiable rewards"—objective measures that can be used for reinforcement learning without relying on human preferences or subjective judgments.
@@ -123,6 +125,8 @@ We're also interested in exploring several technical improvements to the methodo
 ## Conclusion
 
 We were excited to find that this social prediction task was genuinely challenging for most current models, with only the very latest releases showing strong performance. The fact that models optimized for reasoning performed poorly suggests interesting trade-offs in current training approaches. Meanwhile, the effectiveness of pre-processed context summaries supports a key principle behind Honcho: ambient processing of user context can significantly improve personalization while managing compute costs.
+
+Check out the code [here](https://github.com/plastic-labs/next-message-prediction-public). We used our private Discord messages for the experiment so we're unable to publish our own dataset, but the repository contains instructions to replicate the experiment with your own data. If you have any questions, feel free to ask on GitHub!
 
 ---
 
