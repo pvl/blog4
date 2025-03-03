@@ -59,8 +59,8 @@ We ended up with 123 snippets—below is an example:
 > - C) yeah and we could even gamify the process, giving users points for when their honcho makes decisions that align with what they would've done
 > - D) ohh yeah like a more proactive approach as opposed to being bayesian, updating priors based on new information
 
-Right answer
->! D
+> [!warning] Correct answer
+> D
 
 ### Context Modes
 
