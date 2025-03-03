@@ -27,7 +27,9 @@ This creates a clear, verifiable reward signal for social understanding: either 
 This benchmark also allows us to test whether models specifically optimized for technical reasoning excel at social understanding, and to get a granular, quantifiable understanding of models' social reasoning abilities.
 
 ## Prior work and inspiration
+At Plastic Labs, our journey into AI social cognition began with our experimental tutor, Bloom. We discovered that giving AI systems autonomy to [reason about user psychology](https://blog.plasticlabs.ai/blog/Theory-of-Mind-Is-All-You-Need) led to dramatic improvements in performance. By allowing models to predict users' mental states and identify what additional information they needed, we found AI systems could develop a nascent theory of mind for each user. This approach, which we later formalized in our [research](https://blog.plasticlabs.ai/research/Violation-of-Expectation-via-Metacognitive-Prompting-Reduces-Theory-of-Mind-Prediction-Error-in-Large-Language-Models) on metacognitive prompting, demonstrated that social context reasoning can significantly reduce prediction errors in large language models.
 
+With recent work on reasoning models, including DeepSeek's R1, showing remarkable gains through reinforcement learning on mathematical and coding tasks, we're particularly interested in developing verifiable social rewards that could drive similar improvements in social reasoning. Unlike technical domains with clear right and wrong answers, social prediction introduces unique challenges - yet establishing benchmarks in this area could unlock entirely new dimensions of AI capability that are crucial for creating systems that truly understand and adapt to human users.
 
 
 ## Methodology
