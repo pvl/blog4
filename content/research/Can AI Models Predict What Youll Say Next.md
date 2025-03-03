@@ -26,6 +26,9 @@ This creates a clear, verifiable reward signal for social understanding: either 
 
 This benchmark also allows us to test whether models specifically optimized for technical reasoning excel at social understanding, and to get a granular, quantifiable understanding of models' social reasoning abilities.
 
+## Prior work and inspiration
+
+
 ## Methodology
 
 ### Dataset Creation
@@ -59,8 +62,8 @@ We ended up with 123 snippets—below is an example:
 > - C) yeah and we could even gamify the process, giving users points for when their honcho makes decisions that align with what they would've done
 > - D) ohh yeah like a more proactive approach as opposed to being bayesian, updating priors based on new information
 
-> [!warning] Correct answer
-> D
+> [!question]- Can you guess the right answer?
+> D! Classic Vince being Bayesian.
 
 ### Context Modes
 
