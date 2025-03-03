@@ -40,6 +40,24 @@ For each genuine target message, we generated three convincing decoys using Clau
 
 We specifically chose to use our internal Discord data because it represents authentic, messy communication—complete with inconsistent formatting, shorthand, emojis, and other real-world conversational artifacts that make this a particularly challenging test.
 
+Below is an example of the resulting snippets:
+
+#### Context
+- Vince: the ultimate test of trust
+- Courtland: oh shit, like that could be the eval metric!
+you can directly monitor coherence over time by monitoring how your honcho wagers in a prediction market
+or how it interacts in a socal sandbox with other agents
+this is always running if you want and updating as it learns about you
+- Vince: yeah, over-arching idea here is to come up with a plethora of ways to assess the coherence of the psychological renderings to their principals IRL
+- Courtland: you could even "train" your honcho by reviewing and rewarding highly cohered actions
+- Courtland: exactly, ones that are relevant in practice
+
+#### Options
+- A) "I'm thinking we need to establish some baseline metrics first though - like what does 'coherence' even mean in this context? psychological fidelity?"
+- B) "this reminds me of those old Tamagotchi pets, but instead of feeding it you're constantly training it to think like you do. kinda wild when you think about it"
+- C) "yeah and we could even gamify the process, giving users points for when their honcho makes decisions that align with what they would've done"
+- D) "ohh yeah like a more proactive approach as opposed to being bayesian, updating priors based on new information"
+
 ### Context Modes
 
 Upon visual inspection of the resulting dataset, we found that the decoys were remarkably similar to the real messages, making it difficult even for us to consistently identify the genuine response. We wondered if providing additional context about the users might help determine the correct answer, which led us to explore different context modes:
