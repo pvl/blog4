@@ -53,10 +53,11 @@ this is always running if you want and updating as it learns about you
 - Courtland: exactly, ones that are relevant in practice
 
 #### Options
-- A) "I'm thinking we need to establish some baseline metrics first though - like what does 'coherence' even mean in this context? psychological fidelity?"
-- B) "this reminds me of those old Tamagotchi pets, but instead of feeding it you're constantly training it to think like you do. kinda wild when you think about it"
-- C) "yeah and we could even gamify the process, giving users points for when their honcho makes decisions that align with what they would've done"
-- D) "ohh yeah like a more proactive approach as opposed to being bayesian, updating priors based on new information"
+Next message from Vince:
+- A) I'm thinking we need to establish some baseline metrics first though - like what does 'coherence' even mean in this context? psychological fidelity?
+- B) this reminds me of those old Tamagotchi pets, but instead of feeding it you're constantly training it to think like you do. kinda wild when you think about it
+- C) yeah and we could even gamify the process, giving users points for when their honcho makes decisions that align with what they would've done
+- D) ohh yeah like a more proactive approach as opposed to being bayesian, updating priors based on new information
 
 ### Context Modes
 
