@@ -14,7 +14,7 @@ We developed a benchmark to evaluate how well language models can predict social
 
 Check out the code [here](https://github.com/plastic-labs/next-message-prediction-public).
 
-## The Challenge: Finding Verifiable Social Rewards
+## Finding Verifiable Social Rewards
 
 The machine learning community has made significant progress optimizing language models for tasks with clear, verifiable answers—like math, coding, and factual reasoning. These domains offer what are called "verifiable rewards"—objective measures that can be used for reinforcement learning without relying on human preferences or subjective judgments.
 
@@ -40,7 +40,7 @@ For each genuine target message, we generated three convincing decoys using Clau
 
 We specifically chose to use our internal Discord data because it represents authentic, messy communication—complete with inconsistent formatting, shorthand, emojis, and other real-world conversational artifacts that make this a particularly challenging test.
 
-Below is an example of the resulting snippets:
+We ended up with 123 snippets—below is an example:
 
 > #### Context
 > - Vince: the ultimate test of trust
@@ -58,6 +58,9 @@ Below is an example of the resulting snippets:
 > - B) this reminds me of those old Tamagotchi pets, but instead of feeding it you're constantly training it to think like you do. kinda wild when you think about it
 > - C) yeah and we could even gamify the process, giving users points for when their honcho makes decisions that align with what they would've done
 > - D) ohh yeah like a more proactive approach as opposed to being bayesian, updating priors based on new information
+
+Right answer
+>! D
 
 ### Context Modes
 
@@ -99,7 +102,7 @@ What's particularly significant is that injecting pre-processed summaries of use
 2. The summarization can be done once with a smaller, cheaper model
 3. The resulting performance gains are substantial compared to no-context baselines, and in some cases even better than providing the full context
 
-This supports a core thesis behind Honcho: ambient processing of user context to generate compressed representations can improve model performance while keeping inference costs manageable. Rather than injecting massive amounts of data into the context window, models can achieve better results with distilled personality profiles.
+This supports a core [thesis](https://blog.plasticlabs.ai/blog/Theory-of-Mind-Is-All-You-Need) behind Honcho: ambient processing of user context to generate compressed representations can improve model performance while keeping inference costs manageable. Rather than injecting massive amounts of data into the context window, models can achieve better results with distilled personality profiles.
 
 We didn't observe significant performance differences between 50-message and 100-message contexts, suggesting there may be diminishing returns beyond a certain point. This is likely dependent on factors like user count and conversation density.
 
@@ -113,7 +116,7 @@ This is particularly interesting because tasks that would have seemed impossible
 
 While summary context generally outperformed raw context, this pattern wasn't universal. Some models (notably Claude 3.5 Sonnet) performed better with raw context than with summaries. This suggests different architectures may vary in their ability to extract relevant information from different types of context.
 
-### Reasoning and Social Understanding May Involve Trade-offs
+### Reasoning vs Social Understanding Trade-offs
 
 The relatively poor performance of models optimized for technical reasoning, like Claude 3.7 Sonnet (thinking), DeepSeek R1, and OpenAI's O-1 and O-3 Mini, raises interesting questions. Despite their strong results on math and coding benchmarks, these models achieved well below random performance on our social prediction task.
 
