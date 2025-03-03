@@ -10,7 +10,7 @@ tags:
 
 ## TL;DR
 
-We developed a benchmark to evaluate how well language models can predict social interactions in conversation settings. By testing various models on the task of predicting the next message in real Discord conversations, with and without different types of context, we found that Claude 3.7 Sonnet significantly outperforms other models. We discovered that generating context summaries with a smaller model (Llama 3.3 70B) and injecting these into inference yields comparable or better results than providing raw conversation history. On one hand, this validates key aspects of the thesis behind our product Honcho. On the other hand, we discovered that models highly optimized for technical reasoning often underperform on social cognition tasks.
+We developed a benchmark to evaluate how well language models can predict social interactions in conversation settings. By testing various models on the task of predicting the next message in real Discord conversations, with and without different types of context, we found that Claude 3.7 Sonnet significantly outperforms other models in its non-reasoning variant, while its reasoning variant performed between 10 and 15 percentage points worse. We discovered that generating context summaries with a smaller model (Llama 3.3 70B) and injecting these into inference yields comparable or better results than providing raw conversation history. On one hand, this validates key aspects of the thesis behind our product Honcho. On the other hand, we discovered that models highly optimized for technical reasoning often underperform on social cognition tasks.
 
 Check out the code [here](https://github.com/plastic-labs/next-message-prediction-public).
 
@@ -64,7 +64,7 @@ For each model and context mode combination, we ran three trials with different 
 
 ## Results and Discussion
 
-![Figure 1: Model performance across different context modes](VSR_results.png)
+![Figure 1: Model performance across different context modes](model_performance)
 
 Our evaluation produced several notable results:
 
@@ -86,7 +86,7 @@ We didn't observe significant performance differences between 50-message and 100
 
 ### Newest Models Lead the Way
 
-Only the newest models perform well on this task. Claude 3.7 Sonnet (released last week) and GPT-4.5 (released yesterday) were the only models to achieve accuracy significantly above 40% in any context mode, with Claude 3.7 reaching nearly 60% accuracy with summary context—more than doubling the 25% random baseline.
+Only the newest models perform well on this task. Claude 3.7 Sonnet and GPT-4.5 (both released last week) were the only models to achieve accuracy significantly above 40% in any context mode, with Claude 3.7 (non-thinking) reaching nearly 60% accuracy with summary context—more than doubling the 25% random baseline.
 
 This is particularly interesting because tasks that would have seemed impossible for models that existed just months ago are now becoming tractable. This rapid progress also informs how we should think about designing evaluations—creating hard tasks that aren't saturated from the start rather than ones where models already perform at ceiling.
 
@@ -96,7 +96,7 @@ While summary context generally outperformed raw context, this pattern wasn't un
 
 ### Reasoning and Social Understanding May Involve Trade-offs
 
-The relatively poor performance of models optimized for technical reasoning, like DeepSeek R1, O-1, and O-3 Mini, raises interesting questions. Despite their strong results on math and coding benchmarks, these models achieved well below random performance on our social prediction task.
+The relatively poor performance of models optimized for technical reasoning, like Claude 3.7 Sonnet (thinking), DeepSeek R1, and OpenAI's O-1 and O-3 Mini, raises interesting questions. Despite their strong results on math and coding benchmarks, these models achieved well below random performance on our social prediction task.
 
 This suggests potential trade-offs in model optimization. The reinforcement learning or supervised fine-tuning techniques used to enhance reasoning abilities might come at the expense of social cognition capabilities, possibly through:
 
