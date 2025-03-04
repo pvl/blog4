@@ -10,26 +10,30 @@ tags:
 
 ## TL;DR
 
-We developed a benchmark to evaluate how well language models can predict social interactions in conversation settings. By testing various models on the task of predicting the next message in real Discord conversations, with and without different types of context, we found that Claude 3.7 Sonnet significantly outperforms other models in its non-reasoning variant, while its reasoning variant performed between 10 and 15 percentage points worse. We discovered that generating context summaries with a smaller model (Llama 3.3 70B) and injecting these into inference yields comparable or better results than providing raw conversation history. On one hand, this validates key aspects of the thesis behind our product Honcho. On the other hand, we discovered that models highly optimized for technical reasoning often underperform on social cognition tasks.
+We developed a benchmark to evaluate how well language models can predict social interactions in conversation settings. We wanted to test wether context can improve these predictions, and whether recent advances in reasoning models translate well from math and coding to social cognition. By testing various models on the task of predicting the next message in real Discord conversations, with and without different types of context, we found that Claude 3.7 Sonnet significantly outperforms other models in its non-reasoning variant, while its reasoning variant performed between 10 and 15 percentage points worse. We discovered that generating context summaries with a smaller model (Llama 3.3 70B) and injecting these into inference yields comparable or better results than providing raw conversation history. On one hand, this validates key aspects of the [[Theory of Mind Is All You Need|thesis behind our product Honcho]]. On the other hand, we discovered that models highly optimized for technical reasoning often underperform on social cognition tasks.
 
 Check out the code [here](https://github.com/plastic-labs/next-message-prediction-public).
+
+![Figure 1: Model performance across different context modes](model_performance_by_context_mode.png)
+
+Figure 1. Next-message prediction accuracy (%) by model and context mode. Error bars show standard error over three different runs with different random seeds to shuffle the order of the options.
 
 ## Finding Verifiable Social Rewards
 
 The machine learning community has made significant progress optimizing language models for tasks with clear, verifiable answers—like math, coding, and factual reasoning. These domains offer what are called "verifiable rewards"—objective measures that can be used for reinforcement learning without relying on human preferences or subjective judgments.
 
-While this approach has yielded impressive results for technical reasoning, at Plastic Labs we've become increasingly curious about whether similar verifiable reward structures could be developed for social intelligence—an area that has largely relied on more subjective evaluation metrics.
+While this approach has yielded impressive results for technical reasoning, at Plastic Labs we've become increasingly curious about whether similar verifiable reward structures could be developed for social intelligence--an area that has largely relied on more subjective evaluation metrics.
 
-To address this gap, we developed a multiple-choice next-message prediction task using real conversations from our team's Discord. The premise is straightforward: given a snippet of conversation between two people and four possible options for what came next (with only one being the actual message), can a model identify the genuine response?
+To address this gap, we developed a multiple-choice next-message prediction task using real conversations from our team's Discord. The premise is straightforward: given a snippet of conversation between two people and four possible options for what came next (with only one being the actual message), can a model identify the correct response?
 
-This creates a clear, verifiable reward signal for social understanding: either the model correctly identifies the real message or it doesn't. Yet unlike many technical tasks, success requires the model to understand conversational dynamics, recognize individual communication patterns, track context across multiple turns, and model how specific people behave in specific social contexts.
+This creates a clear, verifiable reward signal for social understanding: either the model correctly identifies the real message or it doesn't. Yet unlike many technical tasks, success requires the model to understand conversational dynamics, recognize individual communication patterns, track context across multiple turns, and model how different people behave in specific social contexts.
 
-This benchmark also allows us to test whether models specifically optimized for technical reasoning excel at social understanding, and to get a granular, quantifiable understanding of models' social reasoning abilities.
+This benchmark also allows us to test whether models specifically optimized for technical reasoning generalize to social understanding, and to get a granular, quantifiable understanding of models' social reasoning abilities.
 
 ## Prior work and inspiration
-At Plastic Labs, our journey into AI social cognition began with our experimental tutor, Bloom. We discovered that giving AI systems autonomy to [reason about user psychology](https://blog.plasticlabs.ai/blog/Theory-of-Mind-Is-All-You-Need) led to dramatic improvements in performance. By allowing models to predict users' mental states and identify what additional information they needed, we found AI systems could develop a nascent theory of mind for each user. This approach, which we later formalized in our [research](https://blog.plasticlabs.ai/research/Violation-of-Expectation-via-Metacognitive-Prompting-Reduces-Theory-of-Mind-Prediction-Error-in-Large-Language-Models) on metacognitive prompting, demonstrated that social context reasoning can significantly reduce prediction errors in large language models.
+At Plastic Labs, our journey into AI social cognition began with our experimental tutor, Bloom. We discovered that giving AI systems autonomy to [[Theory of Mind Is All You Need|reason about the user's psychology]] led to dramatic improvements in performance. By allowing models to predict users' mental states and identify what additional information they needed, we found AI systems could develop a nascent theory of mind for each user. This approach, which we later formalized in our [[Violation of Expectation via Metacognitive Prompting Reduces Theory of Mind Prediction Error in Large Language Models|research]] on metacognitive prompting, demonstrated that social context reasoning can significantly reduce prediction errors in large language models.
 
-With recent work on reasoning models, including DeepSeek's R1, showing remarkable gains through reinforcement learning on mathematical and coding tasks, we're particularly interested in developing verifiable social rewards that could drive similar improvements in social reasoning. Unlike technical domains with clear right and wrong answers, social prediction introduces unique challenges - yet establishing benchmarks in this area could unlock entirely new dimensions of AI capability that are crucial for creating systems that truly understand and adapt to human users.
+With recent work on reasoning models, including DeepSeek's R1, showing remarkable gains through reinforcement learning on mathematical and coding tasks, we're particularly interested in developing verifiable social rewards that could drive similar improvements in social reasoning. Unlike technical domains with clear right and wrong answers, social prediction introduces unique challenges--yet establishing benchmarks in this area could unlock entirely new dimensions of AI capability that are crucial for creating systems that truly understand and adapt to human users.
 
 
 ## Methodology
@@ -74,7 +78,7 @@ Upon visual inspection of the resulting dataset, we found that the decoys were r
 
 1. **No Context**: Models only received the immediate conversation snippet and the four options.
 2. **Raw Context**: Models received the conversation snippet plus the previous 50 or 100 messages from the Discord history (unfiltered and unprocessed).
-3. **Summary Context**: Models received the conversation snippet plus a generated personality profile of the target user, created by processing the previous 50 or 100 messages through Llama 3.3 70B.
+3. **Summary Context**: Models received the conversation snippet plus a generated personality profile of the target user, created by processing the previous 50 or 100 messages through Llama 3.3 70B. The prompt used to generate this summary is available in the [project repo](https://github.com/plastic-labs/next-message-prediction-public/blob/950384174023ba315b628d3ba7bdb7c00b918544/generate_dataset.py#L156) on GitHub.
 
 This design allowed us to compare whether any context provides useful signals for predicting social behavior, and whether a summary can provide results comparable to the full context.
 
@@ -92,9 +96,11 @@ For each model and context mode combination, we ran three trials with different 
 
 ## Results and Discussion
 
-![Figure 1: Model performance across different context modes](VSR_results.png)
+The results of our experiment are shown in Figure 1. In this section, we analyze them in detail and provide some insights and interpretation.
 
-Our evaluation produced several notable results:
+![Figure 1: Model performance across different context modes](model_performance_by_context_mode.png)
+
+Figure 1. Mean next-message prediction accuracy (%) by model and context mode. Error bars show standard error over three different runs with different random seeds to shuffle the order of the options.
 
 ### Context Helps Regardless of Form
 
@@ -126,11 +132,7 @@ While summary context generally outperformed raw context, this pattern wasn't un
 
 The relatively poor performance of models optimized for technical reasoning, like Claude 3.7 Sonnet (thinking), DeepSeek R1, and OpenAI's O-1 and O-3 Mini, raises interesting questions. Despite their strong results on math and coding benchmarks, these models achieved well below random performance on our social prediction task.
 
-This suggests potential trade-offs in model optimization. The reinforcement learning or supervised fine-tuning techniques used to enhance reasoning abilities might come at the expense of social cognition capabilities, possibly through:
-
-1. Training data composition that emphasizes technical content over social interactions
-2. Alignment techniques that optimize for step-by-step reasoning rather than social intuition
-3. Reinforcement learning objectives that prioritize factual accuracy over social understanding
+This suggests potential trade-offs in model optimization. The reinforcement learning or supervised fine-tuning techniques used to enhance reasoning abilities might come at the expense of social cognition capabilities. However, without access to the architectures, data and training procedures that major labs like Anthropic and OpenAI use to build these models, it's hard to know exactly what might be causing models like Claude 3.7 Sonnet and GPT-4.5 to perform so much better on this task.
 
 ### Caveat: Decoy Generation
 
