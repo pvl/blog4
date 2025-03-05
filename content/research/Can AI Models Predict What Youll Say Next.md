@@ -20,9 +20,9 @@ Figure 1. Next-message prediction accuracy (%) by model and context mode. Error 
 
 ## Finding Verifiable Social Rewards
 
-The machine learning community has made significant progress optimizing language models for tasks with clear, verifiable answers--like math, coding, and factual reasoning. These domains offer what are called "verifiable rewards"--objective measures that can be used for reinforcement learning without relying on human preferences or subjective judgments. While this approach has yielded impressive results for technical reasoning, at Plastic Labs we've become increasingly curious about whether similar verifiable reward structures could be developed for social intelligence.
+The machine learning community has made significant progress optimizing language models for tasks with clear, verifiable answers, like math, coding, and factual reasoning. These domains offer what are called "verifiable rewards": objective measures that can be used for reinforcement learning without relying on human preferences or subjective judgments. While this approach has yielded impressive results for technical reasoning, at Plastic Labs we've become increasingly curious about whether similar verifiable reward structures could be developed for social intelligence.
 
-Here, by social intelligence we mean the ability to accurately interpret others' intentions, emotions, and likely behaviors in social contexts--essentially modeling other minds to predict social outcomes. In this sense, our social cognition is as essential to our functioning as having a robust predictive model of physics, our environment and proprioception. creating objective measures for this in AI systems remains challenging. While humans develop this ability naturally through social feedback (successful predictions are "rewarded" with smoother interactions), creating objective measures for this in AI systems remains challenging.
+Here, by social intelligence we mean the ability to accurately interpret others' intentions, emotions, and likely behaviors in social contexts--essentially modeling other minds to predict social outcomes. In this sense, our social cognition is as essential to our functioning as having a robust predictive model of physics, our environment and proprioception. While humans develop this ability naturally through social feedback (successful predictions are "rewarded" with smoother interactions), creating objective measures for this in AI systems remains challenging.
 
 To address this gap, we developed a multiple-choice next-message prediction task using real conversations from our team's Discord. The premise is straightforward: given a snippet of conversation between two people and four possible options for what came next (with only one being the actual message), can a model identify the correct response?
 
@@ -31,9 +31,10 @@ This creates a clear, verifiable reward signal for social understanding: either 
 This benchmark also allows us to test whether models specifically optimized for technical reasoning generalize to social understanding, and to get a granular, quantifiable understanding of models' social reasoning abilities.
 
 ## Prior work & inspiration
-At Plastic Labs, our journey into AI social cognition began with our experimental tutor, Bloom. We discovered that giving AI systems autonomy to [[Theory of Mind Is All You Need|reason about the user's psychology]] led to dramatic improvements in performance. By allowing models to predict users' mental states and identify what additional information they needed, we found AI systems could develop a nascent theory of mind for each user. This approach, which we later formalized in our [[Violation of Expectation via Metacognitive Prompting Reduces Theory of Mind Prediction Error in Large Language Models|research]] on metacognitive prompting, demonstrated that social context reasoning can significantly reduce prediction errors in large language models.
 
-With recent work on reasoning models, including DeepSeek's R1, showing remarkable gains through reinforcement learning on mathematical and coding tasks, we're particularly interested in developing verifiable social rewards that could drive similar improvements in social reasoning. Unlike technical domains with clear right and wrong answers, social prediction introduces unique challenges--yet establishing benchmarks in this area could unlock entirely new dimensions of AI capability that are crucial for creating systems that truly understand and adapt to human users.
+At Plastic Labs, our journey into AI social cognition began with our experimental tutor, Bloom. We discovered that giving AI systems autonomy to [[Theory of Mind Is All You Need|reason about the user's psychology]] led to dramatic improvements in performance. By allowing models to predict users' mental states and identify what additional information they needed, we found that AI systems could develop a nascent theory of mind for each user. This approach, which we later formalized in our [[Violation of Expectation via Metacognitive Prompting Reduces Theory of Mind Prediction Error in Large Language Models|research]] on metacognitive prompting, demonstrated that social context reasoning can significantly reduce prediction errors in large language models.
+
+With recent work on reasoning models, including DeepSeek's R1, showing remarkable gains through reinforcement learning on mathematical and coding tasks, we're particularly interested in developing verifiable social rewards that could drive similar improvements in social reasoning. Unlike technical domains with clear right and wrong answers, social prediction introduces unique challenges--yet, establishing benchmarks in this area could unlock entirely new dimensions of AI capability that are crucial for creating systems that truly understand and adapt to human users.
 
 
 ## Methodology
@@ -42,9 +43,9 @@ With recent work on reasoning models, including DeepSeek's R1, showing remarkabl
 
 We created our dataset by extracting conversation snippets from our internal team Discord channels (accessible only to our core team of 5-10 people). Each snippet contained:
 
-- 6-10 messages between exactly two participants
-- At least two messages from each participant, ensuring each person had at least two conversational turns
-- A target message (the message that was sent immediately after the snippet)
+- 6-10 messages between exactly two participants.
+- At least two messages from each participant, ensuring each person had at least two conversational turns.
+- A target message (the message that was sent immediately after the snippet).
 
 For each genuine target message, we generated three convincing decoys using Claude 3.7 Sonnet. These decoys were designed to be plausible alternatives that matched the style and substance of the real message while being distinctly different.
 
