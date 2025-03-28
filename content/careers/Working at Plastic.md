@@ -5,6 +5,7 @@ tags:
   - positions
   - announcements
 ---
+
 Plastic Labs is a research-driven company solving personal identity for the agentic world.
 
 We're building [Honcho](https://honcho.dev), the social cognition layer for AI-powered applications. Honcho uses theory-of-mind inference to synthesize high-fidelity user representations. These form deep reservoirs of personal context enabling just-in-time personalization--aligning agents more closely with their users.
@@ -23,4 +24,4 @@ Join us. LFG.
 - [[Founding Engineer|Founding Engineer]]
 - [[Platform Engineer]]
 - [[Full-Stack Engineer|Full-Stack Engineer]]
-
+- [[Plastic Intern(s)|Internships]]

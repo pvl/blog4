@@ -16,7 +16,7 @@ We're seeking a leading machine learning engineer who can architect breakthrough
 
 This role demands someone who thrives at the intersection of research and engineering; someone who can read and reproduce state-of-the-art papers, design novel architectures, and transform promising experiments into production-ready systems. You'll move fluidly between theoretical frameworks and practical implementation, making intuitive decisions about model architecture, quantization strategies, and serving infrastructure.
 
-We need a technical polymath who excels across the ML stack: from designing systematic experiments and running rigorous evaluations to building robust data pipelines and scalable model serving/inference systems. You should be particularly adept with post-training techniques that are redefining the field--from advanced inference-time computation methods to reinforcement learning with reasoning models. 
+We need a technical polymath who excels across the ML stack: from designing systematic experiments and running rigorous evaluations to building robust data pipelines and scalable model serving/inference systems. You should be particularly adept with post-training techniques that are redefining the field--from advanced inference-time computation methods to reinforcement learning with reasoning models.
 
 The LLM space moves at lightning speed, and so do we. You'll prototype rapidly while maintaining research rigor, implement robust MLOps practices, and craft observable systems that scale. Our small, interdisciplinary team moves fast--high agency is core to who we are. You'll have the freedom to directly impact our research and products to push the boundaries of what's possible in AI.
 
@@ -66,11 +66,10 @@ We're building systems that haven't been built before, solving problems that hav
 [Claude's Character](https://www.anthropic.com/research/claude-character)  
 [Language Models Represent Space and Time](https://arxiv.org/pdf/2310.02207)  
 [Generative Agents: Interactive Simulacra of Human Behavior](https://arxiv.org/abs/2304.03442)  
-[Meta-Rewarding Language Models: Self-Improving Alignment with LLM-as-a-Meta-Judge](https://arxiv.org/abs/2407.19594) 
+[Meta-Rewarding Language Models: Self-Improving Alignment with LLM-as-a-Meta-Judge](https://arxiv.org/abs/2407.19594)
 [Synthetic Sentience: Joscha Bach](https://www.youtube.com/watch?v=cs9Ls0m5QVE)  
 [Cyborgism](https://www.lesswrong.com/posts/bxt7uCiHam4QXrQAA/cyborgism)  
 [Spontaneous Reward Hacking in Iterative Self-Refinement](https://arxiv.org/abs/2407.04549)  
-[... accompanying twitter thread](https://x.com/JanePan_/status/1813208688343052639)  
-
+[... accompanying twitter thread](https://x.com/JanePan_/status/1813208688343052639)
 
 (Back to [[Working at Plastic]])
