@@ -8,13 +8,13 @@ tags:
   - announcements
 ---
 
-(NYC / Remote, Part-Time)
+(NYC, Full-Time)
 
 ## About the Role
 
-We're always keenly on the lookout for talented young technologists aligned with our mission. Happy to accommodate the right fit in a variety of flexible paid formats and commitments. And we're open to creative and additive non-technical possibilities.
+Plastic Labs is looking for talented young technologists aligned with our mission to join us for the summer. We want to curate an intellectually diverse cohort of interns to accelerate the team across full stack, machine learning, and plaftorm engineering roles. 
 
-If you're bored at school and looking to learn by doing; have too much free time and want to get your hands dirty; or thinking about what to do next summer, hit us up.
+You'll get to work on real AI products with customers eager to use them. Impact is not only guaranteed, but mission critical. If you've been bored by school and are excited by the idea of working in-person in the fastest-paced city in America, hit us up.
 
 ## About You
 
