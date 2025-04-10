@@ -15,15 +15,15 @@ We're announcing two major milestones for Plastic Labs:
 
 1. **Honcho as a hosted platfom.** 
 
-	We're granting early access to power per-user personal context management for AI agents & applications starting today!
+	We're granting early access to power personal context management for AI agents & applications starting today!
 	
-	Honcho is now a simple, complete, hosted solution for adaptive agent memory, social cognition, and personalization.
+	Honcho is now a simple, complete, hosted solution for adaptive agent memory, social cognition, & personalization.
 
 2. **Our pre-seed raise of $5.35M to solve personal identity for the agentic world.**
 
 ## Individual Alignment
 
-Despite being generative, most AI products still focus on being most palatable to most people. This limits the scope of personally useful behaviors and results in poor UX, high churn, and handicapped abilities.
+Most AI products focus on being palatable to the average user. This neglects the potential for personalization their generative nature affords. It limits the scope of personally useful behaviors and results in poor UX, high churn, and handicapped abilities.
 
 AI systems need mechanisms to understand each of us on an individual level. They need methods for cohering to our psychology and personality. They need social cognition to eliminate cold starts and build long-term relationships.
 
@@ -31,13 +31,13 @@ They need Honcho.
 
 ## Honcho Platform Early Access
 
-Today we're launching early access to the hosted Honcho platform.
+Today we're launching early access to the hosted [Honcho](https://honcho.dev) platform.
 
 It's the most powerful personal identity and social cognition solution for AI apps and agents.
 
 Honcho is a cloud-based API that enables more personalized and contextually aware user experiences. It simplifies the process of maintaining context across conversations and interactions, allowing developers to create more responsive and customized agents without managing complex infrastructure.
 
-Honcho combines flexible memory, theory of mind inference, self-improving user representations, and a dialectic API to get your application the context it needs about each user for every inference.
+Honcho combines flexible memory, [[Theory of Mind Is All You Need|theory of mind]] inference, self-improving user representations, and a [[Introducing Honcho's Dialectic API|dialectic API]] to get your application the context it needs about each user for every inference.
 
 All this happens ambiently, with no additional overhead to your users--no surveys, no hard coded questions, no BYO data requirements needed to get started. Honcho learns about each of your users in the background as they interact with your application.
 
@@ -53,7 +53,9 @@ That's why Honcho needed to be built. It's memory infrastructure that goes way d
 
 If you want to deliver best-in-class personalization, memory, time-to-value, trust, and unlock truly novel experiences to your users, we want to work with you. 
 
-We're giving early access to teams & developers starting today.
+We're giving early access to teams & developers today.
+
+[Get started now](https://honcho.dev).
 
 ## A Personal Identity Layer for AI
 
