@@ -109,7 +109,7 @@ If you want work [IRL in NYC](https://www.therefineryatdomino.com/) on the most 
 
 - [[Full-Stack Engineer]] - Design Honcho's user facing applications, iterate rapidly on creative, exceptional user experiences
 
-- [[blog/content/private/archived/Plastic Intern(s)|Plastic Intern(s)]] - Work on real AI products with customers eager to use them, accelerate the team across full stack, machine learning, and platform engineering roles
+- [[Plastic Intern(s)]] - Work on real AI products with customers eager to use them, accelerate the team across full stack, machine learning, and platform engineering roles
 
 Get in touch! 
 
