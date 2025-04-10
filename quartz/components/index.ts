@@ -3,6 +3,7 @@ import TagContent from "./pages/TagContent"
 import FolderContent from "./pages/FolderContent"
 import NotFound from "./pages/404"
 import ArticleTitle from "./ArticleTitle"
+import ArticleSubtitle from "./ArticleSubtitle"
 import Darkmode from "./Darkmode"
 import Head from "./Head"
 import PageTitle from "./PageTitle"
@@ -22,6 +23,7 @@ import Breadcrumbs from "./Breadcrumbs"
 
 export {
   ArticleTitle,
+  ArticleSubtitle,
   Content,
   TagContent,
   FolderContent,
