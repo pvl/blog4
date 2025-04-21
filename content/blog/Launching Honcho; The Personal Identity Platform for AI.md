@@ -13,7 +13,7 @@ tags:
 
 We're announcing two major milestones for Plastic Labs:
 
-1. **Honcho as a hosted platfom.** 
+1. **Honcho as a hosted platform.** 
 
 	We're granting early access to power personal context management for AI agents & applications starting today!
 	
