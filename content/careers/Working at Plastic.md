@@ -21,7 +21,4 @@ Join us. LFG.
 ## Open Positions
 
 - [[Founding ML Engineer]]
-- [[Founding Engineer|Founding Engineer]]
-- [[Platform Engineer]]
-- [[Full-Stack Engineer|Full-Stack Engineer]]
 - [[Plastic Intern(s)|Internships]]
