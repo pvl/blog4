@@ -42,6 +42,15 @@ We're building systems that haven't been built before, solving problems that hav
 
 ## Research We're Excited About
 
+[Inference-Time Scaling for Generalist Reward Modeling](https://arxiv.org/abs/2504.02495)  
+[All Roads Lead to Likelihood: The Value of Reinforcement Learning in Fine-Tuning](https://arxiv.org/abs/2503.01067)
+[Cognitive Behaviors that Enable Self-Improving Reasoners, or, Four Habits of Highly Effective STaRs](https://arxiv.org/abs/2503.01307)  
+[Is a Good Foundation Necessary for Efficient Reinforcement Learning? The Computational Role of the Base Model in Exploration](https://arxiv.org/abs/2503.07453)  
+[Echo Chamber: RL Post-training Amplifies Behaviors Learned in Pretraining](https://arxiv.org/abs/2504.07912)  
+[Finding Flawed Fictions: Evaluating Complex Reasoning in Language Models via Plot Hole Detection](https://arxiv.org/abs/2504.11900)  
+[Self-playing Adversarial Language Game Enhances LLM Reasoning](https://arxiv.org/abs/2404.10642)  
+[Welcome to the Era of Experience](https://storage.googleapis.com/deepmind-media/Era-of-Experience%20/The%20Era%20of%20Experience%20Paper.pdf)  
+[TextArena](https://arxiv.org/abs/2504.11442)  
 [s1: Simple test-time scaling](https://arxiv.org/abs/2501.19393)  
 [Neural Networks Are Elastic Origami!](https://youtu.be/l3O2J3LMxqI?si=bhodv2c7GG75N2Ku)  
 [Titans: Learning to Memorize at Test Time](https://arxiv.org/abs/2501.00663v1)  
