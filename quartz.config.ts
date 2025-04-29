@@ -1,5 +1,61 @@
 import { QuartzConfig } from "./quartz/cfg"
 import * as Plugin from "./quartz/plugins"
+import { Argv, BuildCtx } from "./quartz/util/ctx"
+import fs from "fs"
+import path from "path"
+import { FilePath } from "./quartz/util/path"
+import { glob } from "./quartz/util/glob"
+
+// Custom plugin to copy all files from static/ to the root of public/
+const CopyStatic = () => ({
+  name: "CopyStatic",
+  getQuartzComponents() {
+    return []
+  },
+  async emit({ argv, cfg }: BuildCtx): Promise<FilePath[]> {
+    const staticPath = "static"
+    const publicPath = argv.output
+    try {
+      // Ensure static path exists
+      if (!fs.existsSync(staticPath)) {
+        console.log("Static directory does not exist, skipping copy.")
+        return []
+      }
+      
+      // Use glob to find all files in static directory, respecting ignore patterns
+      const files = await glob("**/*", staticPath, cfg.configuration.ignorePatterns)
+      const outputFiles: FilePath[] = []
+
+      for (const file of files) {
+        const sourceFilePath = path.join(staticPath, file) as FilePath
+        
+        // Skip if it's a directory (glob might return directories)
+        if ((await fs.promises.lstat(sourceFilePath)).isDirectory()) {
+           continue;
+        }
+
+        const destFilePath = path.join(publicPath, file) as FilePath
+        const destDir = path.dirname(destFilePath)
+        
+        // Ensure destination directory exists
+        await fs.promises.mkdir(destDir, { recursive: true })
+        
+        // Copy file
+        await fs.promises.copyFile(sourceFilePath, destFilePath)
+        outputFiles.push(destFilePath)
+      }
+      
+      if (outputFiles.length > 0) {
+         console.log(`Successfully copied ${outputFiles.length} files from static/ to public/`)
+      }
+
+      return outputFiles
+    } catch (err) {
+      console.error("Error copying static files:", err)
+      return []
+    }
+  }
+})
 
 /**
  * Quartz 4.0 Configuration
@@ -85,6 +141,7 @@ const config: QuartzConfig = {
         enableRSS: true,
       }),
       Plugin.Assets(),
+      CopyStatic(),
       Plugin.Static(),
       Plugin.NotFoundPage(),
     ],
