@@ -11,7 +11,7 @@ tags:
 
 ## Honcho Updates v2.1.0
 
-Introduction of Honcho's R.O.T.E Deriver for explicit, certain reasoning over `peer` data, new "working" representations, updates to the Dialectic API, 
+Introduction of Honcho's R.O.T.E Deriver for explicit, certain reasoning over `peer` data, new "working" representations, & updates to the Dialectic API. Honcho is state of the art against SOTA evals, other memory solutions, and foundation model inference.
 
 ADDED
 

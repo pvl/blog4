@@ -10,7 +10,7 @@ tags:
 
 ## Honcho Updates v2.0.2 - v2.0.5
 
-Bug Fixes
+Bug Fixes.
 
 FIXED
 

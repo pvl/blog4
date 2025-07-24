@@ -11,7 +11,7 @@ tags:
 
 ## Honcho Updates v2.0.0
 
-Introduction of the Peer Paradigm.
+Introduction of the Peer Paradigm. Update of Honcho's primitives from first principles. Any agent or user in now a `peer` Honcho can have memory and do social cognition over and reasoning about. Enables multi-agent & multi-human systems.
 
 ADDED
 
