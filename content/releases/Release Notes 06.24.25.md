@@ -3,6 +3,7 @@ title: Release Notes 06.24.25
 date: 06.24.25
 tags:
   - releases
+  - demos
   - announcements
   - honcho
   - dev
@@ -47,8 +48,7 @@ REMOVED
 - Obsolete tests for apps, users, collections, documents, and metamessages
 ## Links
 
-- [Sign-up for the early access](https://plasticlabs.typeform.com/honchoinvite) & start building personalized agent experiences
-- [Join our Discord](https://discord.gg/plasticlabs) & tell us what you're working on
+- [Sign-up for Honcho](https://app.honcho.dev/) & start building personalized agent experiences
+- [Join our Discord](https://discord.gg/honcho) & tell us what you're working on
 - [Visit our open-source repo](https://github.com/plastic-labs/honcho) & get your hands dirty
 - [Check out the docs](https://docs.honcho.dev)
-- [Play with YouSim](https://yousim.ai)--portal to the multiverse of identity
