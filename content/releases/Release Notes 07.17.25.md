@@ -3,7 +3,6 @@ title: Release Notes 07.17.25
 date: 07.17.25
 tags:
   - releases
-  - demos
   - announcements
   - honcho
   - dev
