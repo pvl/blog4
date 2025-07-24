@@ -9,7 +9,7 @@ tags:
 ---
 ## News
 
-New Honcho MCP available at [[mcp.honcho.dev]]
+New Honcho MCP available at [mcp.honcho.dev](https://mcp.honcho.dev)
 
 Set-up docs available in the link. 
 
