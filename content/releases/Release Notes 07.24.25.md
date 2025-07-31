@@ -7,11 +7,10 @@ tags:
   - honcho
   - dev
 ---
+
 ## News
 
-New Honcho MCP available at [mcp.honcho.dev](https://mcp.honcho.dev)
-
-Set-up docs available in the link. 
+Check out our new Honcho MCP set-up guide, available in our [documentation](https://docs.honcho.dev/v2/guides/mcp)
 
 ## Honcho Updates v2.1.1
 
@@ -38,10 +37,10 @@ FIXED
 - Filtering by session
 - Peer targeting in queries
 
-
 ## Links
 
 - [Sign-up for Honcho](https://app.honcho.dev/) & start building personalized agent experiences
 - [Join our Discord](https://discord.gg/honcho) & tell us what you're working on
 - [Visit our open-source repo](https://github.com/plastic-labs/honcho) & get your hands dirty
 - [Check out the docs](https://docs.honcho.dev)
+
