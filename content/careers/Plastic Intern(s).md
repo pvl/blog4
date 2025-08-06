@@ -19,7 +19,7 @@ You'll get to work on real AI products with customers eager to use them. Impact 
 ## About You
 
 - High cultural alignment with Plastic Labs' ethos
-- Primary location +/- 3 hrs of EST
+- Availability to work IRL in NYC for the summer
 - Impulse for rapid learning & trying new tech at the edge
 - Familiarity with & interest in LLMs
 - Significant experience &/ interest in full stack, systems, &/ ML engineering
