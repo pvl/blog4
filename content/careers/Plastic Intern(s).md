@@ -22,7 +22,7 @@ You'll get to work on real AI products with customers eager to use them. Impact 
 - Primary location +/- 3 hrs of EST
 - Impulse for rapid learning & trying new tech at the edge
 - Familiarity with & interest in LLMs
-- Significant experience &/ interest in a number of areas described in our [[Full-Stack Engineer]], [[Founding ML Engineer]], &/ [[Founding Engineer]] "About You" sections
+- Significant experience &/ interest in full stack, systems, &/ ML engineering
 - Alignment with or interest in topics and fields of inquiry explored or anything on [our blog](https://blog.plasticlabs.ai)
 - Complementary interest in cryptography, distributed systems, security, identity, cognitive sciences (computer science, linguistics, neuroscience, philosophy, & psychology) or other adjacent interdisciplinary fields a plus
 
