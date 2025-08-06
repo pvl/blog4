@@ -20,5 +20,4 @@ Join us. LFG.
 
 ## Open Positions
 
-- [[Founding ML Engineer]]
-- [[Plastic Intern(s)|Internships]]
+- [[Plastic Intern(s)|Summer Internships]]
