@@ -10,7 +10,7 @@ tags:
 
 ## News
 
-Checkout a community project to initialize Honcho with your ChatGPT conversations [teach-honcho](teach-honcho.brennerspear.com)
+Checkout a community project to initialize Honcho with your ChatGPT conversations [teach-honcho](https://teach-honcho.brennerspear.com)
 
 Stay tuned for Plastic Labs Launch Week!
 
