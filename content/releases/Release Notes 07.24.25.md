@@ -43,4 +43,3 @@ FIXED
 - [Join our Discord](https://discord.gg/honcho) & tell us what you're working on
 - [Visit our open-source repo](https://github.com/plastic-labs/honcho) & get your hands dirty
 - [Check out the docs](https://docs.honcho.dev)
-
