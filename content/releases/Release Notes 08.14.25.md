@@ -10,7 +10,7 @@ tags:
 
 ## News
 
-- Tune in for Honcho Release Week next week, we'll been sharing everything we've been up to this summer, dropping something new every day!
+- Tune in for Honcho Release Week next week, we'll be sharing everything we've been up to this summer, dropping something new every day!
 - Upgrade to v2.3.0 for the fastest and most reliable version of Honcho! Going forward, we won't be supporting older versions.
 - And check out "Teach Honcho," a community project to initialize Honcho with your ChatGPT conversations.
 
