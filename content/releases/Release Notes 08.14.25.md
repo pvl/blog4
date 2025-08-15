@@ -10,13 +10,14 @@ tags:
 
 ## News
 
-Checkout a community project to initialize Honcho with your ChatGPT conversations [teach-honcho](https://teach-honcho.brennerspear.com)
-
-Stay tuned for Plastic Labs Launch Week!
+- Tune in for Honcho Release Week next week, we'll been sharing everything we've been up to this summer, dropping something new every day!
+- Upgrade to v2.3.0 for the fastest and most reliable version of Honcho! Going forward, we won't be supporting older versions.
+- And check out "Teach Honcho," a community project to initialize Honcho with your ChatGPT conversations.
 
 ## Honcho Updates v2.3.0
 
-Test harness, system enhancements, bug fixes. Dialectic is ~40% faster + better performance with improvements allowing query expansion off by default.
+- Introducing Peer Cards! Peer cards summarize essential information like name, nicknames, location, age, occupation, interests/hobbies, and likes/dislikes used to improve the fidelity of the deriver and dialectic API.
+- And timestamps are now configurable! That means it's way easier and more effective to import old conversations or convos from external sources (ChatGPT, Claude logs, etc).
 
 ADDED
 
