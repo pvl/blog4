@@ -13,7 +13,7 @@ We've re-architected Honcho to move away from a User-Assistant Paradigm to a
 Peer Paradigm where any entity, human, AI, NPC, or API, is represented as a
 `Peer` with equal standing in the system.
 
-The User-Assistant Paradigm created conceptual boundaries that encouraged
+The User-Assistant Paradigm created [[Human-AI-chat-paradigm-hamstrings-the-space-of-possibility|conceptual boundaries]] that encouraged
 generic single-player applications and agents without persistent identity.
 
 `Peers` enable:
