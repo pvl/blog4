@@ -1,0 +1,185 @@
+---
+globs: quartz.config.ts,quartz.layout.ts
+description: Guidelines for configuring Quartz framework settings and layouts
+---
+
+# Quartz Configuration Guidelines
+
+## Core Configuration Files
+
+### quartz.config.ts
+Main configuration file containing:
+- Site metadata (title, baseUrl, analytics)
+- Theme settings (fonts, colors) 
+- Plugin pipeline (transformers, filters, emitters)
+- Build settings and ignore patterns
+
+### quartz.layout.ts  
+Defines visual layout and component arrangement for different page types.
+
+## Configuration Structure
+
+### Site Settings
+```typescript
+configuration: {
+  pageTitle: "🥽 Plastic Labs",           // Site title in header
+  enableSPA: true,                        // Single-page app routing
+  enablePopovers: true,                   // Link preview popups
+  analytics: { provider: "postHog" },     // Analytics integration
+  baseUrl: "plasticlabs.ai",             // Production domain
+  ignorePatterns: ["private", "templates"], // Exclude from build
+  locale: "en-US",                        // Language/locale
+  defaultDateType: "created",             // Date display preference
+}
+```
+
+### Theme Configuration
+```typescript
+theme: {
+  cdnCaching: true,                       // Enable CDN for fonts
+  typography: {
+    header: "Departure Mono",             // Header font
+    body: "Roboto Mono",                  // Body text font  
+    code: "Ubuntu Mono",                  // Code block font
+  },
+  colors: {
+    lightMode: { /* color definitions */ },
+    darkMode: { /* color definitions */ }
+  }
+}
+```
+
+## Plugin Pipeline
+
+### Plugin Types
+1. **Transformers** - Process content during build
+2. **Filters** - Include/exclude content  
+3. **Emitters** - Generate output files
+
+### Common Transformers
+```typescript
+transformers: [
+  Plugin.FrontMatter(),                   // Parse YAML frontmatter
+  Plugin.CreatedModifiedDate({            // Add file timestamps
+    priority: ["frontmatter", "filesystem"]
+  }),
+  Plugin.Latex({ renderEngine: "katex" }), // Math rendering
+  Plugin.SyntaxHighlighting({             // Code syntax highlighting
+    theme: { light: "github-light", dark: "github-dark" },
+    keepBackground: false
+  }),
+  Plugin.ObsidianFlavoredMarkdown(),      // Wikilinks, callouts
+  Plugin.GitHubFlavoredMarkdown(),        // Tables, task lists
+  Plugin.TableOfContents(),               // Auto-generate TOCs
+  Plugin.CrawlLinks(),                    // Process internal links
+  Plugin.Description(),                   // Generate descriptions
+]
+```
+
+### Essential Emitters
+```typescript
+emitters: [
+  Plugin.AliasRedirects(),                // Handle URL redirects
+  Plugin.ComponentResources({ 
+    fontOrigin: "googleFonts" 
+  }),                                     // Load external resources
+  Plugin.ContentPage(),                   // Generate content pages
+  Plugin.FolderPage(),                    // Generate folder indexes
+  Plugin.TagPage(),                       // Generate tag pages
+  Plugin.ContentIndex({                   // Generate search index
+    enableSiteMap: true,
+    enableRSS: true
+  }),
+  Plugin.Assets(),                        // Copy content assets
+  CopyStatic(),                          // Custom: copy static/ files
+  Plugin.Static(),                        // Copy other static assets
+  Plugin.NotFoundPage(),                 // Generate 404 page
+]
+```
+
+## Layout Configuration
+
+### Page Layout Structure
+```typescript
+export const defaultContentPageLayout: PageLayout = {
+  beforeBody: [                          // Above main content
+    Component.Breadcrumbs(),
+    Component.ArticleTitle(),
+    Component.ContentMeta(),
+    Component.TagList(),
+  ],
+  left: [                                // Left sidebar
+    Component.PageTitle(),
+    Component.MobileOnly(Component.Spacer()),
+    Component.Search(),
+    Component.Darkmode(), 
+    Component.DesktopOnly(Component.Explorer()),
+  ],
+  right: [                               // Right sidebar
+    Component.Graph(),
+    Component.DesktopOnly(Component.TableOfContents()),
+    Component.Backlinks(),
+  ],
+}
+```
+
+### Responsive Components
+- `Component.MobileOnly()` - Hidden on desktop
+- `Component.DesktopOnly()` - Hidden on mobile
+- `Component.Spacer()` - Adds vertical spacing
+
+## Custom Plugins
+
+### Creating Custom Plugins
+Follow the pattern of the existing `CopyStatic` plugin:
+```typescript
+const CustomPlugin = () => ({
+  name: "CustomPlugin",
+  getQuartzComponents() {
+    return []                            // Return components if needed
+  },
+  async emit({ argv, cfg }: BuildCtx): Promise<FilePath[]> {
+    // Plugin logic here
+    return outputFiles                   // Return generated file paths
+  }
+})
+```
+
+### Plugin Registration
+Add custom plugins to the appropriate pipeline section in `quartz.config.ts`.
+
+## Best Practices
+
+### Configuration Changes
+- Test configuration changes locally before deploying
+- Use TypeScript for type safety in config files
+- Keep plugin order consistent (some plugins depend on others)
+
+### Performance Optimization
+- Enable CDN caching for fonts when possible
+- Minimize the number of transformers for faster builds
+- Use `ignorePatterns` to exclude unnecessary files
+
+### Content Processing
+- Place transformers in logical order (FrontMatter should be first)
+- Configure syntax highlighting themes to match site theme
+- Enable SPA routing for better user experience
+
+### Development Workflow
+- Use `npx quartz build --serve` for local development
+- Check build output in `public/` directory
+- Verify that all required files are being generated
+
+## Troubleshooting
+
+### Common Issues
+- Plugin order matters - move problematic plugins earlier/later
+- Missing components in layout cause build failures
+- Invalid frontmatter breaks content processing
+- Asset path issues often relate to baseUrl configuration
+
+### Debug Tips
+- Check build logs for plugin errors
+- Validate frontmatter syntax in problematic files
+- Test individual plugins by temporarily removing others
+- Use `--verbose` flag for detailed build information
