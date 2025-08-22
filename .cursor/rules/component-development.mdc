@@ -1,0 +1,149 @@
+---
+globs: *.ts,*.tsx
+description: Development guidelines for React/TypeScript components in the Quartz framework
+---
+
+# Component Development Guidelines
+
+## Quartz Component Architecture
+Quartz uses Preact (React-compatible) for components. All UI components live in [quartz/components/](mdc:quartz/components/).
+
+### Component Types
+1. **Page Components** (`quartz/components/pages/`) - Full page layouts
+2. **UI Components** (`quartz/components/`) - Reusable interface elements  
+3. **Script Components** (`quartz/components/scripts/`) - Client-side functionality
+
+### Component Structure
+Every Quartz component should follow this pattern:
+
+```typescript
+import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
+
+const ComponentName: QuartzComponent = ({ 
+  fileData, 
+  cfg, 
+  tree, 
+  displayClass 
+}: QuartzComponentProps) => {
+  // Component logic here
+  return <div class={displayClass}>
+    {/* JSX content */}
+  </div>
+}
+
+// Optional: Add CSS if needed
+ComponentName.css = "component-name.scss"
+
+// Export as constructor
+export default (() => ComponentName) satisfies QuartzComponentConstructor
+```
+
+## TypeScript Conventions
+
+### Type Safety
+- Always use proper TypeScript types, never `any`
+- Import types from [quartz/components/types.ts](mdc:quartz/components/types.ts)
+- Use `QuartzComponentProps` for component props
+- For utility functions, import from [quartz/util/](mdc:quartz/util/)
+
+### Required Imports
+```typescript
+import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
+```
+
+### File Data Access
+Components receive file metadata through `fileData`:
+```typescript
+const title = fileData.frontmatter?.title
+const slug = fileData.slug
+const content = fileData.description
+```
+
+## Component Patterns
+
+### Conditional Rendering
+```typescript
+if (!fileData.frontmatter?.title) {
+  return null
+}
+```
+
+### CSS Classes
+- Use `displayClass` prop for responsive visibility
+- Add component-specific classes with BEM methodology
+- SCSS files should be named to match component
+
+### Client-Side Scripts
+For interactive components, create accompanying scripts in `quartz/components/scripts/`:
+```typescript
+// In script file
+document.addEventListener("nav", () => {
+  // Re-initialize after page navigation
+})
+```
+
+## Component Registration
+
+### In quartz.layout.ts
+Add new components to the appropriate layout section:
+```typescript
+export const defaultContentPageLayout: PageLayout = {
+  beforeBody: [
+    Component.Breadcrumbs(),
+    Component.ArticleTitle(),
+    Component.ContentMeta(),
+    Component.TagList(),
+  ],
+  left: [
+    Component.PageTitle(),
+    Component.MobileOnly(Component.Spacer()),
+    Component.Search(),
+    Component.Darkmode(),
+    Component.DesktopOnly(Component.Explorer()),
+  ],
+  right: [
+    Component.Graph(),
+    Component.DesktopOnly(Component.TableOfContents()),
+    Component.Backlinks(),
+  ],
+}
+```
+
+### Component Exports
+All components must be exported in [quartz/components/index.ts](mdc:quartz/components/index.ts):
+```typescript
+export { default as YourComponent } from "./YourComponent"
+```
+
+## Best Practices
+
+### Performance
+- Use functional components (avoid class components)
+- Minimize DOM manipulation; prefer declarative JSX
+- For heavy computations, consider memoization
+
+### Accessibility
+- Use semantic HTML elements
+- Include proper ARIA labels where needed
+- Ensure keyboard navigation works
+
+### Responsive Design
+- Use `displayClass` for responsive hiding/showing
+- Test components at different screen sizes
+- Consider mobile-first design approach
+
+### Error Handling
+- Handle missing data gracefully
+- Provide fallbacks for optional frontmatter fields
+- Use optional chaining: `fileData.frontmatter?.field`
+
+## Debugging
+- Use `console.log` sparingly; prefer TypeScript for catching errors
+- Test component isolation by temporarily removing from layout
+- Check browser dev tools for client-side script errors
+
+## Integration with Plugins
+Components often work with Quartz plugins:
+- Transformers modify content before components receive it
+- Emitters use components to generate final HTML
+- Check [quartz/plugins/](mdc:quartz/plugins/) for relevant plugin APIs

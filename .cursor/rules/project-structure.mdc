@@ -1,0 +1,50 @@
+---
+alwaysApply: true
+---
+
+# Plastic Labs Blog - Project Structure Guide
+
+This is a Quartz-based blog for Plastic Labs. Understanding the project structure is essential for effective development.
+
+## Core Configuration
+- Main entry point: [quartz.config.ts](mdc:quartz.config.ts) - Quartz configuration including plugins, theme, and site settings
+- Layout configuration: [quartz.layout.ts](mdc:quartz.layout.ts) - Defines the visual layout and component arrangement
+- TypeScript config: [tsconfig.json](mdc:tsconfig.json) - TypeScript compilation settings
+- Package dependencies: [package.json](mdc:package.json) - Node.js dependencies and build scripts
+
+## Content Organization
+- **Main content directory**: [content/](mdc:content/) - All markdown content lives here
+  - `content/blog/` - Blog posts and articles
+  - `content/research/` - Research papers and findings
+  - `content/releases/` - Release notes and announcements
+  - `content/notes/` - Quick notes and thoughts
+  - `content/careers/` - Job postings and career-related content
+  - `content/extrusions/` - Special content type (monthly updates)
+  - `content/assets/` - Images, diagrams, and media assets
+  - `content/templates/` - Content templates (ignored in build)
+
+## Quartz Framework Structure
+- **Core framework**: [quartz/](mdc:quartz/) - Contains all Quartz framework code
+  - `quartz/components/` - React/Preact UI components (.tsx files)
+  - `quartz/plugins/` - Quartz plugins for content processing
+  - `quartz/styles/` - Global SCSS stylesheets
+  - `quartz/util/` - Utility functions and helpers
+  - `quartz/build.ts` - Main build system entry point
+
+## Build System
+- Built content outputs to `public/` directory
+- Static assets in `static/` are copied to root of public output via custom CopyStatic plugin
+- Uses esbuild for bundling and TypeScript compilation
+- Supports hot reloading during development
+
+## Key Conventions
+- All content files use markdown (.md) with frontmatter
+- Assets should be placed in `content/assets/` and referenced relatively
+- Custom components go in `quartz/components/`
+- Global styles in `quartz/styles/`, component-specific styles as .scss files in component directories
+
+## Theme Customization
+The site uses a custom dark/light theme with:
+- Monospace fonts (Departure Mono for headers, Roboto Mono for body)
+- Custom color scheme defined in quartz.config.ts
+- SCSS variables in [quartz/styles/variables.scss](mdc:quartz/styles/variables.scss)

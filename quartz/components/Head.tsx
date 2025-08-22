@@ -15,7 +15,20 @@ export default (() => {
     const baseDir = fileData.slug === "404" ? path : pathToRoot(fileData.slug!)
 
     const iconPath = joinSegments(baseDir, "static/icon.png")
-    const ogImagePath = `https://${cfg.baseUrl}/static/og-image.png`
+    
+    // Use dynamic opengraph image from plugin, fallback to default
+    const ogImagePath = fileData.opengraphImage 
+      ? (fileData.opengraphImage.startsWith('http') 
+          ? fileData.opengraphImage 
+          : `https://${cfg.baseUrl}${fileData.opengraphImage}`)
+      : `https://${cfg.baseUrl}/og-image.png`
+    
+    // Twitter image (same as OpenGraph)
+    const twitterImagePath = fileData.twitterImage 
+      ? (fileData.twitterImage.startsWith('http') 
+          ? fileData.twitterImage 
+          : `https://${cfg.baseUrl}${fileData.twitterImage}`)
+      : ogImagePath
 
     return (
       <head>
@@ -33,6 +46,10 @@ export default (() => {
         {cfg.baseUrl && <meta property="og:image" content={ogImagePath} />}
         <meta property="og:width" content="1200" />
         <meta property="og:height" content="675" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content={title} />
+        <meta name="twitter:description" content={description} />
+        {cfg.baseUrl && <meta name="twitter:image" content={twitterImagePath} />}
         <link rel="icon" href={iconPath} />
         <meta name="description" content={description} />
         <meta name="generator" content="Quartz" />
