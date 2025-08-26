@@ -10,7 +10,7 @@ tags:
 ---
 
 ![[selfplay.png]]
-*Source: [Liu, Guertler et al., 2025](https://arxiv.org/abs/2506.24119)*.
+*Source: [Liu, Guertler et al., 2025](https://arxiv.org/abs/2506.24119).*
 
 ## TL;DR
 _We collaborated with the TextArena team to develop SPIRAL, a novel RL framework that allows LLMs to develop complex reasoning capabilities by playing text-based games against themselves. Using SPIRAL on a simplified variant of poker with no mathematical content, a 4B-parameter Qwen model improved its performance on math and reasoning benchmarks by 8.6% and 8.4% respectively. It does this by learning specific strategies, such as case-by-case analysis and expected value calculation, that generalize beyond poker better than simple game heuristics. We're excited to explore whether self-play on social deduction games like Mafia can lead to general improvements in LLMs' social cognition._
