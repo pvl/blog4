@@ -1,5 +1,5 @@
 ---
-title: A Penny for Your Thoughts
+title: Penny for Your Thoughts
 subtitle: A Honcho + x402 Demo
 date: 08.28.25
 author: Ben McCormick
