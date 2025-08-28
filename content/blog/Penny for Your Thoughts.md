@@ -13,7 +13,7 @@ tags:
 # TL;DR
 *Try out [Penny For Your Thoughts](https://www.pennyforyourthoughts.ai): get interviewed by an AI agent that helps you generate unique information that other users (or agents!) can then pay to ask questions about.* 
 
-*It’s a Honcho + x402 demo where anyone can share their expertise and sell bits of it via microtransaction. You can actually get paid for the valuable context in your head!*
+*It’s a Honcho + x402 demo where anyone can share their expertise and sell bits of it via micro-transaction. You can actually get paid for the valuable context in your head!*
 
 ---
 # A Penny for Your Thoughts
@@ -38,7 +38,7 @@ Don’t know what to ask? Honcho also creates and continuously updates each expe
 
 Beyond this demo, any agent can get state-of-the-art memory by plugging in Honcho.
 
-# x402 Microtransactions for Expert Context
+# x402 Micro-transactions for Expert Context
 Questions in Penny For Your Thoughts are asked and answered via an x402 endpoint, whether via an agent or a human using our website. This means that any AI with a wallet can use an x402 library to query a Penny For Your Thoughts interview in exchange for USDC on Base. Payments have zero fees and get processed near-immediately. Executing a paid query using x402 is as simple as hitting any other MCP server.
 
 Notably, x402 implements a [discovery layer](https://docs.cdp.coinbase.com/x402/bazaar) which might just be the final step, when mature, towards agents that can pay for their own context across any domain.
