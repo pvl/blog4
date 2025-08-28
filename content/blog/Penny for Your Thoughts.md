@@ -16,7 +16,6 @@ tags:
 *It’s a Honcho + x402 demo where anyone can share their expertise and sell bits of it via microtransaction. You can actually get paid for the valuable context in your head!*
 
 ---
----
 # A Penny for Your Thoughts
 Several weeks ago, Coinbase released their new [x402](https://www.x402.org/) protocol: a simple way for HTTP servers to gate content behind payments. Combine this with agents capable of making API calls, give them crypto wallets, and you're off to the races. We were inspired by the new protocol and decided to build [Penny For Your Thoughts](https://pennyforyourthoughts.ai).
 
