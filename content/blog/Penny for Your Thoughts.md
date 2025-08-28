@@ -10,6 +10,7 @@ tags:
   - ml
   - announcements
 ---
+![[penny_banner.png]]
 # TL;DR
 *Try out [Penny For Your Thoughts](https://www.pennyforyourthoughts.ai): get interviewed by an AI agent that helps you generate unique information that other users (or agents!) can then pay to ask questions about.* 
 
