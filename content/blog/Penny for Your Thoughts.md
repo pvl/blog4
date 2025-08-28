@@ -18,22 +18,22 @@ tags:
 ---
 ---
 # A Penny for Your Thoughts
-A few weeks ago, Coinbase released their new [x402](https://www.x402.org/) protocol: a simple way for HTTP servers to gate content behind payments. Combine this with agents capable of making API calls, give them crypto wallets, and you're off to the races. We were inspired by the new protocol and decided to build [Penny For Your Thoughts](https://pennyforyourthoughts.ai).
+Several weeks ago, Coinbase released their new [x402](https://www.x402.org/) protocol: a simple way for HTTP servers to gate content behind payments. Combine this with agents capable of making API calls, give them crypto wallets, and you're off to the races. We were inspired by the new protocol and decided to build [Penny For Your Thoughts](https://pennyforyourthoughts.ai).
 
-It allows anyone to get interviewed by an AI agent, set their price, and collect USDC via x402 payments in exchange for sharing their knowledge. [Honcho](https://honco.dev), our all-in-one agent memory and [identity reasoning platform](https://blog.plasticlabs.ai/research/Introducing-Neuromancer-XR) provides the infrastructure needed to learn and surface that valuable context.
+It allows anyone to get interviewed by an AI agent, publish their "expert,” and set a query price. In exchange for sharing their knowledge, experts collect USDC to their wallets (embedded by [Privy](https://www.privy.io/)) via x402 payments for each query. [Honcho](https://honco.dev), our all-in-one agent memory and [identity reasoning platform](https://blog.plasticlabs.ai/research/Introducing-Neuromancer-XR) provides the infrastructure needed to learn and surface that valuable context.
 
 Many "digital clone" agents are in production today, but the goal of our interview agent is slightly different: the idea is to share some information *worth paying for*--or at least make it seem that way to your potential customers! You can perform as many interviews as you'd like: your agent will accumulate all the information you share with it using Honcho. 
 
-After setting your price, other users will be able to ask questions of your agent, which will use its recall to provide them with the best answer possible. All the agents created on Penny For Your Thoughts get displayed on a global leaderboard which ranks them by the amount of payments they've received, in both volume and earnings.
+After setting your price, other users will be able to ask questions of your agent, which will use Honcho's recall to provide them with the best answer possible. All the agents created on Penny For Your Thoughts get displayed on a global leaderboard which ranks them by the amount of payments they've received, in both volume and earnings.
 
 # Using Honcho to Capture Expertise
-Penny for Your Thoughts powered by [Honcho](https://www.honcho.dev). Honcho provides AI-native memory and state of the art social cognition, [treating memory as a reasoning task](https://memory-as-reasoning.plastic-labs-github-io.pages.dev/blog/Memory-as-Reasoning). It's kind of like deep research on your app's users.
+Penny for Your Thoughts is powered by [Honcho](https://www.honcho.dev). Honcho provides AI-native memory and state of the art social cognition, [treating memory as a reasoning task](https://memory-as-reasoning.plastic-labs-github-io.pages.dev/blog/Memory-as-Reasoning). It's kind of like deep research on your app's users.
 
 In this demo, Honcho ingests expert interviews and reasons about them to form crystallized user representations. Because it reasons about every message, it’s perfectly suited to capture the nuance and sophistication in unique, expert knowledge. That’s something you couldn’t pull off by simply storing and retrieving conversation history or lists of facts.
 
 Honcho’s memory also gives the interview agent inside Penny For Your Thoughts the social cognition it needs to ask better questions over time. Since Honcho is building a representation of each expert, the interviewer can leverage that compounding context to dig deeper into what’s valuable about each expert. It can synthesize the context it already has to elicit more unique knowledge at every turn of conversation.
 
-When someone wants to pay to query an expert, Honcho also produces the context-aware answers. Honcho’s dialectic API can handle any natural language query, surface all the relevant context, then synthesize it on the fly to produce an output unique to both the query and the expert. That means you get what you pay for, if the expert has knowledge relevant to your query, Honcho will find it and deliver it in full richness.
+When someone wants to pay to query an expert, Honcho also produces the context-aware answers. Honcho’s dialectic API can handle any natural language query, surface all the relevant context, then synthesize it on the fly to produce an output unique to both the query and the expert. That means you get what you pay for. If the expert has knowledge relevant to your query, Honcho will find it and deliver it in full richness.
 
 Don’t know what to ask? Honcho also creates and continuously updates each expert description with summaries covering all the interviews they’ve done to date.
 
