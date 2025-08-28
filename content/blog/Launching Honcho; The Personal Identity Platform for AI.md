@@ -59,6 +59,8 @@ We're giving early access to teams & developers today.
 
 ## A Personal Identity Layer for AI
 
+^d958ce
+
 The release of Honcho as a platform is just the start, the next step is Honcho as a network.
 
 An engine for social cognition and deeply grokking personal identity is a game changing tool for AI apps, but owning your personal Honcho representation and taking it with you to every agent in your growing stack is world changing.
