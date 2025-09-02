@@ -15,12 +15,12 @@ author: "Courtland Leer and Vince Trost"
 
 ## Memory is ~~Storage~~ Prediction
 
-Most of the discourse around memory in agentic systems focuses on storage. That's probably because historically in deterministic software systems, we think about data as composed of discrete information that needs to be preserved with as much fidelity as possible for verbatim retrieval to achieving predictable outcomes.
+Most of the discourse around memory in agentic systems focuses on storage. That's probably because historically in deterministic software systems, we think about data as composed of discrete information that needs to be preserved with as much fidelity as possible for verbatim retrieval to achieve predictable outcomes.
 
 Common storage solutions include, but are not limited to, the following:
 
 - **Relational Databases**: Reliable, familiar, optimizable. Good for almost everything. We’ve found developers often wish they started here, but they try out fancy new frameworks and quickly find their limits.
-- **Vector Databases**: Newer, well understood, supported by most relational databases. Allows developers to “embed” their text sequences–-meaning they get run through a special LLM that produces a high-dimensional vector representation that you can do math on. Cosine similarity is a popular way to compute “semantic” similarity, meaning you can search on ideas rather than just strings. Fuzzy, but still useful.
+- **Vector Databases**: Newer, well understood, supported by most relational databases. Allows developers to “embed” their text sequences–-meaning they get run through a special LLM that produces a high-dimensional vector representation that you can do math on. Cosine distance is a popular way to compute “semantic” similarity, meaning you can search on ideas rather than just strings. Fuzzy, but still useful.
 - **Graph Databases**: Organize data via nodes and edges. The associations are the product. Great for human legibility, hard to scale.  
 
 All are useful tools but they assume you already know what’s worth storing and how to structure it. And the formation step is routinely overlooked--ask the model to extract some facts, embed them, store them, done. But once stored, those artifacts are static. The system's success relies on the search strategy aligning with whatever context was baked in during storage.  
