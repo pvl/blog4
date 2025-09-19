@@ -14,6 +14,6 @@ In philosophy and many other cognitive sciences, this is called an *identity*. A
 
 At Plastic, we think context management/engineering is really better framed as identity management/engineering. Delivering the best context to your system in each moment itself requires a system to understand multiple identities at multiple points in time.
 
-Our system for that is [Honcho](https://honcho.dev), where developers or agents can create a [[Beyond the User-Assistant Paradigm; Introducing Peers|`peer`]] for any identity it's important to model, so that optimal context is synthesized and available when an application needs it. Peers in Honcho are self-improving representations of identity, made of context and the reasoning done by our [Neuromancer](https://honcho.dev/neuromancer) series of models over that context.
+Our system for that is [Honcho](https://honcho.dev), where developers or agents can create a [[Beyond the User-Assistant Paradigm; Introducing Peers|peer]] for any identity it's important to model, so that optimal context is synthesized and available when an application needs it. Peers in Honcho are self-improving representations of identity, made of context and the reasoning done by our [Neuromancer](https://honcho.dev/neuromancer) series of models over that context.
 
 [^1]: Identity over time is a hotly debated topic in philosophy. Those interested should explore the endurantist vs. perdurantist debate and synchronic vs. diachronic identity, especially the work of Parfit & Lewis, from which we take heavy inspiration.
