@@ -1,5 +1,5 @@
 ---
-title: Plastic Intern(s)
+title: Summer Internships
 date: 08.23.24
 tags:
   - positions
@@ -7,16 +7,13 @@ tags:
   - research
   - announcements
 ---
-
-(NYC, Full-Time)
-
-## About the Role
+> NYC, IRL
+# About the Role
 
 Plastic Labs is looking for talented young technologists aligned with our mission to join us for the summer. We want to curate an intellectually diverse cohort of interns to accelerate the team across full stack, machine learning, and plaftorm engineering roles. 
 
 You'll get to work on real AI products with customers eager to use them. Impact is not only guaranteed, but mission critical. If you've been bored by school and are excited by the idea of working in-person in the fastest-paced city in America, hit us up.
-
-## About You
+# About You
 
 - High cultural alignment with Plastic Labs' ethos
 - Availability to work IRL in NYC for the summer
@@ -26,16 +23,6 @@ You'll get to work on real AI products with customers eager to use them. Impact 
 - Alignment with or interest in topics and fields of inquiry explored or anything on [our blog](https://blog.plasticlabs.ai)
 - Complementary interest in cryptography, distributed systems, security, identity, cognitive sciences (computer science, linguistics, neuroscience, philosophy, & psychology) or other adjacent interdisciplinary fields a plus
 
-## How to Apply
-
-Start by DM'ing us [on X](https://x.com/plastic_labs), joining [our Discord](https://discord.gg/plasticlabs) and engaging, or contributing to [our GitHub](https://github.com/plastic-labs). Don't overthink it.
-
-If it's a fit, we'll ask you to send the following to ops@plasticlabs.ai:
-
-- **Resume/CV** in whatever form it exists (PDF, LinkedIn, website, etc)
-- **Portfolio** of notable work (GitHub, pubs, ArXiv, blog, X, etc)
-- **Statement** of alignment specific to Plastic Labs--how do you identify with our mission, how can you contribute, etc? (points for brief, substantive, heterodox)
-
-Try to cover these 3 categories in some way, but be sure to optimize for speed over perfection.
+> [!custom] [APPLY NOW!](https://plasticlabs.typeform.com/applytoplastic)
 
 (Back to [[Working at Plastic]])

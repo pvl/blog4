@@ -33,7 +33,3 @@ LFG.
 - In-building Equinox gym membership
 - Macbook Pro
 - & more...
-
-> [!custom] [APPLY NOW!](https://plasticlabs.typeform.com/applytoplastic)
-
-(Back to [[Working at Plastic]])
