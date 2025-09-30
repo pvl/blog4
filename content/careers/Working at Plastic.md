@@ -5,10 +5,11 @@ tags:
   - positions
   - announcements
 ---
+Plastic is an engineering-driven AI lab building at the intersection of machine learning and cognitive science.
 
-Plastic Labs is a research-driven company solving personal identity for the agentic world.
+Our focus is developing systems that map personal identity using AI-native memory & social cognition. These systems enable individually-aligned agents you can trust to act autonomously on your behalf & agents with rich identities all their own.
 
-We're building [Honcho](https://honcho.dev), the social cognition layer for AI-powered applications. Honcho uses theory-of-mind inference to synthesize high-fidelity user representations. These form deep reservoirs of personal context enabling just-in-time personalization--aligning agents more closely with their users.
+To accomplish this, we're building [Honcho](https://honcho.dev), the personal identity layer for AI-powered applications & agents. Honcho uses theory-of-mind inference to synthesize high-fidelity peer representations, making bottom-up alignment a reality.
 
 Radically decentralizing alignment demands a user-centric organization. We're dedicated to a multi-agent future where everyone has the power to securely augment and extend their digital agency. We believe open source artificial intelligence and subverting the status quo of user data practices are the only ways to get there.
 
@@ -16,8 +17,23 @@ And we believe you deny models intellectual respect at your own risk.
 
 Plastic is seeking high-agency autodidacts to add intellectual diversity to the team. If you thrive in techno-optimistic, interdisciplinary cultures, this is the place for you. We're a subversive ethos at the edge of emerging tech, more interested in grit than credentials. We stay high touch, build in the open, and teach each other daily.
 
-Join us. LFG.
+Join us. Build at the edge.
 
-## Open Positions
+LFG.
+# Open Positions
 
-- [[Plastic Intern(s)|Summer Internships]]
+- [[Developer Relations Engineer]]
+- [[Summer Internships]]
+## Full-Time Benefits
+- Full premium medical, dental, & vision insurance coverage
+- Starter 401(k) plan
+- $5,000 annual lifestyle stipend
+- $5,000 optional NYC relocation stipend
+- In-person Williamsburg office in the [Domino Refinery](https://www.therefineryatdomino.com/)
+- In-building Equinox gym membership
+- Macbook Pro
+- & more...
+
+> [!custom] [APPLY NOW!](https://plasticlabs.typeform.com/applytoplastic)
+
+(Back to [[Working at Plastic]])
