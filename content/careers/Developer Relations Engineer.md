@@ -10,9 +10,9 @@ tags:
 > NYC, in-person, full-time
 # About the Role
 
-We're seeking our first developer relations engineer to accelerate Honcho's growth and ecosystem. This is a ground-floor opportunity to shape how developers discover, understand, and build with Honcho--our AI-native memory, identity, and social cognition infrastructure.
+We're seeking our first developer relations engineer to accelerate [Honcho](httpps://honcho.dev)'s growth and ecosystem. This is a ground-floor opportunity to shape how developers discover, understand, and build with Honcho--our AI-native memory, identity, and social cognition infrastructure.
 
-This role demands a rare combination: strong technical chops, compelling communication, authentic community instincts, and overall generalist. You'll build demos that showcase what's possible, create content that clarifies complex ideas, engage directly with developers solving real problems, and represent Plastic at the frontier of artificial intelligence. You'll move fluidly between writing code, producing tutorials, working with users, and running or attending events--always focused on maximizing growth and retention.
+This role demands a rare combination: strong technical chops, compelling communication, authentic community instincts, and an overall generalist. You'll build demos that showcase what's possible, create content that clarifies complex ideas, engage directly with developers solving real problems, and represent [Plastic](https://plasticlabs.ai) at the frontier of artificial intelligence. You'll move fluidly between writing code, producing tutorials, working with users, and running or attending events--always focused on maximizing growth and retention.
 
 We need someone who can translate between technical depth and accessible explanation, who understands great DevRel, and who thrives in the chaotic early stages of building a developer community from scratch. If you're energized by shipping demos, teaching developers, and shaping how people think about personal identity in AI, this is for you.
 # About You
@@ -49,6 +49,6 @@ Act as the bridge between community and product--surfacing feedback, identifying
 **Organize & Amplify**  
 Plan and execute developer focused events in a variety of formats. Build programs to support developer engagement. Regularly and proactively attend external developer and AI events to connect with builders and evangelize Honcho. Measure effectiveness and iterate toward rapid growth.
 
-> [!custom] [APPLY NOW!](https://plasticlabs.typeform.com/applytoplastic)
+> [!custom] [APPLY NOW](https://plasticlabs.typeform.com/applytoplastic)
 
 (Back to [[Working at Plastic]])
