@@ -6,7 +6,7 @@ tags:
   - dev
   - announcements
 ---
-> 140-160k + equity & benefits
+> 140-160k + equity & benefits  
 > NYC, in-person, full-time
 # About the Role
 
