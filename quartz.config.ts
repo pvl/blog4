@@ -70,13 +70,13 @@ const CopyStatic = () => ({
  */
 const config: QuartzConfig = {
 	configuration: {
-		pageTitle: "🥽 Plastic Labs",
+		pageTitle: "Pedro's Blog",
 		enableSPA: true,
 		enablePopovers: true,
 		analytics: {
 			provider: "postHog",
 		},
-		baseUrl: "blog.plasticlabs.ai",
+		baseUrl: "pedro.valelima.com",
 		ignorePatterns: ["private", "templates"],
 		locale: "en-US",
 		defaultDateType: "created",

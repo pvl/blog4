@@ -8,9 +8,9 @@ export const sharedPageComponents: SharedLayout = {
   header: [],
   footer: Component.Footer({
     links: {
-      GitHub: "https://github.com/plastic-labs/blog",
-      "Discord Community": "https://discord.gg/plasticlabs",
-      "plasticlabs.ai": "https://plasticlabs.ai"
+      GitHub: "https://github.com/pvl",
+      Kaggle: "https://kaggle.com/pvlima",
+      "X.com": "https://x.com/pvl"
     },
   }),
 }
